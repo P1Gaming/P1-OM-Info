@@ -2,8 +2,8 @@
 
 This is a list of the main trello boards we use.
 
-1. <iframe src="https://trello.com/b/rkgbFLTr/p1-oc-action" title="description"></iframe>
-2. <iframe src="https://trello.com/b/ZTjUJtZR/social-media-posts" title="description"></iframe>
+1. <iframe src="https://trello.com/b/rkgbFLTr/p1-oc-action" title="description" data-external="1"></iframe>
+2. <iframe src="https://trello.com/b/ZTjUJtZR/social-media-posts" title="description" data-external="1"></iframe>
 3. <iframe src="https://trello.com/b/0z99kWCF/p1-sound-assets" title="description"></iframe>
 4. <iframe src="https://trello.com/b/D38njtGx/p1-academy-careers" title="description"></iframe>
 4. <iframe src="https://trello.com/b/tlRmyE7v/recurring-tasks" title="description"></iframe>

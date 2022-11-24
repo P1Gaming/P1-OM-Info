@@ -10,4 +10,4 @@ This is a list of the main trello boards we use.
 4. <iframe src="https://trello.com/b/b0xNZ4HV/p1-oc-decision-how-to-get-actions-approved" title="description"></iframe>
 4. <iframe src="https://trello.com/b/8Sbh6NWz/p1-design-trello" title="description"></iframe>
 4. <iframe src="https://trello.com/b/rQUNyDXg/p1-art-assets-trello" title="description"></iframe>
-4. <iframe src="https://trello.com/b/QjPfixmT/p1-om-member-management" title="description"></iframe>
+4. <iframe src="https://trello.com/b/QjPfixmT/p1-om-member-management" title="description" target="_top"></iframe>

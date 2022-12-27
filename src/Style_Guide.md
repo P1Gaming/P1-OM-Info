@@ -32,7 +32,7 @@ Don't use comments to explain what your code and variables do. Clean code explai
 > If you want to add info on a variable consider using the [tooltip] attribute.
 
 > You can add XML tags to describe what a function does.
->![XML tag](/images/XMLtag.png "XML tag")
+>![XML tag]<img src="images/recurring tasks.jpg">
 >![XML tag in action](/images/XMLtag_2.png "XML tag in action")
 
 ## General info

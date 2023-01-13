@@ -13,7 +13,7 @@
 				  private string PSText;
 
 ## Functions
-- Function names will use **PasclaCase**.
+- Function names will use **PascalCase**.
 - If it's a boolean name should be asking a question.
 		Private void IsPlayerDead(){}
 

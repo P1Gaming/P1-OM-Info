@@ -27,6 +27,7 @@ private void IsPlayerDead()
 }
 ```
 
+
 ## Events
 If a function triggers an event it's name should start with a OnEventName.
 Example:

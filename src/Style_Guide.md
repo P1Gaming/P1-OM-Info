@@ -1,35 +1,52 @@
 # Style Guide
 
-## Variables 
+## Variables
 
 - Use camelCase to name variables.
-- If your variable is a boolean the name should be asking a question. 
+- If your variable is a boolean the name should be asking a question.
 - Avoid special characters, it can affect how the editor reads the names.
 
-		Do this: private int healthPoints;
-				 private bool hasItem;
-		Not this: private int PlayerChar;
-				  private bool A;
-				  private string PSText;
+```csharp
+// Do this
+private int healthPoints;
+private bool hasItem;
+
+//Don't do this:
+private int PlayerChar;
+private bool A;
+private string PSText;
+```
 
 ## Functions
 - Function names will use **PascalCase**.
-- If it's a boolean name should be asking a question.
-		Private void IsPlayerDead(){}
+- If it's a boolean name should be asking a question. Example:
+```csharp
+private void IsPlayerDead()
+{
+	//Do stuff
+}
+```
+
 
 ## Events
-If a function triggers an event it's name shuold start with a ONEventName.
-		private void OnDoorOpened(){}
-		
+If a function triggers an event it's name should start with a OnEventName.
+Example:
+```csharp
+private void OnDoorOpened()
+{
+	//Do stuff
+}
+```
+
 ## Brackets
-- When you make if statements **Don't** omit the braces. It makes the code more confusing.
+When you make if statements **don't** omit the braces. It makes the code more confusing.
 
 ## Classes
 The functions within classes should be arranged in a specific order, To be decided.
 
 ## Comments
 Don't use comments to explain what your code and variables do. Clean code explains itself.
-> If you want to add info on a variable consider using the [tooltip] attribute.
+> If you want to add info on a variable consider using the `[tooltip]` attribute.
 
 > You can add XML tags to describe what a function does.
 >![XML tag](images/XMLtag.png "XML tag")

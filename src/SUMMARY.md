@@ -10,4 +10,5 @@
 - [Sound]()
 
 # Our Trello boards
-- [Board List](./trello_boards.md)
+- [Board List]()
+- [Miro boards]()

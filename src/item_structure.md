@@ -17,5 +17,5 @@ Items must contain:
 
 Crafting recipes contain a reference to the ItemBase scriptable object they create, the materials and the amount needed.
 
-> Folder structure
+> Folder structure:
 > Assets -> ScriptableObjects -> Crafting Recipes -> Folder named after the workbench that will contain the recipe

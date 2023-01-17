@@ -5,6 +5,7 @@
 # Documantation
 - [Programming](./Style_Guide.md)
 	- [Unity](./unity.md)
+	- [Items](./item_structure.md)
 - [Design]()
 - [Art-Animation]()
 - [Sound]()

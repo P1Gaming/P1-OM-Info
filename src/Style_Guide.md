@@ -3,12 +3,13 @@
 ## Variables
 
 - Use camelCase to name variables.
+- Private variables should start with an underscore(_).
 - If your variable is a boolean the name should be asking a question.
 - Avoid special characters, it can affect how the editor reads the names.
 
 ```csharp
 // Do this
-private int healthPoints;
+private int _healthPoints;
 private bool hasItem;
 
 //Don't do this:

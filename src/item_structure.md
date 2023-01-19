@@ -3,7 +3,7 @@
 We use the base class ItemBase to create items as scriptable objects.
 From there we have various classes that inherit the ItemBase to create more specialized item categories like placeable or the jelly dew.
 
-![XML tag](images/Item structure.jpg "Item structure")
+![XML tag] (images/Item structure.jpg "Item structure")
 
 Items are added to the player inventory either directly (from the interaction system or crafting) or from picking pickable prefabs objects.
 

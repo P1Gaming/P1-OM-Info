@@ -3,3 +3,5 @@
 We use Unity verions 2020.3.37f1.
 If you don't have it you can download it *[HERE](https://unity.com/releases/editor/whats-new/2020.3.37)*. 
 Don't use other versions, yes I know 20203.34f1 is 99% the same, it cause problems.
+
+[![HOW TO INSTALL & SETUP UNITY](images/Youtube_Video.png)](https://www.youtube.com/watch?v=ewiw2tcfen8&ab_channel=DaniKrossing "HOW TO INSTALL & SETUP UNITY")

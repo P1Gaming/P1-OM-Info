@@ -15,6 +15,7 @@ They have a blue color in the hierarchy.
 
 When making changes to a prefab you need to find the object in the project files or open it from the inspecotr and do the changes there, **not in the develop scene directly**.
 If the prefab contains other prefabs inside it keep opening them.
+
 ![Prefab](images/prefab2.png)
 
 Prefab Documentation: https://docs.unity3d.com/Manual/Prefabs.html

@@ -7,7 +7,7 @@ Don't use other versions, yes I know 20203.34f1 is 99% the same, it cause proble
 ![HOW TO INSTALL & SETUP UNITY](images/Youtube_Video.png)](https://www.youtube.com/watch?v=ewiw2tcfen8&ab_channel=DaniKrossing "HOW TO INSTALL & SETUP UNITY")
 
 
-# Prefabs and the develop scene <img src="images/prefab_icon.png" width="30" height="30">
+# Prefabs and the develop scene <img src="images/prefab_icon.png" width="50" height="40">
 
 The develop scene is compromised of multiple prefabricated objects (prefabs for short).
 They have a blue color in the hierarchy.

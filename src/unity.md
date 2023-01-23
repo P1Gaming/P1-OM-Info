@@ -19,4 +19,4 @@ If the prefab contains other prefabs inside it keep opening them.
 
 ![Prefab](images/prefab2.png)
 
-Prefab Documentation: [Unity's Documentation](https://docs.unity3d.com/Manual/Prefabs.html)
+Prefab Documentation: ![Unity's Documentation](https://docs.unity3d.com/Manual/Prefabs.html)

@@ -23,7 +23,7 @@ Let's break down what that Class contains.
 >
 > - Two events that can invoke functions set in the inspector or by code.  
 >
->> - The first event can transfer the item that was used to trigger the interaction if the function accepts ItemStack arguments.  >
+>> - The first event can transfer the item that was used to trigger the interaction if the function accepts ItemStack arguments.  
 >> - Both events can be left null without any errors showing.  
 >
 > - The isBlocked checkbox will disable the specific interaction.  

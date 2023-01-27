@@ -26,5 +26,7 @@ Let's break down what that Class contains.
 >> The first event can transfer the item that was used to trigger the interaction if the function accepts ItemStack arguments.  
 >
 >> Both events can be left null without any errors showing.  
+>
 > The isBlocked checkbox will disable the specific interaction.  
 >> The Interactable component can hold multiple interactions so this can be usefull.  
+>

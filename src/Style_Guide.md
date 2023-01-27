@@ -47,6 +47,7 @@ The functions within classes should be arranged in a specific order, To be decid
 
 ## Comments
 Don't use comments to explain what your code and variables do. Clean code explains itself.
+Most of the time comments should explain **WHY** the code does someting **NOT HOW**.
 > If you want to add info on a variable consider using the `[tooltip]` attribute.
 
 > You can add XML tags to describe what a function does.

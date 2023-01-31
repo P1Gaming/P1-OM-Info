@@ -26,7 +26,7 @@ The explanation should follow these rule:
 ## Document Dependencies
 
 Follow the instructions on the trello card below.
-[Trello Card]()
+[Trello Card](https://trello.com/c/kLs4KqZg)
 
 ## Understanding Our Systems
 

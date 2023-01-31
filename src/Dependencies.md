@@ -6,7 +6,7 @@ A list of dependencies for each script in the project (WIP)
 
 |   |   |   |   |   |
 |---|---|---|---|---|
-|   |   |<h3 id="script_name.cs">My Great Heading</h3>   |   |   |
+|   |   |[script name.cs](#script_name.cs)   |   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
@@ -20,7 +20,7 @@ A list of dependencies for each script in the project (WIP)
 |   |   |   |   |   |
 |   |   |   |   |   |
 
-## script_name.cs {#script_name.cs}
+## script_name.cs{#script_name.cs}
 <details>
   <summary> Click here </summary>
   

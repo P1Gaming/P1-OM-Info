@@ -2,12 +2,15 @@
 
 [Introduction](./chapter_1.md)
 
-# Documantation
-- [Programming](./Style_Guide.md)
+# Documentation
+- [Programming]()
+	- [Code How To]()
+		- [Style Guide](./Style_Guide.md)
+		- [Dependencies](./Dependencies.md)
 	- [Unity](./unity.md)
-	- [The Interaction System](./Interaction_System.md)
-	- [Items](./item_structure.md)
-	- [Island Hearts](./Island_hearts.md)
+		- [The Interaction System](./Interaction_System.md)
+		- [Items](./item_structure.md)
+		- [Island Hearts](./Island_hearts.md)
 - [Design]()
 - [Art-Animation]()
 - [Sound]()

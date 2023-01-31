@@ -20,7 +20,7 @@ A list of dependencies for each script in the project (WIP)
 |   |   |   |   |   |
 |   |   |   |   |   |
 
-## script_name.cs{#script_name.cs}
+## script_name.cs
 <details>
   <summary> Click here </summary>
   

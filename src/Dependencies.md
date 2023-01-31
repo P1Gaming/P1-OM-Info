@@ -1,33 +1,31 @@
 # Dependencies List
 
 A list of dependencies for each script in the project (WIP)
+Dependency is when script A calls other scripts.
+Reference is when other scripts call script A.
 
 ## Table of scripts
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |[script name.cs](#script_name.cs)   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+|                             |                             |                             |                             |                             |
+|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|
+| [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
+| [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
+| [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
+| [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
+| [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
+| [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
+| [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
+| [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
+| [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 
-## script_name.cs
+## script name here
 <details>
   <summary> Click here </summary>
   
-| Dependencies    |
-|-----------------|
-| script_name.cs  |
-| script_name.cs  |
-| script_name.cs  |
-| script_name.cs  |
+| Dependencies    | References |
+|-----------------|------------|
+| dependency name here  | reference name here |
+| dependency name here  | reference name here |
+| dependency name here  | reference name here |
+| dependency name here  | reference name here |
 </details>

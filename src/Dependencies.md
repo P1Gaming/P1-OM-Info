@@ -8,7 +8,7 @@ Reference is when other scripts call script A.
 
 |                             |                             |                             |                             |                             |
 |-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|
-| [Crafting](#crafting) 	  | [CraftingRecipe](#craftingrecipe) | [UpgradeRecipe](#upgraderecipe) | [CraftingUI](#craftingui) | [script name](#script_name) |
+| [Crafting](#crafting) 	  | [CraftingRecipe](#craftingrecipe) | [UpgradeRecipe](#upgraderecipe) | [CraftingUI](#craftingui) | [RequiredMaterialUI](#requiredmaterialui) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
@@ -68,4 +68,13 @@ Reference is when other scripts call script A.
 | RequiredMaterial   | ----- |
 | RequiredMaterialUI | ----- |
 | UIManager 		 | ----- | 
+</details>
+
+## RequiredMaterialUI
+<details>
+  <summary> Click here </summary>
+  
+| Dependencies    | References |
+|-----------------|------------|
+| RequiredMaterial | CraftingUI |
 </details>

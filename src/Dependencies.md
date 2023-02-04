@@ -8,7 +8,7 @@ Reference is when other scripts call script A.
 
 |                             |                             |                             |                             |                             |
 |-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|
-| [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
+| [Crafting](#Crafting) 	  | [CraftingRecipe](#CraftingRecipe) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
@@ -18,14 +18,27 @@ Reference is when other scripts call script A.
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 
-## script name here
+## Crafting
 <details>
   <summary> Click here </summary>
   
 | Dependencies    | References |
 |-----------------|------------|
-| dependency name here  | reference name here |
-| dependency name here  | reference name here |
-| dependency name here  | reference name here |
-| dependency name here  | reference name here |
+| CraftingRecipe    | UpgradeRecipe |
+| UpgradeRecipe     | CraftingSlime |
+| PlayerInteraction | ---- |
+| UIManager         | ----- |
+</details>
+
+## CraftingRecipe
+<details>
+  <summary> Click here </summary>
+  
+| Dependencies    | References |
+|-----------------|------------|
+| ItemBase  	   | UpgradeRecipe |
+| RequiredMaterial | CraftingUI |
+| PlayerInventory  | CraftingRecipeUI |
+| ItemStack  	   | UIManager |
+| -------------    | Crafting |
 </details>

@@ -8,7 +8,7 @@ Reference is when other scripts call script A.
 
 |                             |                             |                             |                             |                             |
 |-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|
-| [Crafting](#crafting) 	  | [CraftingRecipe](#craftingrecipe) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
+| [Crafting](#crafting) 	  | [CraftingRecipe](#craftingrecipe) | [UpgradeRecipe](#upgraderecipe) | [CraftingUI](#craftingui) | [script name](#script_name) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
@@ -54,4 +54,18 @@ Reference is when other scripts call script A.
 | PlayerInventory  | CraftingRecipe |
 | ItemStack  	   | ----- |
 | UIManager        | ----- |
+</details>
+
+## CraftingUI
+<details>
+  <summary> Click here </summary>
+  
+| Dependencies    | References |
+|-----------------|------------|
+| CraftingRecipe     | UIManager  |
+| PlayerInventory    | CraftingUI |
+| CraftingRecipeUI   | ----- |
+| RequiredMaterial   | ----- |
+| RequiredMaterialUI | ----- |
+| UIManager 		 | ----- | 
 </details>

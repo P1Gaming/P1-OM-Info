@@ -1,5 +1,25 @@
 # Style Guide
 
+## General info
+- Don't be afraid to type. Your variable name can be 100 characters long, as long as it explains what it does it's fine.
+- Don't hardcode values. Even if it shouldn't appear in the inspector declare it in a variable.
+```csharp
+// Do this
+private const thisVariablesDoesThis = 5; //Unmodifiable
+
+private Function()
+{
+	thisVariableDoesSomething += thisVariablesDoesThis; // Here we know what both variables are.
+}
+// Don't do this
+private Function()
+{
+	thisVariableDoesSomething += 5; // Why are we increasing it by 5?
+}
+```
+- Don't add stuff about petting jellies in the Jelly_Bath script. Scripts that carry more than one functionality are confusing and prone to breaking.
+- Make it good, not perfect. Perfect code does not exist.
+
 ## Variables
 
 - Use camelCase to name variables.
@@ -41,9 +61,49 @@ private void OnDoorOpened()
 
 ## Brackets
 When you make if statements **don't** omit the braces. It makes the code more confusing.
+```csharp
+// Do this
+if()
+{
+	//Do stuff
+}
+
+while()
+{
+	//Do stuff
+}
+
+//Don't do this
+if()
+	//Do stuff
+	
+While() //Do stuff
+```
 
 ## Classes
-The functions within classes should be arranged in a specific order, To be decided.
+The functions within classes should be arranged in a specific order.
+
+```csharp
+public class ClassName : MonoBehaviour
+{
+	Variable Declarations
+	Enum Declarations
+	
+	Unity Events
+	- OnValidate()
+	- OnEnable()
+	- Awake()
+	- Start()
+	- Update()
+	
+	Private Functions
+	
+	Public Functions
+	- Custom functions
+	- Get/Set Methods
+	
+}
+```
 
 ## Comments
 Don't use comments to explain what your code and variables do. Clean code explains itself.
@@ -54,7 +114,4 @@ Most of the time comments should explain **WHY** the code does someting **NOT HO
 >![XML tag](images/XMLtag.png "XML tag")
 >![XML tag in action](images/XMLtag_2.png "XML tag in action")
 
-## General info
-- Don't be afraid to type. Your variable name can be 100 characters long, as long as it explains what it does it's fine.
-- Don't add stuff about petting jellies in the Jelly_Bath script. Scripts that carry more than one functionality are confusing and prone to breaking.
-- Make it good, not perfect. Perfect code does not exist.
+

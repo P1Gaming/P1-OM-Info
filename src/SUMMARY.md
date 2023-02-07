@@ -13,16 +13,16 @@
 		- [Island Hearts](./Island_hearts.md)
 - [Design]()
 - [Art-Animation]()
-    - [Art]
-	    - [Art How To]
-		- [Style Guide]
-		- [Tools Used]
-		- [Tutorials]
-    - [Animation]
-        - [Animation How To]
-		- [Style Guide]
-		- [Tools Used]
-		- [Tutorials]	
+    - [Art]()
+	    - [Art How To]()
+		- [Style Guide]()
+		- [Tools Used]()
+		- [Tutorials]()
+    - [Animation]()
+        - [Animation How To]()
+		- [Style Guide]()
+		- [Tools Used]()
+		- [Tutorials]()	
 - [Sound]()
 
 # Our Trello boards

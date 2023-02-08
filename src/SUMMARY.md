@@ -11,6 +11,7 @@
 		- [The Interaction System](./Programming/Interaction_System.md)
 		- [Items](./Programming/item_structure.md)
 		- [Island Hearts](./Programming/Island_hearts.md)
+		- [The Jelly](./Programming/Jelly.md)
 - [Design]()
 - [Art-Animation]()
     - [Art]()

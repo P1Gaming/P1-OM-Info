@@ -1,20 +1,20 @@
 # Summary
 
-[Introduction](./chapter_1.md)
+[Introduction](./introduction.md)
 
 # Documentation
 - [Programming]()
-	- [Code How To](./Code_How_To.md)
-		- [Style Guide](./Style_Guide.md)
-		- [Dependencies](./Dependencies.md)
+	- [Code How To](./Programming/Code_How_To.md)
+		- [Style Guide](./Programming/Style_Guide.md)
+		- [Dependencies](./Programming/Dependencies.md)
 	- [Unity](./unity.md)
-		- [The Interaction System](./Interaction_System.md)
-		- [Items](./item_structure.md)
-		- [Island Hearts](./Island_hearts.md)
+		- [The Interaction System](./Programming/Interaction_System.md)
+		- [Items](./Programming/item_structure.md)
+		- [Island Hearts](./Programming/Island_hearts.md)
 - [Design]()
 - [Art-Animation]()
     - [Art]()
-	    - [Art How To](./Code_How_To.md)
+	    - [Art How To](./Programming/Code_How_To.md)
 		- [Style Guide]()
 		- [Tools Used]()
 		- [Tutorials]()

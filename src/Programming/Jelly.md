@@ -2,6 +2,7 @@
 ## The star of our game
 
 Jelly components Root object:
+
 	1. Transform
 	2. Rigidbody
 	3. BoxCollider
@@ -18,6 +19,7 @@ Jelly components Root object:
 	14. Jelly pick up (script)
 	
 Jelly children objects:
+
 	1. Jelly Graphics
 	2. Jelly armature
 	3. Jelly particle effects (multiple compoenents or sub-children with particles)

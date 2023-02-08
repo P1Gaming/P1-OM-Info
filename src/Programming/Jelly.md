@@ -1,5 +1,5 @@
 # Jelly
-##The star of our game
+## The star of our game
 
 Jelly components Root object:
 	1. Transform

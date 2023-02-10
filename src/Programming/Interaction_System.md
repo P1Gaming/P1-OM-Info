@@ -12,7 +12,7 @@ When it finds one it triggers the StartLookingAt() UnityEvent on the Interactabl
 The Interactable.cs, PlayerInteractionFinder.cs and InteractionsViaInputActions.cs all use the Interaction Class.
 Let's break down what that Class contains.
 
-![Interaction](images/Interaction_example.png)
+![Interaction](../images/Interaction_example.png)
 
 > - The name of the interaction. This also appears in the in-game UI.  
 > - What item the player will receive upon completing the interaction (Use only in specific cases).  

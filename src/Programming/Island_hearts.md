@@ -1,6 +1,6 @@
 # Making changes to Island hearts (IH)
 
-![XML tag](images/Island_hearts.png "IH")
+![XML tag](../images/Island_hearts.png "IH")
 
 
 In order to make changes to the island hearts prefab enter the "New island hearts" folder.

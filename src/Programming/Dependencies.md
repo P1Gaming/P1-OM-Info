@@ -9,7 +9,7 @@ Reference is when other scripts call script A.
 |                             |                             |                             |                             |                             |
 |-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|
 | [Crafting](#crafting) 	  | [CraftingRecipe](#craftingrecipe) | [UpgradeRecipe](#upgraderecipe) | [CraftingUI](#craftingui) | [RequiredMaterialUI](#requiredmaterialui) |
-| [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
+| [CloudsUISettings](#cloudsuisettings) | [CloudGeneration](#cloudgeneration) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
@@ -77,4 +77,26 @@ Reference is when other scripts call script A.
 | Dependencies    | References |
 |-----------------|------------|
 | RequiredMaterial | CraftingUI |
+</details>
+
+## CloudsUISettings
+
+<details>
+  <summary> Click here </summary>
+
+| Dependencies    | References |
+|-----------------|------------|
+| CloudGeneration | ---------- |
+
+</details>
+
+## CloudGeneration
+
+<details>
+  <summary> Click here </summary>
+
+| Dependencies    | References |
+|-----------------|------------|
+| ---             | CloudsUISettings |
+
 </details>

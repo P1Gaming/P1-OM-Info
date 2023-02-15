@@ -5,7 +5,7 @@
 - Don't hardcode values. Even if it shouldn't appear in the inspector declare it in a variable.
 ```csharp
 // Do this
-private const thisVariablesDoesThis = 5; //Unmodifiable
+private const _thisVariablesDoesThis = 5; //Unmodifiable
 
 private Function()
 {
@@ -30,12 +30,33 @@ private Function()
 ```csharp
 // Do this
 private int _healthPoints;
-private bool hasItem;
+private bool _hasItem;
 
 //Don't do this:
 private int PlayerChar;
 private bool A;
 private string PSText;
+```
+
+### Privacy
+
+Try to keep your variables as private as possible. That way we have better control of when and how scripts alter them.
+
+```
+// Do this
+private int _variable; // safest approach
+[Serialized Field] private int _variable; // Can be altered in the inspector
+
+//working with properties (getters and setters)
+
+public int Variable 
+{
+	get {return _variable;} 
+	private set {_variable=value;}
+}
+
+private int _variable;
+public int variable; //only use if variable must get and set outside the original script
 ```
 
 ## Functions

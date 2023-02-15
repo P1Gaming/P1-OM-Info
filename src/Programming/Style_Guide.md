@@ -42,7 +42,7 @@ private string PSText;
 
 Try to keep your variables as private as possible. That way we have better control of when and how scripts alter them.
 
-```
+```csharp
 // Do this
 private int _variable; // safest approach
 [Serialized Field] private int _variable; // Can be altered in the inspector

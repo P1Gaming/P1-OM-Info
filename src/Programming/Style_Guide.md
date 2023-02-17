@@ -73,10 +73,13 @@ The Lambda expression is divided into two parts, the left side is the input and 
 <details>
   <summary> Examples Click Here </summary>
 For example:
+
 ```csharp
 public Float CurrentHealth => (energy * baseHealth)-damage;
 ```
+
 Acts like a function with body:
+
 ```csharp
 {
   return (energy * baseHealth)-damage;

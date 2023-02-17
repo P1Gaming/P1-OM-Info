@@ -41,7 +41,11 @@ private string PSText;
 ### Privacy
 
 Try to keep your variables as private as possible. That way we have better control of when and how scripts alter them.
+There is no harm in accessing a variable from another class. Be more concerned about changing the value from another class.
 
+<details>
+  <summary> Examples Click Here </summary>
+  
 ```csharp
 // Do this
 private int _variable; // safest approach
@@ -49,15 +53,41 @@ private int _variable; // safest approach
 
 //working with properties (getters and setters)
 
+private int _variable;
 public int Variable 
 {
-	get {return _variable;} 
-	private set {_variable=value;}
+	get {return _variable;} // can be read from anywhere
+	private set {_variable=value;} // set from this class only
 }
 
-private int _variable;
-public int variable; //only use if variable must get and set outside the original script
+[field:SerializeField] public float MyFloat3 { get; private set; } // same as above, but Unity creates a backupfield so you can set it in the inspector
 ```
+</details>
+
+### Lambda Expression ( => )
+
+Lambda expressions in C# are used like anonymous functions, with the difference that in Lambda expressions you don’t need to specify the type of the value that you input thus making it more flexible to use. 
+The ( => ) is the lambda operator which is used in all lambda expressions. 
+The Lambda expression is divided into two parts, the left side is the input and the right is the expression.
+
+<details>
+  <summary> Examples Click Here </summary>
+For example:
+```csharp
+public Float CurrentHealth => (energy * baseHealth)-damage;
+```
+Acts like a function with body:
+```csharp
+{
+  return (energy * baseHealth)-damage;
+}
+```
+
+But you can call it without brackets though, like :
+```csharp
+ if(CurrentHealth > 0)
+```
+</details>
 
 ## Functions
 - Function names will use **PascalCase**.

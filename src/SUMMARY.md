@@ -31,6 +31,7 @@
 - [Miro boards]()
 
 ## Crafting
+
 <details>
   <summary> Click here </summary>
   

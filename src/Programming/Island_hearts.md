@@ -9,5 +9,5 @@ In order to make changes to the island hearts prefab enter the "New island heart
 - To make a change to all IH use the Base_template folder (Red square).
 - To create a new IH COPY the duplicate folder (Green square) and rename the new folder following the naming conventions: IH type.
 
-### Warning
+### <span style="color:yellow"> Warning </span>
 Never make changes to IH outside these folders. They are gonna get lost and you will just confuse people.

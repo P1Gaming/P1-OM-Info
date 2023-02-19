@@ -30,15 +30,4 @@
 - [Board List]()
 - [Miro boards]()
 
-## Crafting
 
-<details>
-  <summary> Click here </summary>
-  
-| Dependencies    | References |
-|-----------------|------------|
-| CraftingRecipe    | UpgradeRecipe |
-| UpgradeRecipe     | CraftingSlime |
-| PlayerInteraction | ---- |
-| UIManager         | ----- |
-</details>

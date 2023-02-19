@@ -80,7 +80,6 @@ Reference is when other scripts call script A.
 </details>
 
 ## CloudsUISettings
-
 <details>
   <summary> Click here </summary>
 
@@ -91,7 +90,6 @@ Reference is when other scripts call script A.
 </details>
 
 ## CloudGeneration
-
 <details>
   <summary> Click here </summary>
 
@@ -101,8 +99,7 @@ Reference is when other scripts call script A.
 
 </details>
 
-##GrabSlime
-
+## GrabSlime
 <details>
   <summary> Click Here </summary>
 
@@ -116,8 +113,7 @@ Reference is when other scripts call script A.
 
 </details>
 
-##PlayerMovementControl
-
+## PlayerMovementControl
 <details>
   <summary> Click Here </summary>
 
@@ -139,8 +135,7 @@ Reference is when other scripts call script A.
 
 </details>
 
-##Slime
-
+## Slime
 <details>
   <summary> Click Here </summary>
 
@@ -164,8 +159,7 @@ Reference is when other scripts call script A.
 
 </details>
 
-##PlayerGrabSlime
-
+## PlayerGrabSlime
 <details>
   <summary> Click Here </summary>
 
@@ -177,8 +171,7 @@ Reference is when other scripts call script A.
 
 </details>
 
-##PlayerBlockinteraction
-
+## PlayerBlockinteraction
 <details>
   <summary> Click Here </summary>
 
@@ -200,8 +193,7 @@ Reference is when other scripts call script A.
 
 </details>
 
-##SlimeAgent
-
+## SlimeAgent
 <details>
   <summary> Click Here </summary>
 
@@ -217,8 +209,7 @@ Reference is when other scripts call script A.
 
 </details>
 
-##SleepingSlime
-
+## SleepingSlime
 <details>
   <summary> Click Here </summary>
 
@@ -233,8 +224,7 @@ Reference is when other scripts call script A.
 
 </details>
 
-##TimeManager
-
+## TimeManager
 <details>
   <summary> Click Here </summary>
 

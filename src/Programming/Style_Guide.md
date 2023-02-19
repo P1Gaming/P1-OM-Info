@@ -9,7 +9,8 @@ private const _thisVariablesDoesThis = 5; //Unmodifiable
 
 private Function()
 {
-	thisVariableDoesSomething += thisVariablesDoesThis; // Here we know what both variables are.
+	// Here we know what both variables are.
+	thisVariableDoesSomething += thisVariablesDoesThis; 
 }
 // Don't do this
 private Function()

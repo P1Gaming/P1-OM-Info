@@ -9,7 +9,7 @@
 		- [Dependencies](./Programming/Dependencies.md)
 	- [Unity](./Programming/unity.md)
 	<details>
-		- <summary> Click here </summary>
+		<summary> [Click here]() </summary>
 		- [The Interaction System](./Programming/Interaction_System.md)
 		- [Items](./Programming/item_structure.md)
 		- [Island Hearts](./Programming/Island_hearts.md)

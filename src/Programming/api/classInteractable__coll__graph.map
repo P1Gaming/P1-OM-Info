@@ -1,0 +1,4 @@
+<map id="Interactable" name="Interactable">
+<area shape="rect" id="node1" title="Currently a stub. Intended functionality: Allows a gameobject to be found by InteractionFinder Sends ..." alt="" coords="17,80,117,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,129,32"/>
+</map>

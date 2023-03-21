@@ -1,0 +1,4 @@
+<map id="InteractionFinder" name="InteractionFinder">
+<area shape="rect" id="node1" title="Currently a stub. Intended functionality: Finds interactable components that the player is looking at..." alt="" coords="5,80,137,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="9,5,133,32"/>
+</map>

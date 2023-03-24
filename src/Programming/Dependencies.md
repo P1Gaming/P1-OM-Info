@@ -10,25 +10,15 @@ Reference is when other scripts call script A.
 |-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|
 | [Crafting](#crafting) 	  | [CraftingRecipe](#craftingrecipe) | [UpgradeRecipe](#upgraderecipe) | [CraftingUI](#craftingui) | [RequiredMaterialUI](#requiredmaterialui) |
 | [CloudsUISettings](#cloudsuisettings) | [CloudGeneration](#cloudgeneration) | [GrabSlime](#grabslime) | [PlayerMovementControl](#playermovementcontrol) | [PlayerGrabSlime](#playergrabslime) |
-| [playerblockinteraction](#playerplockinteraction) | [SleepingSlime](#sleepingslime) | [TimeManager](#timemanager) | [script name](#script_name) | [script name](#script_name) |
-| [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
+| [playerblockinteraction](#playerplockinteraction) | [SleepingSlime](#sleepingslime) | [TimeManager](#timemanager) | [SlimeStatus](#slimestatus) | [Slime](#slime) |
+| [SleepingSlime](#sleepingslime) | [PlayerMovementController](#playermovementcontroller) | [SlimeLevelUpInfo](#slimelevelupinfo) | [IslandHeart](#islandheart) | [script name](#script_name) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) | [script name](#script_name) |
 
-## Crafting
-<details>
-  <summary> Click here </summary>
-  
-| Dependencies    | References |
-|-----------------|------------|
-| CraftingRecipe    | UpgradeRecipe |
-| UpgradeRecipe     | CraftingSlime |
-| PlayerInteraction | ---- |
-| UIManager         | ----- |
-</details>
+
 
 ## CraftingRecipe
 <details>
@@ -156,6 +146,7 @@ Reference is when other scripts call script A.
 | Outline | RenameSlimeUI |
 | ----- | UIController |
 | ----- | SlimeTransportHandler |
+|-----  | SlimeStatus|
 
 </details>
 
@@ -207,6 +198,7 @@ Reference is when other scripts call script A.
 | PlayerInventory | ----- |
 | Bed | ----- |
 
+
 </details>
 
 ## SleepingSlime
@@ -242,5 +234,90 @@ Reference is when other scripts call script A.
 | ----- | PhotoModeUIController |
 | ----- | TimechangeInScene |
 | ----- | TimeEvents|
+
+</details>
+
+## SlimeStatus
+
+<details>
+  <summary> Click here </summary>
+
+| Dependencies        | References |
+|---------------------|------------|
+| Slime               | -          |
+| SleepingSlime       | -          |
+| ColdWarmSlimeSystem | -          |
+
+</details>
+
+## SleepingSlime
+
+<details>
+  <summary> Click Here </summary>
+
+|Dependencies        | References |
+|--------------------|------------|
+|Interaction        |   SlimeAgent|
+|Bed                 |  Bed|
+|DialogData       |     SlimeStatus|
+|SlimeManager     |     -----|
+|Slime             |    -----|
+|Interactable       |   -----|
+
+</details>
+
+## PlayerMovementController
+
+<details>
+  <summary> Click Here </summary>
+
+| Dependencies    | References |
+|-----------------|------------|
+| CharacterController | FootstepsAnimationSound |
+| PlayerInput | DroppedItem |
+| Animator | InteractionsViaUI |
+| StarterAssetsInputs | PlayerDataManager |
+| PlayerGrabSlime | PlayerCamController|
+| TrainersManager | FeedSlime |
+| PlayerInputActions | GrabSlime |
+| AkSoundEngine | PetSlime |
+| GameEvents | DroneActionSequence |
+| InputManager | DestroyObject |
+| SerializationManager | null |
+| RespawnPlayerCurrentIsland | null |
+| PlayerDataManager | null |
+| TimeManager | null |
+| UIManager | null|
+
+</details>
+
+
+## SlimeLevelUpInfo
+
+<details>
+  <summary> Click Here </summary>
+
+| Dependencies    | References |
+|-----------------|------------|
+| null | FeedSlime|
+| null | Slime|
+
+</details>
+
+
+## IslandHeart
+
+<details>
+  <summary> Click Here </summary>
+
+| Dependencies    | References |
+|-----------------|------------|
+| IslandHeartInfo| IslandHeartRangeFX |
+| IslandHeartBuildReach| null |
+| AK.Wwise.Event| null |
+| ItemStack| null |
+| PlayerGrabSlime| null |
+| Slime| null |
+| WaitForSeconds| null |
 
 </details>

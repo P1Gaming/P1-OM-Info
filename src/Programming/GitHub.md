@@ -22,6 +22,7 @@ Once you do that you are ready to start working.
 ## Creating a Pull Request (PR)
 
 Once you complete your task push your changes, publich your branch and create a PR. Someone will review it and merge it or request changes.
+Don't forget to create a PR card on the trello board.
 
 The video below has all the steps:
 

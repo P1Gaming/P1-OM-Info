@@ -1,5 +1,9 @@
 # HOW TO
 
+## Set up Unity and GitHub
+
+Follow our guides [HERE](./unity.md) this one will give you our unity version, and [HERE](./GitHub.md) for learning about source control.
+
 ## Structure your code
 
 Style guides are used so programming teams can have common standards and naming conventions for their code.
@@ -23,10 +27,10 @@ The explanation should follow these rule:
 - Saying that the Jelly_sleep.cs "Handles the Jelly's sleep" is not an explanation.
 - A good explanation should contain where this script should be attached or when it's functions are called.
 
-## Document Dependencies
+## Bug
 
 Follow the instructions on the trello card below.
-[Trello Card](https://trello.com/c/kLs4KqZg)
+[Trello Card](https://trello.com/c/fST1FYwE)
 
 ## Understanding Our Systems
 

@@ -1,0 +1,4 @@
+<map id="Jellies.Feeding.FeedJelly" name="Jellies.Feeding.FeedJelly">
+<area shape="rect" id="node1" title="Feeds jelly by increasing it&#39;s food saturation." alt="" coords="5,13,184,39"/>
+<area shape="rect" id="node2" href="$classJellies_1_1Parameters.html#abe26c9490cefae597d698f6c3954a266" title="Increases jelly food saturation." alt="" coords="232,5,431,47"/>
+</map>

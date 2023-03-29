@@ -1,0 +1,5 @@
+<map id="Player.Motion.Jumping.OnJump" name="Player.Motion.Jumping.OnJump">
+<area shape="rect" id="node1" title="Handles &quot;Jump&quot; input actions triggered by the input system." alt="" coords="293,46,516,73"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1Motion_1_1Jumping.html#aa34e8812cdc9bb1a284cda10d1ccf7d2" title=" " alt="" coords="12,5,239,47"/>
+<area shape="rect" id="node3" href="$classPlayer_1_1Motion_1_1Jumping.html#ad91fa61cad64a397a64bde8278702f60" title=" " alt="" coords="5,71,245,112"/>
+</map>

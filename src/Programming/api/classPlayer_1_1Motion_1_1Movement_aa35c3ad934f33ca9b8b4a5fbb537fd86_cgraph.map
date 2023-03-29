@@ -1,0 +1,5 @@
+<map id="Player.Motion.Movement.OnMove" name="Player.Motion.Movement.OnMove">
+<area shape="rect" id="node1" title="Handles &quot;Move&quot; input actions triggered by the input system." alt="" coords="5,31,248,57"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1Motion_1_1Movement.html#a922e66f66b562d92734f789e525782da" title="Initiates a simple directional movement." alt="" coords="302,5,509,32"/>
+<area shape="rect" id="node3" href="$classPlayer_1_1Motion_1_1Movement.html#aa207286d535b46950fdd25d7023b3052" title="Brings the character to a smooth stop according to the acceleration of the character body." alt="" coords="296,56,515,83"/>
+</map>

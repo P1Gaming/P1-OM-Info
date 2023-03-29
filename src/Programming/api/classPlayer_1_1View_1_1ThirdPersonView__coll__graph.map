@@ -1,0 +1,6 @@
+<map id="Player.View.ThirdPersonView" name="Player.View.ThirdPersonView">
+<area shape="rect" id="node1" title="Basic character&#45;follow behavior for use with a third&#45;person camera." alt="" coords="5,229,216,256"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1View_1_1ViewController.html" title="Inherit from this base class to implement different input&#45;driven view perspectives the player charact..." alt="" coords="51,155,170,181"/>
+<area shape="rect" id="node3" href="$classPlayer_1_1InputHandler.html" title="Inherit from this abstract base class to create controller components that respond to input system ev..." alt="" coords="57,80,164,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="49,5,173,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Player.Equipment.SampleTrainers" name="Player.Equipment.SampleTrainers">
+<area shape="rect" id="node1" title="Demonstrates a single&#45;use &quot;Trainers&quot; item that, when obtained, bestows the Jumping mechanic." alt="" coords="5,80,245,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="63,5,187,32"/>
+</map>

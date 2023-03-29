@@ -1,0 +1,4 @@
+<map id="Player.View.ViewChange.OnZoom" name="Player.View.ViewChange.OnZoom">
+<area shape="rect" id="node1" title="Handles &quot;Zoom&quot; input actions triggered by the input system." alt="" coords="5,5,248,32"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1View_1_1ViewChange.html#ad6d31a96c6d3658b032c30df7be6c9de" title="Adjust the field&#45;of&#45;view to smoothly change between third&#45; and first&#45;person views." alt="" coords="296,5,520,32"/>
+</map>

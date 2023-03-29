@@ -1,0 +1,4 @@
+<map id="Player.Body.ApplyGravity" name="Player.Body.ApplyGravity">
+<area shape="rect" id="node1" title="Pulls the character downward incrementally, limited by a terminal velocity." alt="" coords="261,5,448,32"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1Body.html#a1390b3d217f9736539fb5c1012c662ff" title="Test for contact with ground and compare to current grounded state." alt="" coords="5,5,213,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Player.Motion.ForwardMovement" name="Player.Motion.ForwardMovement">
+<area shape="rect" id="node1" title="Provides forward movement oriented relative to the camera view, best used with a third&#45;person perspec..." alt="" coords="5,304,243,331"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1Motion_1_1Movement.html" title="Inherit from this base class to implement walk/run behaviors for the player character." alt="" coords="78,229,170,256"/>
+<area shape="rect" id="node3" href="$classPlayer_1_1BodyController.html" title="Inherit from this abstract base class to make components that control the physical body of the player..." alt="" coords="65,155,183,181"/>
+<area shape="rect" id="node4" href="$classPlayer_1_1InputHandler.html" title="Inherit from this abstract base class to create controller components that respond to input system ev..." alt="" coords="71,80,177,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="62,5,186,32"/>
+</map>

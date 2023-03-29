@@ -1,0 +1,6 @@
+<map id="Player.Body.CheckForGround" name="Player.Body.CheckForGround">
+<area shape="rect" id="node1" title="Test for contact with ground and compare to current grounded state." alt="" coords="5,56,213,83"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1Body.html#aa60cc96924bad9eba61ce09e77ad626c" title="Pulls the character downward incrementally, limited by a terminal velocity." alt="" coords="277,5,463,32"/>
+<area shape="rect" id="node3" href="$classPlayer_1_1Body.html#a59a8c4cc8d58aa0bfde3ca49cd00436b" title="Character enters the &quot;grounded&quot; state and notifies interested observers." alt="" coords="261,56,479,83"/>
+<area shape="rect" id="node4" href="$classPlayer_1_1Body.html#a1460baa4f3bf833b293e70ddcd205c8e" title="Determines whether to enter the &quot;falling&quot; state and notifies interested observers if so." alt="" coords="287,107,453,133"/>
+</map>

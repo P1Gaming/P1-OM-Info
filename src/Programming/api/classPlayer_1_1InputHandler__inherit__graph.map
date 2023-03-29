@@ -1,0 +1,13 @@
+<map id="Player.InputHandler" name="Player.InputHandler">
+<area shape="rect" id="node1" title="Inherit from this abstract base class to create controller components that respond to input system ev..." alt="" coords="177,95,328,121"/>
+<area shape="rect" id="node3" href="$classPlayer_1_1BodyController.html" title="Inherit from this abstract base class to make components that control the physical body of the player..." alt="" coords="393,44,556,71"/>
+<area shape="rect" id="node8" href="$classPlayer_1_1View_1_1ViewChange.html" title="Provides a smooth transition between first&#45; and third&#45;person camera views." alt="" coords="383,95,566,121"/>
+<area shape="rect" id="node9" href="$classPlayer_1_1View_1_1ViewController.html" title="Inherit from this base class to implement different input&#45;driven view perspectives the player charact..." alt="" coords="376,145,573,172"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,129,121"/>
+<area shape="rect" id="node4" href="$classPlayer_1_1Motion_1_1Jumping.html" title="Provides jumping behavior for the player character in response to input system events." alt="" coords="643,5,811,32"/>
+<area shape="rect" id="node5" href="$classPlayer_1_1Motion_1_1Movement.html" title="Inherit from this base class to implement walk/run behaviors for the player character." alt="" coords="634,56,819,83"/>
+<area shape="rect" id="node6" href="$classPlayer_1_1Motion_1_1ForwardMovement.html" title="Provides forward movement oriented relative to the camera view, best used with a third&#45;person perspec..." alt="" coords="880,27,1117,53"/>
+<area shape="rect" id="node7" href="$classPlayer_1_1Motion_1_1RectilinearMovement.html" title="Provides for straight&#45;line movements in the forward/backward and strafing left/right." alt="" coords="906,78,1091,119"/>
+<area shape="rect" id="node10" href="$classPlayer_1_1View_1_1FirstPersonView.html" title="Basic look&#45;around behavior for use with a first&#45;person camera." alt="" coords="624,132,829,159"/>
+<area shape="rect" id="node11" href="$classPlayer_1_1View_1_1ThirdPersonView.html" title="Basic character&#45;follow behavior for use with a third&#45;person camera." alt="" coords="621,183,832,209"/>
+</map>

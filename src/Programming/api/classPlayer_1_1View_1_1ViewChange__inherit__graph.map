@@ -1,0 +1,5 @@
+<map id="Player.View.ViewChange" name="Player.View.ViewChange">
+<area shape="rect" id="node1" title="Provides a smooth transition between first&#45; and third&#45;person camera views." alt="" coords="5,155,188,181"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1InputHandler.html" title="Inherit from this abstract base class to create controller components that respond to input system ev..." alt="" coords="43,80,150,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="35,5,159,32"/>
+</map>

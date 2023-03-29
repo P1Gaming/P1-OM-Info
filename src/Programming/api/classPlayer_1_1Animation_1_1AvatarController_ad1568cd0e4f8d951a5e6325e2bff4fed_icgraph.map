@@ -1,0 +1,5 @@
+<map id="Player.Animation.AvatarController.OnMove" name="Player.Animation.AvatarController.OnMove">
+<area shape="rect" id="node1" title="Update walking motion animation in response to a Moved event fired by the Movement component." alt="" coords="300,39,547,80"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1Animation_1_1AvatarController.html#a8c11069db5761961e8c8183baedde96d" title="Attempts to register as a listener for events dispatched from other Player components." alt="" coords="5,5,252,47"/>
+<area shape="rect" id="node3" href="$classPlayer_1_1Animation_1_1AvatarController.html#ac0e77e0d692d5e0fa640847e034f8ac6" title="Attempts to remove this component from the invocation list for Player events." alt="" coords="5,71,252,112"/>
+</map>

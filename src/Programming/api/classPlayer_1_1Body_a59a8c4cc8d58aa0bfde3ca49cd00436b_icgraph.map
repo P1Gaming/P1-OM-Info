@@ -1,0 +1,4 @@
+<map id="Player.Body.BecomeGrounded" name="Player.Body.BecomeGrounded">
+<area shape="rect" id="node1" title="Character enters the &quot;grounded&quot; state and notifies interested observers." alt="" coords="261,5,479,32"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1Body.html#a1390b3d217f9736539fb5c1012c662ff" title="Test for contact with ground and compare to current grounded state." alt="" coords="5,5,213,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Player.Motion.Movement.OnSprint" name="Player.Motion.Movement.OnSprint">
+<area shape="rect" id="node1" title="Handles &quot;Sprint&quot; input actions triggered by the input system." alt="" coords="5,5,212,47"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1Motion_1_1Movement.html#a6e858cc6c3d672fa5d5b9e5b0ceb4cc8" title="Brings the character to a smooth stop according to the acceleration of the character body." alt="" coords="260,5,491,47"/>
+</map>

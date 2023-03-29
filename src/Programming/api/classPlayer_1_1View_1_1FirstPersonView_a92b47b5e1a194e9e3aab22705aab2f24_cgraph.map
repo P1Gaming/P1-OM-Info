@@ -1,0 +1,4 @@
+<map id="Player.View.FirstPersonView.TurnCamera" name="Player.View.FirstPersonView.TurnCamera">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,213,47"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1View_1_1ViewController.html#aa7eda203e600c9312381ae8dc15773d0" title="Used to ensure that our camera angles (in degrees) remain within a given range." alt="" coords="261,5,461,47"/>
+</map>

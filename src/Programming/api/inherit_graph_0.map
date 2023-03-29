@@ -1,12 +1,25 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,208,129,235"/>
-<area shape="rect" id="node2" href="$classInteractable.html" title="Currently a stub. Intended functionality: Allows a gameobject to be found by InteractionFinder Sends ..." alt="" coords="201,5,301,32"/>
-<area shape="rect" id="node3" href="$classInteractionFinder.html" title="Currently a stub. Intended functionality: Finds interactable components that the player is looking at..." alt="" coords="185,56,317,83"/>
-<area shape="rect" id="node4" href="$classJellies_1_1Feeding.html" title="Currently a stub. Intended functionality: Handling of Jelly feeding mechanic, checking if the player ..." alt="" coords="193,107,309,133"/>
-<area shape="rect" id="node5" href="$classJellies_1_1Movement.html" title="Currently a stub. Intended functionality: Jelly movement handling." alt="" coords="183,157,318,184"/>
-<area shape="rect" id="node6" href="$classJellies_1_1Parameters.html" title="Currently a stub. Intended functionality: The handling of updating and storing the main information a..." alt="" coords="181,208,320,235"/>
-<area shape="rect" id="node7" href="$classJellies_1_1Petting.html" title="Currently a stub. Intended functionality: Handling of Jelly Petting mechanic, checking if the player ..." alt="" coords="195,259,306,285"/>
-<area shape="rect" id="node8" href="$classJellies_1_1Pickup.html" title="Currently a stub. Intended functionality: Handling of picking up the Jelly mechanic,..." alt="" coords="197,309,304,336"/>
-<area shape="rect" id="node9" href="$classJellies_1_1Sleeping.html" title="Currently a stub. Intended functionality: Handling of Jelly Sleeping mechanic, checking how sleepy is..." alt="" coords="190,360,311,387"/>
-<area shape="rect" id="node10" href="$classJellies_1_1Temperature.html" title="Currently a stub. Intended functionality: Handling of Jelly temperature mechanic, keeping track of he..." alt="" coords="177,411,324,437"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,309,129,336"/>
+<area shape="rect" id="node2" href="$classInteractable.html" title="Currently a stub. Intended functionality: Allows a gameobject to be found by InteractionFinder Sends ..." alt="" coords="249,5,349,32"/>
+<area shape="rect" id="node3" href="$classInteractionFinder.html" title="Currently a stub. Intended functionality: Finds interactable components that the player is looking at..." alt="" coords="233,56,365,83"/>
+<area shape="rect" id="node4" href="$classJellies_1_1Feeding.html" title="Currently a stub. Intended functionality: Handling of Jelly feeding mechanic, checking if the player ..." alt="" coords="241,107,357,133"/>
+<area shape="rect" id="node5" href="$classJellies_1_1Movement.html" title="Currently a stub. Intended functionality: Jelly movement handling." alt="" coords="231,157,366,184"/>
+<area shape="rect" id="node6" href="$classJellies_1_1Parameters.html" title="Currently a stub. Intended functionality: The handling of updating and storing the main information a..." alt="" coords="229,208,368,235"/>
+<area shape="rect" id="node7" href="$classJellies_1_1Petting.html" title="Currently a stub. Intended functionality: Handling of Jelly Petting mechanic, checking if the player ..." alt="" coords="243,259,354,285"/>
+<area shape="rect" id="node8" href="$classJellies_1_1Pickup.html" title="Currently a stub. Intended functionality: Handling of picking up the Jelly mechanic,..." alt="" coords="245,309,352,336"/>
+<area shape="rect" id="node9" href="$classJellies_1_1Sleeping.html" title="Currently a stub. Intended functionality: Handling of Jelly Sleeping mechanic, checking how sleepy is..." alt="" coords="238,360,359,387"/>
+<area shape="rect" id="node10" href="$classJellies_1_1Temperature.html" title="Currently a stub. Intended functionality: Handling of Jelly temperature mechanic, keeping track of he..." alt="" coords="225,411,372,437"/>
+<area shape="rect" id="node11" href="$classPlayer_1_1Animation_1_1AvatarController.html" title="Controls transitions between animation states in response to player character events." alt="" coords="177,461,420,488"/>
+<area shape="rect" id="node12" href="$classPlayer_1_1Body.html" title="Provides for basic player character physics and grounded state." alt="" coords="249,512,348,539"/>
+<area shape="rect" id="node13" href="$classPlayer_1_1Equipment_1_1SampleTrainers.html" title="Demonstrates a single&#45;use &quot;Trainers&quot; item that, when obtained, bestows the Jumping mechanic." alt="" coords="179,563,419,589"/>
+<area shape="rect" id="node14" href="$classPlayer_1_1InputHandler.html" title="Inherit from this abstract base class to create controller components that respond to input system ev..." alt="" coords="223,613,374,640"/>
+<area shape="rect" id="node15" href="$classPlayer_1_1BodyController.html" title="Inherit from this abstract base class to make components that control the physical body of the player..." alt="" coords="485,563,648,589"/>
+<area shape="rect" id="node20" href="$classPlayer_1_1View_1_1ViewChange.html" title="Provides a smooth transition between first&#45; and third&#45;person camera views." alt="" coords="475,613,658,640"/>
+<area shape="rect" id="node21" href="$classPlayer_1_1View_1_1ViewController.html" title="Inherit from this base class to implement different input&#45;driven view perspectives the player charact..." alt="" coords="468,664,665,691"/>
+<area shape="rect" id="node16" href="$classPlayer_1_1Motion_1_1Jumping.html" title="Provides jumping behavior for the player character in response to input system events." alt="" coords="735,524,903,551"/>
+<area shape="rect" id="node17" href="$classPlayer_1_1Motion_1_1Movement.html" title="Inherit from this base class to implement walk/run behaviors for the player character." alt="" coords="726,575,911,601"/>
+<area shape="rect" id="node18" href="$classPlayer_1_1Motion_1_1ForwardMovement.html" title="Provides forward movement oriented relative to the camera view, best used with a third&#45;person perspec..." alt="" coords="972,545,1209,572"/>
+<area shape="rect" id="node19" href="$classPlayer_1_1Motion_1_1RectilinearMovement.html" title="Provides for straight&#45;line movements in the forward/backward and strafing left/right." alt="" coords="998,597,1183,638"/>
+<area shape="rect" id="node22" href="$classPlayer_1_1View_1_1FirstPersonView.html" title="Basic look&#45;around behavior for use with a first&#45;person camera." alt="" coords="716,651,921,677"/>
+<area shape="rect" id="node23" href="$classPlayer_1_1View_1_1ThirdPersonView.html" title="Basic character&#45;follow behavior for use with a third&#45;person camera." alt="" coords="713,701,924,728"/>
 </map>

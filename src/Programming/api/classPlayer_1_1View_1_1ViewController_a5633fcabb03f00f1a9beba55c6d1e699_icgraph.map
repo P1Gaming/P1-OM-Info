@@ -1,0 +1,6 @@
+<map id="Player.View.ViewController.Look" name="Player.View.ViewController.Look">
+<area shape="rect" id="node1" title="Update the view to align with the latest &quot;Look&quot; input." alt="" coords="501,46,732,73"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1View_1_1ViewController.html#acff44b39e69f53ce2b73f9b6a976a8f8" title="Handles &quot;Look&quot; input actions triggered by the input system." alt="" coords="253,39,453,80"/>
+<area shape="rect" id="node3" href="$classPlayer_1_1View_1_1ViewController.html#affa9ec7640a147e77b0f796a3e6232e5" title=" " alt="" coords="5,5,205,47"/>
+<area shape="rect" id="node4" href="$classPlayer_1_1View_1_1ViewController.html#a21fe4fedfdd2eb1878f2d4604c7d0025" title=" " alt="" coords="5,71,205,112"/>
+</map>

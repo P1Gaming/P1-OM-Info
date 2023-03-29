@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['increasefoodsaturation_28',['IncreaseFoodSaturation',['../classJellies_1_1Parameters.html#abe26c9490cefae597d698f6c3954a266',1,'Jellies::Parameters']]]
+  ['checkforground_129',['CheckForGround',['../classPlayer_1_1Body.html#a1390b3d217f9736539fb5c1012c662ff',1,'Player::Body']]],
+  ['clampangle_130',['ClampAngle',['../classPlayer_1_1View_1_1ViewController.html#aa7eda203e600c9312381ae8dc15773d0',1,'Player::View::ViewController']]]
 ];

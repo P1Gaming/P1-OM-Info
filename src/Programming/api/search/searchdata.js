@@ -1,10 +1,13 @@
 var indexSectionsWithContent =
 {
-  0: "dfijmpst",
-  1: "fimpst",
-  2: "j",
-  3: "dfis",
-  4: "fm"
+  0: "_abcdefgijlmoprstuvwz",
+  1: "abefijmprstv",
+  2: "jp",
+  3: "abcdefgijlmorstuz",
+  4: "_bcfglmrstw",
+  5: "cdfimt",
+  6: "fjlm",
+  7: "t"
 };
 
 var indexSectionNames =
@@ -13,7 +16,10 @@ var indexSectionNames =
   1: "classes",
   2: "namespaces",
   3: "functions",
-  4: "properties"
+  4: "variables",
+  5: "properties",
+  6: "events",
+  7: "pages"
 };
 
 var indexSectionLabels =
@@ -22,6 +28,9 @@ var indexSectionLabels =
   1: "Classes",
   2: "Namespaces",
   3: "Functions",
-  4: "Properties"
+  4: "Variables",
+  5: "Properties",
+  6: "Events",
+  7: "Pages"
 };
 

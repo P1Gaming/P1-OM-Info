@@ -1,0 +1,8 @@
+<map id="Player.Motion.RectilinearMovement" name="Player.Motion.RectilinearMovement">
+<area shape="rect" id="node1" title="Provides for straight&#45;line movements in the forward/backward and strafing left/right." alt="" coords="29,323,214,364"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1Motion_1_1Movement.html" title="Inherit from this base class to implement walk/run behaviors for the player character." alt="" coords="75,247,167,273"/>
+<area shape="rect" id="node3" href="$classPlayer_1_1BodyController.html" title="Inherit from this abstract base class to make components that control the physical body of the player..." alt="" coords="62,171,181,197"/>
+<area shape="rect" id="node4" href="$classPlayer_1_1InputHandler.html" title="Inherit from this abstract base class to create controller components that respond to input system ev..." alt="" coords="5,81,112,108"/>
+<area shape="rect" id="node5" title=" " alt="" coords="59,5,183,32"/>
+<area shape="rect" id="node6" href="$classPlayer_1_1Body.html" title="Provides for basic player character physics and grounded state." alt="" coords="136,81,235,108"/>
+</map>

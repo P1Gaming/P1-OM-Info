@@ -1,0 +1,5 @@
+<map id="Player.View.ViewController.ClampAngle" name="Player.View.ViewController.ClampAngle">
+<area shape="rect" id="node1" title="Used to ensure that our camera angles (in degrees) remain within a given range." alt="" coords="267,39,467,80"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1View_1_1FirstPersonView.html#a92b47b5e1a194e9e3aab22705aab2f24" title=" " alt="" coords="8,5,216,47"/>
+<area shape="rect" id="node3" href="$classPlayer_1_1View_1_1ThirdPersonView.html#a62ad072ab7b2699ef6ad64578216f639" title=" " alt="" coords="5,71,219,112"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Player.Motion.Movement.OnSprint" name="Player.Motion.Movement.OnSprint">
+<area shape="rect" id="node1" title="Handles &quot;Sprint&quot; input actions triggered by the input system." alt="" coords="311,39,517,80"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1Motion_1_1Movement.html#a0ca984d16064542eb12cbccfdef7b642" title=" " alt="" coords="13,5,255,47"/>
+<area shape="rect" id="node3" href="$classPlayer_1_1Motion_1_1Movement.html#a01b5e5504a0a42016c75dbd88af84ea7" title=" " alt="" coords="5,71,263,112"/>
+</map>

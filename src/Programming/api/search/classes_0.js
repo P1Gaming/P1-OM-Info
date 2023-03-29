@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['feeding_16',['Feeding',['../classJellies_1_1Feeding.html',1,'Jellies']]]
+  ['avatarcontroller_97',['AvatarController',['../classPlayer_1_1Animation_1_1AvatarController.html',1,'Player::Animation']]]
 ];

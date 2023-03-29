@@ -1,0 +1,7 @@
+<map id="Player.Animation.AvatarController.UnregisterEventHandlers" name="Player.Animation.AvatarController.UnregisterEventHandlers">
+<area shape="rect" id="node1" title="Attempts to remove this component from the invocation list for Player events." alt="" coords="5,104,252,145"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1Animation_1_1AvatarController.html#aa29d291401111ee80318c41c093c879b" title="Initiate a free&#45;fall animation in response to a Fallen event fired by the Body component." alt="" coords="300,5,547,47"/>
+<area shape="rect" id="node3" href="$classPlayer_1_1Animation_1_1AvatarController.html#ac268d5132aeefbb25246bf7ac04c2c1a" title="Initiate a jump animation in response to a Jumped event fired by the Jumping component." alt="" coords="300,71,547,112"/>
+<area shape="rect" id="node4" href="$classPlayer_1_1Animation_1_1AvatarController.html#a7de5435112b93a2d37974dd7906aedd2" title="Initiate a grounded animation in response to a Landed event fired by the Body component." alt="" coords="300,136,547,177"/>
+<area shape="rect" id="node5" href="$classPlayer_1_1Animation_1_1AvatarController.html#ad1568cd0e4f8d951a5e6325e2bff4fed" title="Update walking motion animation in response to a Moved event fired by the Movement component." alt="" coords="300,201,547,243"/>
+</map>

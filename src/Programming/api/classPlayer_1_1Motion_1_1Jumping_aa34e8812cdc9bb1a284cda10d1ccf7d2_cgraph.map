@@ -1,0 +1,5 @@
+<map id="Player.Motion.Jumping.RegisterEventHandlers" name="Player.Motion.Jumping.RegisterEventHandlers">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,232,47"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1Motion_1_1Jumping.html#a60afe2942baafe06b1b4e428b2f29251" title="Handles &quot;Jump&quot; input actions triggered by the input system." alt="" coords="280,13,503,39"/>
+<area shape="rect" id="node3" href="$classPlayer_1_1Motion_1_1Jumping.html#a93d6c1bd0e3e1ba1b745a29724b21464" title="Performs a simple, vertical jump." alt="" coords="551,13,756,39"/>
+</map>

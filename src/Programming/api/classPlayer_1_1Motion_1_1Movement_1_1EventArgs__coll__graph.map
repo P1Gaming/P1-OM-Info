@@ -1,0 +1,9 @@
+<map id="Player.Motion.Movement.EventArgs" name="Player.Motion.Movement.EventArgs">
+<area shape="rect" id="node1" title="Inner class representing event data related to the motion of the character." alt="" coords="8,336,263,363"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,247,151,273"/>
+<area shape="rect" id="node3" href="$classPlayer_1_1Motion_1_1Movement.html" title="Inherit from this base class to implement walk/run behaviors for the player character." alt="" coords="175,247,360,273"/>
+<area shape="rect" id="node4" href="$classPlayer_1_1BodyController.html" title="Inherit from this abstract base class to make components that control the physical body of the player..." alt="" coords="208,171,327,197"/>
+<area shape="rect" id="node5" href="$classPlayer_1_1InputHandler.html" title="Inherit from this abstract base class to create controller components that respond to input system ev..." alt="" coords="151,81,258,108"/>
+<area shape="rect" id="node6" title=" " alt="" coords="205,5,329,32"/>
+<area shape="rect" id="node7" href="$classPlayer_1_1Body.html" title="Provides for basic player character physics and grounded state." alt="" coords="282,81,381,108"/>
+</map>

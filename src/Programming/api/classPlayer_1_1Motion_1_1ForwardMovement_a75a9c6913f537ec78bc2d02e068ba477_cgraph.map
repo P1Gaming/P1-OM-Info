@@ -1,0 +1,4 @@
+<map id="Player.Motion.ForwardMovement.MoveBody" name="Player.Motion.ForwardMovement.MoveBody">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,247,47"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1Motion_1_1ForwardMovement.html#aec9ea3eddb37cd59b50ea3d06adcb778" title="Rotate character to face input direction relative to camera position." alt="" coords="295,5,536,47"/>
+</map>

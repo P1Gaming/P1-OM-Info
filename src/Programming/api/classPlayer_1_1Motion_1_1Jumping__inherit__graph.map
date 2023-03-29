@@ -1,0 +1,6 @@
+<map id="Player.Motion.Jumping" name="Player.Motion.Jumping">
+<area shape="rect" id="node1" title="Provides jumping behavior for the player character in response to input system events." alt="" coords="5,229,173,256"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1BodyController.html" title="Inherit from this abstract base class to make components that control the physical body of the player..." alt="" coords="30,155,149,181"/>
+<area shape="rect" id="node3" href="$classPlayer_1_1InputHandler.html" title="Inherit from this abstract base class to create controller components that respond to input system ev..." alt="" coords="36,80,143,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="27,5,151,32"/>
+</map>

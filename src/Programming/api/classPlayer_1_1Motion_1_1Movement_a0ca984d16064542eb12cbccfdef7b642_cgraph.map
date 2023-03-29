@@ -1,0 +1,8 @@
+<map id="Player.Motion.Movement.RegisterEventHandlers" name="Player.Motion.Movement.RegisterEventHandlers">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,248,119"/>
+<area shape="rect" id="node2" href="$classPlayer_1_1Motion_1_1Movement.html#aa35c3ad934f33ca9b8b4a5fbb537fd86" title="Handles &quot;Move&quot; input actions triggered by the input system." alt="" coords="296,56,539,83"/>
+<area shape="rect" id="node5" href="$classPlayer_1_1Motion_1_1Movement.html#af98ab1650d909dbef65810d028e5fa72" title="Handles &quot;Sprint&quot; input actions triggered by the input system." alt="" coords="314,107,521,149"/>
+<area shape="rect" id="node3" href="$classPlayer_1_1Motion_1_1Movement.html#a922e66f66b562d92734f789e525782da" title="Initiates a simple directional movement." alt="" coords="599,5,805,32"/>
+<area shape="rect" id="node4" href="$classPlayer_1_1Motion_1_1Movement.html#aa207286d535b46950fdd25d7023b3052" title="Brings the character to a smooth stop according to the acceleration of the character body." alt="" coords="593,56,811,83"/>
+<area shape="rect" id="node6" href="$classPlayer_1_1Motion_1_1Movement.html#a6e858cc6c3d672fa5d5b9e5b0ceb4cc8" title="Brings the character to a smooth stop according to the acceleration of the character body." alt="" coords="587,107,817,149"/>
+</map>

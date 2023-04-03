@@ -27,5 +27,5 @@ Don't forget to create a PR card on the trello board.
 
 The video below has all the steps:
 
-[![Your First Pull Request with GitHub Desktop](../images/GithubDesktop.jpg)] (https://www.youtube.com/watch?v=8x6V5IOuXog&ab_channel=DevLeonardo "Your First Pull Request with GitHub Desktop")
+[![Your First Pull Request with GitHub Desktop](../images/GithubDesktop.jpg)](https://www.youtube.com/watch?v=8x6V5IOuXog&ab_channel=DevLeonardo "Your First Pull Request with GitHub Desktop")
 

@@ -7,7 +7,8 @@ GitHub is a source control tool that uses Git.
 You can use GitHub through the command line but the easier way is to download and use the GitHub Desktop application.
 Follow the video below (It explains the whole process from  setting up a repository, creating a Gitignore and commiting.)
 **You only care about installing and cloning for now.**
-https://www.youtube.com/watch?v=qpXxcvS-g3g&ab_channel=Brackeys
+
+[![How to use GitHub with Unity](../images/brackeysGithub.jpg)](https://www.youtube.com/watch?v=qpXxcvS-g3g&ab_channel=Brackeys "How to use GitHub with Unity")
 
 ## Creating a new branch
 
@@ -26,5 +27,5 @@ Don't forget to create a PR card on the trello board.
 
 The video below has all the steps:
 
-https://www.youtube.com/watch?v=8x6V5IOuXog&ab_channel=DevLeonardo
+[![Your First Pull Request with GitHub Desktop](../images/GithubDesktop.jpg)] (https://www.youtube.com/watch?v=8x6V5IOuXog&ab_channel=DevLeonardo "Your First Pull Request with GitHub Desktop")
 

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['rectilinearmovement_112',['RectilinearMovement',['../classPlayer_1_1Motion_1_1RectilinearMovement.html',1,'Player::Motion']]]
+  ['parameters_111',['Parameters',['../classJellies_1_1Parameters.html',1,'Jellies']]],
+  ['petting_112',['Petting',['../classJellies_1_1Petting.html',1,'Jellies']]],
+  ['pickup_113',['Pickup',['../classJellies_1_1Pickup.html',1,'Jellies']]]
 ];

@@ -1,5 +1,5 @@
 <map id="Jellies.Feeding" name="Jellies.Feeding">
 <area shape="rect" id="node1" title="Currently a stub. Intended functionality: Handling of Jelly feeding mechanic, checking if the player ..." alt="" coords="15,171,131,197"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,5,129,32"/>
-<area shape="rect" id="node3" href="$classJellies_1_1Parameters.html" title="Currently a stub. Intended functionality: The handling of updating and storing the main information a..." alt="" coords="89,81,227,108"/>
+<area shape="rect" id="node3" href="$classJellies_1_1Parameters.html" title="The handling of updating and storing the main information about a Jelly." alt="" coords="89,81,227,108"/>
 </map>

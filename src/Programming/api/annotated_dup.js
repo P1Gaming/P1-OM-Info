@@ -7,7 +7,8 @@ var annotated_dup =
       [ "Petting", "classJellies_1_1Petting.html", null ],
       [ "Pickup", "classJellies_1_1Pickup.html", null ],
       [ "Sleeping", "classJellies_1_1Sleeping.html", null ],
-      [ "Temperature", "classJellies_1_1Temperature.html", null ]
+      [ "Temperature", "classJellies_1_1Temperature.html", null ],
+      [ "GrassJelly", "classJellies_1_1GrassJelly.html", null ]
     ] ],
     [ "Player", "namespacePlayer.html", [
       [ "Animation", "namespacePlayer_1_1Animation.html", [

@@ -1,0 +1,5 @@
+<map id="PlayerInteraction" name="PlayerInteraction">
+<area shape="rect" id="node1" title="Class managing detection of interactble objects by the player" alt="" coords="6,171,139,197"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,129,32"/>
+<area shape="rect" id="node3" href="$classInteractable.html" title="Currently a stub. Intended functionality: Allows a gameobject to be found by InteractionFinder Sends ..." alt="" coords="89,81,189,108"/>
+</map>

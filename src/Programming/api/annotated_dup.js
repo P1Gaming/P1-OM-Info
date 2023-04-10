@@ -34,5 +34,6 @@ var annotated_dup =
       [ "InputHandler", "classPlayer_1_1InputHandler.html", "classPlayer_1_1InputHandler" ]
     ] ],
     [ "Interactable", "classInteractable.html", null ],
-    [ "InteractionFinder", "classInteractionFinder.html", null ]
+    [ "InteractionFinder", "classInteractionFinder.html", null ],
+    [ "PlayerInteraction", "classPlayerInteraction.html", "classPlayerInteraction" ]
 ];

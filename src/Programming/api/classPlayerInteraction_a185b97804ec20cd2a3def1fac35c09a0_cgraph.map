@@ -1,0 +1,7 @@
+<map id="PlayerInteraction.Update" name="PlayerInteraction.Update">
+<area shape="rect" id="node1" title="If there is a raycast hit and no interactable assigned, enter interaction If there is a raycast hit a..." alt="" coords="5,93,189,120"/>
+<area shape="rect" id="node2" href="$classPlayerInteraction.html#ae9f2f44a5925cdd33973037c26a8b091" title="Check for objects within interaction distance" alt="" coords="250,5,479,32"/>
+<area shape="rect" id="node3" href="$classPlayerInteraction.html#aabac3858e90aed9d8792f36cc282eb45" title="Set the reference of this interactable to the raycast hit&#39;s, and enable the interactable" alt="" coords="252,57,477,98"/>
+<area shape="rect" id="node4" href="$classPlayerInteraction.html#aaf347108aa5ae08d64811c7202ceabb6" title="Disable the selected interactable, and set the reference to null" alt="" coords="239,123,490,149"/>
+<area shape="rect" id="node5" href="$classPlayerInteraction.html#a2a4886f077f0522e0cab1d74ce3cfd58" title=" " alt="" coords="237,173,492,200"/>
+</map>

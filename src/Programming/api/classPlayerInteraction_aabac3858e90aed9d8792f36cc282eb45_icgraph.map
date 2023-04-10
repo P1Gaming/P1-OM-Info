@@ -1,0 +1,4 @@
+<map id="PlayerInteraction.OnInteractionEnter" name="PlayerInteraction.OnInteractionEnter">
+<area shape="rect" id="node1" title="Set the reference of this interactable to the raycast hit&#39;s, and enable the interactable" alt="" coords="237,5,463,47"/>
+<area shape="rect" id="node2" href="$classPlayerInteraction.html#a185b97804ec20cd2a3def1fac35c09a0" title="If there is a raycast hit and no interactable assigned, enter interaction If there is a raycast hit a..." alt="" coords="5,13,189,39"/>
+</map>

@@ -30,6 +30,7 @@ var hierarchy =
           [ "Player.View.FirstPersonView", "classPlayer_1_1View_1_1FirstPersonView.html", null ],
           [ "Player.View.ThirdPersonView", "classPlayer_1_1View_1_1ThirdPersonView.html", null ]
         ] ]
-      ] ]
+      ] ],
+      [ "PlayerInteraction", "classPlayerInteraction.html", null ]
     ] ]
 ];

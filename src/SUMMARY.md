@@ -15,7 +15,8 @@
 		- [Island Hearts](./Programming/Island_hearts.md)
 		- [Dependencies](./Programming/Dependencies.md)
 
-# Game API Documentation
-- [Full Game](./Programming/api/index.html)
+# Full Game
+- [Full Game info](./Programming/FullGame.md)
+- [API Documentation](./Programming/api/index.html)
 
 

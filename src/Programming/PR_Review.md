@@ -16,17 +16,20 @@ Go to our repo on GitHub and click the PR tab.
 Find the PR that you want to review.
 Read comments, see who made it, remember to see what is the name of the branch (image 1a).
 If you want to be profesional add yourself as a reviewer (image 1b).
-
+ [Image 1a](../images/PR1a.jpg)
+ [Image 1b](../images/PR1b.jpg)
+ 
 ## Check the files changes
 If you want to do this right, you need to go and check what files have been changed.
 If for small changes the number of files altered is large, that's a red flag.
 If for big changes the number is small, that is also a red flag.
 If you are a programmer you have a detailed list of all the code lines that changed.
- 
+
 ## Open the branch in GitHub Desktop
 Hope you checked the branch name because now we need it.
 Open GitHub Desktopand open the branch list (image 3a).
 Fine the branch and open it, wait for it to load.
+[Image 3a](../images/PR3a.jpg)
 
 ## Playtest the changes in Unity
 Now open or refresh the Unity project.

@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['targetspeed_91',['TargetSpeed',['../classPlayer_1_1Motion_1_1Movement.html#a0c764fe5cfca608e3b0c7d91ee2cc6b2',1,'Player.Motion.Movement.TargetSpeed()'],['../classPlayer_1_1Motion_1_1Movement_1_1EventArgs.html#a19ed45d402efdda7fcc76e9eea819934',1,'Player.Motion.Movement.EventArgs.TargetSpeed()']]],
-  ['temperature_92',['Temperature',['../classJellies_1_1Temperature.html',1,'Jellies']]],
-  ['thirdpersonview_93',['ThirdPersonView',['../classPlayer_1_1View_1_1ThirdPersonView.html',1,'Player::View']]],
-  ['todo_20list_94',['Todo List',['../todo.html',1,'']]],
-  ['togglesprint_95',['ToggleSprint',['../classPlayer_1_1Motion_1_1Movement.html#a6e858cc6c3d672fa5d5b9e5b0ceb4cc8',1,'Player::Motion::Movement']]],
-  ['topclamp_96',['topClamp',['../classPlayer_1_1View_1_1ViewController.html#a894c463d59fbcc3312076af9f105a854',1,'Player::View::ViewController']]],
-  ['turncamera_97',['TurnCamera',['../classPlayer_1_1View_1_1FirstPersonView.html#a92b47b5e1a194e9e3aab22705aab2f24',1,'Player.View.FirstPersonView.TurnCamera()'],['../classPlayer_1_1View_1_1ThirdPersonView.html#a62ad072ab7b2699ef6ad64578216f639',1,'Player.View.ThirdPersonView.TurnCamera()'],['../classPlayer_1_1View_1_1ViewController.html#ae4d35d94c877b086d78dccb1d7cfd1e0',1,'Player.View.ViewController.TurnCamera()']]]
+  ['sampletrainers_96',['SampleTrainers',['../classPlayer_1_1Equipment_1_1SampleTrainers.html',1,'Player::Equipment']]],
+  ['setfoodsaturation_97',['SetFoodSaturation',['../classJellies_1_1Parameters.html#ac89432f163cc2524f4e1f6c4520e8403',1,'Jellies::Parameters']]],
+  ['sleeping_98',['Sleeping',['../classJellies_1_1Sleeping.html',1,'Jellies']]],
+  ['sprintspeed_99',['sprintSpeed',['../classPlayer_1_1Motion_1_1Movement.html#ae13d6ac9cdb2a6255581885285bc2947',1,'Player::Motion::Movement']]],
+  ['stop_100',['Stop',['../classPlayer_1_1Motion_1_1Movement.html#aa207286d535b46950fdd25d7023b3052',1,'Player::Motion::Movement']]],
+  ['stopped_101',['Stopped',['../classJellies_1_1Movement.html#a146437355bdc0792395e934b70ef115c',1,'Jellies::Movement']]]
 ];

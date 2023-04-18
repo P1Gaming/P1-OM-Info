@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['inputhandler_112',['InputHandler',['../classPlayer_1_1InputHandler.html',1,'Player']]],
-  ['interactable_113',['Interactable',['../classInteractable.html',1,'']]],
-  ['interactionfinder_114',['InteractionFinder',['../classInteractionFinder.html',1,'']]]
+  ['hopping_124',['Hopping',['../classJellies_1_1Hopping.html',1,'Jellies']]]
 ];

@@ -8,6 +8,7 @@ var hierarchy =
       [ "InteractionFinder", "classInteractionFinder.html", null ],
       [ "Jellies.Feeding", "classJellies_1_1Feeding.html", null ],
       [ "Jellies.GrassJelly", "classJellies_1_1GrassJelly.html", null ],
+      [ "Jellies.Hopping", "classJellies_1_1Hopping.html", null ],
       [ "Jellies.Movement", "classJellies_1_1Movement.html", null ],
       [ "Jellies.Parameters", "classJellies_1_1Parameters.html", null ],
       [ "Jellies.Petting", "classJellies_1_1Petting.html", null ],

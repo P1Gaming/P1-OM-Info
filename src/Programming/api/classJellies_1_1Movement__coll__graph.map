@@ -1,4 +1,4 @@
 <map id="Jellies.Movement" name="Jellies.Movement">
-<area shape="rect" id="node1" title="Currently a stub. Intended functionality: Jelly movement handling." alt="" coords="5,80,140,107"/>
+<area shape="rect" id="node1" title="Add this script to a jelly prefab to provide simple movement via Unity&#39;s navmesh agent behavior." alt="" coords="5,80,140,107"/>
 <area shape="rect" id="node2" title=" " alt="" coords="11,5,135,32"/>
 </map>

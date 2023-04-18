@@ -84,20 +84,23 @@ $(document).ready(function(){initNavTree('classJellies_1_1Movement.html',''); in
 
 <div class="header">
   <div class="summary">
+<a href="#events">Events</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classJellies_1_1Movement-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Jellies.Movement Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Currently a stub. Intended functionality: Jelly movement handling.  
+<p>Add this script to a jelly prefab to provide simple movement via Unity's navmesh agent behavior.  
  <a href="classJellies_1_1Movement.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Jellies.Movement:</div>
 <div class="dyncontent">
 <div class="center"><img src="classJellies_1_1Movement__inherit__graph.png" border="0" usemap="#aJellies_8Movement_inherit__map" alt="Inheritance graph"/></div>
 <map name="aJellies_8Movement_inherit__map" id="aJellies_8Movement_inherit__map">
-<area shape="rect" title="Currently a stub. Intended functionality: Jelly movement handling." alt="" coords="5,80,140,107"/>
+<area shape="rect" title="Add this script to a jelly prefab to provide simple movement via Unity&#39;s navmesh agent behavior." alt="" coords="5,80,140,107"/>
 <area shape="rect" title=" " alt="" coords="11,5,135,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
@@ -106,13 +109,300 @@ Collaboration diagram for Jellies.Movement:</div>
 <div class="dyncontent">
 <div class="center"><img src="classJellies_1_1Movement__coll__graph.png" border="0" usemap="#aJellies_8Movement_coll__map" alt="Collaboration graph"/></div>
 <map name="aJellies_8Movement_coll__map" id="aJellies_8Movement_coll__map">
-<area shape="rect" title="Currently a stub. Intended functionality: Jelly movement handling." alt="" coords="5,80,140,107"/>
+<area shape="rect" title="Add this script to a jelly prefab to provide simple movement via Unity&#39;s navmesh agent behavior." alt="" coords="5,80,140,107"/>
 <area shape="rect" title=" " alt="" coords="11,5,135,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
+Events</h2></td></tr>
+<tr class="memitem:a3418da88d95d27470f9324f3a6a69fe5"><td class="memItemLeft" align="right" valign="top">System.Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJellies_1_1Movement.html#a3418da88d95d27470f9324f3a6a69fe5">Moved</a></td></tr>
+<tr class="memdesc:a3418da88d95d27470f9324f3a6a69fe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register with this event if you need to know when the jelly starts moving.  <a href="classJellies_1_1Movement.html#a3418da88d95d27470f9324f3a6a69fe5">More...</a><br /></td></tr>
+<tr class="separator:a3418da88d95d27470f9324f3a6a69fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a146437355bdc0792395e934b70ef115c"><td class="memItemLeft" align="right" valign="top">System.Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJellies_1_1Movement.html#a146437355bdc0792395e934b70ef115c">Stopped</a></td></tr>
+<tr class="memdesc:a146437355bdc0792395e934b70ef115c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register with this event if you need to know when the jelly stops moving.  <a href="classJellies_1_1Movement.html#a146437355bdc0792395e934b70ef115c">More...</a><br /></td></tr>
+<tr class="separator:a146437355bdc0792395e934b70ef115c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a51afb925e85ca96c431aa7eec818407f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJellies_1_1Movement.html#a51afb925e85ca96c431aa7eec818407f">IsNearDestination</a> (float nearDistance)</td></tr>
+<tr class="memdesc:a51afb925e85ca96c431aa7eec818407f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the jelly is within some desired distance of its current destination.  <a href="classJellies_1_1Movement.html#a51afb925e85ca96c431aa7eec818407f">More...</a><br /></td></tr>
+<tr class="separator:a51afb925e85ca96c431aa7eec818407f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cf6653dcfae3efbb5ad357e4f5b2632"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJellies_1_1Movement.html#a1cf6653dcfae3efbb5ad357e4f5b2632">Wander</a> ()</td></tr>
+<tr class="memdesc:a1cf6653dcfae3efbb5ad357e4f5b2632"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chooses a next destination randomly from a region centered in front of the jelly.  <a href="classJellies_1_1Movement.html#a1cf6653dcfae3efbb5ad357e4f5b2632">More...</a><br /></td></tr>
+<tr class="separator:a1cf6653dcfae3efbb5ad357e4f5b2632"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfc52c7f89045ea62850f0c20a0e79f6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJellies_1_1Movement.html#abfc52c7f89045ea62850f0c20a0e79f6">RandomPoint</a> (Vector3 center, float range, out Vector3 result)</td></tr>
+<tr class="memdesc:abfc52c7f89045ea62850f0c20a0e79f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to compute a position on the agent's navmesh by projecting a randomly point from within a spherical region.  <a href="classJellies_1_1Movement.html#abfc52c7f89045ea62850f0c20a0e79f6">More...</a><br /></td></tr>
+<tr class="separator:abfc52c7f89045ea62850f0c20a0e79f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a07d8834be856b0bfe67363aeaceab03b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJellies_1_1Movement.html#a07d8834be856b0bfe67363aeaceab03b">_wanderDistance</a> = 0.5f</td></tr>
+<tr class="memdesc:a07d8834be856b0bfe67363aeaceab03b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance of the wander region center from the jelly.  <a href="classJellies_1_1Movement.html#a07d8834be856b0bfe67363aeaceab03b">More...</a><br /></td></tr>
+<tr class="separator:a07d8834be856b0bfe67363aeaceab03b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31f42628c23f360d6478b1e173329c7c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJellies_1_1Movement.html#a31f42628c23f360d6478b1e173329c7c">_wanderRange</a> = 2.0f</td></tr>
+<tr class="memdesc:a31f42628c23f360d6478b1e173329c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radius of the wander region.  <a href="classJellies_1_1Movement.html#a31f42628c23f360d6478b1e173329c7c">More...</a><br /></td></tr>
+<tr class="separator:a31f42628c23f360d6478b1e173329c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaeaede0cb011476eb2fba0c45c4c970a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJellies_1_1Movement.html#aaeaede0cb011476eb2fba0c45c4c970a">_nearDistance</a> = 0.1f</td></tr>
+<tr class="memdesc:aaeaede0cb011476eb2fba0c45c4c970a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance below which the jelly considers itself to be "arrived" at its destination.  <a href="classJellies_1_1Movement.html#aaeaede0cb011476eb2fba0c45c4c970a">More...</a><br /></td></tr>
+<tr class="separator:aaeaede0cb011476eb2fba0c45c4c970a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Currently a stub. Intended functionality: Jelly movement handling. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+<div class="textblock"><p>Add this script to a jelly prefab to provide simple movement via Unity's navmesh agent behavior. </p>
+<p>Due to the limitations of Unity's <code>NavMeshAgent</code> behavior, this script currently implements jelly movement as a "slide" rather than the "hop" described by the design team. There are a few different ways we might implement a "hopping" movement: </p><ul>
+<li>
+Implement the "hop" visually via an <code>Animator</code> or transformations on a child object. I recommend one of these approaches and have provided rudimentary demonstrations of both via the <code>JellyHop</code> Animation clip and the <code><a class="el" href="classJellies_1_1Hopping.html" title="Add this script to a jelly prefab to demonstrates a basic hopping animation applied to a visible chil...">Hopping</a></code> MonoBehaviour script. </li>
+<li>
+Stop using <code>NavMesh</code> and <code>NavMeshAgent</code> and instead manually implement pathfinding and obstacle avoidance. Then we can make the jellies hop simply by applying impulses to their <code>Rigidbody</code>. This gives us maximum control but requires much more effort and is likely to be more error-prone. </li>
+<li>
+Instead of one <code>NavMesh</code> per island, give each block its own little <code>NavMesh</code> connected to other blocks by <code>NavMeshLink</code>s, and then use Unity's built-in support to hopping over the links. This likely will be much more resource intensive and may be too complicated to set up reliably. </li>
+</ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a51afb925e85ca96c431aa7eec818407f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51afb925e85ca96c431aa7eec818407f">&#9670;&nbsp;</a></span>IsNearDestination()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Jellies.Movement.IsNearDestination </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>nearDistance</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determines whether the jelly is within some desired distance of its current destination. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nearDistance</td><td>how far from the destination is considered "near"</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the jelly is within the desired distance, otherwise <code>false</code></dd></dl>
+<p>This check returns <code>false</code> if the jelly does not currently have a valid, computed path. </p>
+
+</div>
+</div>
+<a id="abfc52c7f89045ea62850f0c20a0e79f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfc52c7f89045ea62850f0c20a0e79f6">&#9670;&nbsp;</a></span>RandomPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Jellies.Movement.RandomPoint </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>center</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>range</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out Vector3&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attempts to compute a position on the agent's navmesh by projecting a randomly point from within a spherical region. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">center</td><td>the center of the spherical search region</td></tr>
+    <tr><td class="paramname">range</td><td>the radius of the spherical search region</td></tr>
+    <tr><td class="paramname">result</td><td>the projected point on the navmesh, if one was found</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if it found a valid projection onto the navmesh, otherwise <code>false</code></dd></dl>
+<p>Only projects a point if it's a maximum of twice the agent's height away from the navmesh, as recommended in Unity's documentation. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Consider alternatives or optimizations for this expensive method. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classJellies_1_1Movement_abfc52c7f89045ea62850f0c20a0e79f6_icgraph.png" border="0" usemap="#aclassJellies_1_1Movement_abfc52c7f89045ea62850f0c20a0e79f6_icgraph" alt=""/></div>
+<map name="aclassJellies_1_1Movement_abfc52c7f89045ea62850f0c20a0e79f6_icgraph" id="aclassJellies_1_1Movement_abfc52c7f89045ea62850f0c20a0e79f6_icgraph">
+<area shape="rect" title="Attempts to compute a position on the agent&#39;s navmesh by projecting a randomly point from within a sp..." alt="" coords="241,5,468,32"/>
+<area shape="rect" href="classJellies_1_1Movement.html#a1cf6653dcfae3efbb5ad357e4f5b2632" title="Chooses a next destination randomly from a region centered in front of the jelly." alt="" coords="5,5,193,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1cf6653dcfae3efbb5ad357e4f5b2632"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cf6653dcfae3efbb5ad357e4f5b2632">&#9670;&nbsp;</a></span>Wander()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Jellies.Movement.Wander </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Chooses a next destination randomly from a region centered in front of the jelly. </p>
+<p>Currently, the jelly wanders by randomly choosing a next position from a spherical region centered in front of the jelly itself. Both the distance of the sphere center from the jelly and the radius of the sphere may be configured from the Inspector. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classJellies_1_1Movement_a1cf6653dcfae3efbb5ad357e4f5b2632_cgraph.png" border="0" usemap="#aclassJellies_1_1Movement_a1cf6653dcfae3efbb5ad357e4f5b2632_cgraph" alt=""/></div>
+<map name="aclassJellies_1_1Movement_a1cf6653dcfae3efbb5ad357e4f5b2632_cgraph" id="aclassJellies_1_1Movement_a1cf6653dcfae3efbb5ad357e4f5b2632_cgraph">
+<area shape="rect" title="Chooses a next destination randomly from a region centered in front of the jelly." alt="" coords="5,5,193,32"/>
+<area shape="rect" href="classJellies_1_1Movement.html#abfc52c7f89045ea62850f0c20a0e79f6" title="Attempts to compute a position on the agent&#39;s navmesh by projecting a randomly point from within a sp..." alt="" coords="241,5,468,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aaeaede0cb011476eb2fba0c45c4c970a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeaede0cb011476eb2fba0c45c4c970a">&#9670;&nbsp;</a></span>_nearDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Jellies.Movement._nearDistance = 0.1f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Distance below which the jelly considers itself to be "arrived" at its destination. </p>
+<p>We provide this as separate from the <code>NavMeshAgent</code> stopping distance since the value of the latter denotes the distance over which the agent decelerates as it arrives and may have little to do with how the concept of "nearness" that interests us here. </p>
+
+</div>
+</div>
+<a id="a07d8834be856b0bfe67363aeaceab03b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07d8834be856b0bfe67363aeaceab03b">&#9670;&nbsp;</a></span>_wanderDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Jellies.Movement._wanderDistance = 0.5f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Distance of the wander region center from the jelly. </p>
+
+</div>
+</div>
+<a id="a31f42628c23f360d6478b1e173329c7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31f42628c23f360d6478b1e173329c7c">&#9670;&nbsp;</a></span>_wanderRange</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Jellies.Movement._wanderRange = 2.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Radius of the wander region. </p>
+<p>The jelly will never move backward if the wander range is less than the wander distance. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Event Documentation</h2>
+<a id="a3418da88d95d27470f9324f3a6a69fe5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3418da88d95d27470f9324f3a6a69fe5">&#9670;&nbsp;</a></span>Moved</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">System.Action Jellies.Movement.Moved</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Register with this event if you need to know when the jelly starts moving. </p>
+
+</div>
+</div>
+<a id="a146437355bdc0792395e934b70ef115c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a146437355bdc0792395e934b70ef115c">&#9670;&nbsp;</a></span>Stopped</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">System.Action Jellies.Movement.Stopped</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Register with this event if you need to know when the jelly stops moving. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>skyjellies/Assets/Code/Jellies/Scripts/Movement.cs</li>
 </ul>
 </div><!-- contents -->

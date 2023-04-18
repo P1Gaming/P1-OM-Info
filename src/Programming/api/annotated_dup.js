@@ -2,7 +2,8 @@ var annotated_dup =
 [
     [ "Jellies", "namespaceJellies.html", [
       [ "Feeding", "classJellies_1_1Feeding.html", "classJellies_1_1Feeding" ],
-      [ "Movement", "classJellies_1_1Movement.html", null ],
+      [ "Hopping", "classJellies_1_1Hopping.html", "classJellies_1_1Hopping" ],
+      [ "Movement", "classJellies_1_1Movement.html", "classJellies_1_1Movement" ],
       [ "Parameters", "classJellies_1_1Parameters.html", "classJellies_1_1Parameters" ],
       [ "Petting", "classJellies_1_1Petting.html", null ],
       [ "Pickup", "classJellies_1_1Pickup.html", null ],

@@ -1,7 +1,7 @@
 # GitHub
 
 GitHub is a distributed source control tool that uses the Git language.
-You can click [**here to download**](https://P1Gaming.github.io/P1-OM-Info/src/Programming/Version%20Control%2C%20Git%20and%20GitHub.pptx) a presentation on Source controll and GitHub.
+You can click <a href="**here to download**" target="https://P1Gaming.github.io/P1-OM-Info/src/Programming/Version%20Control%2C%20Git%20and%20GitHub.pptx" /> a presentation on Source controll and GitHub.
 
 ## Installing GitHub Desktop
 

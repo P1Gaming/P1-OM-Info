@@ -17,11 +17,11 @@ There are many advantages to Unit testing.
 	- you do not depend on other functions.
 - Once set up you can quickly test with different inputs.
 
-This <span style="color:yellow"> **does not mean** that you stop testing your work in-game.
+This <span style="color:yellow"> **does not mean** </span>that you stop testing your work in-game.
 
-Now you think: <span style="color:blue"> *What should I test, everything?*
+Now you think: <span style="color:blue"> *What should I test, everything?* 
 
-<span style="color:yellow"> **This is a difficult question.** </br>
+<span style="color:yellow"> **This is a difficult question.** </span></br>
 There are thing that you should test, that you shouldn't test and things you cannot test.
 The best thing you can do is think critically and experiment yourself.
 

@@ -32,4 +32,4 @@ The video below has all the steps:
 
 ## Traba's Git Seminar by P1-OM
 
-[![Traba's Git Seminar by P1-OM](../images/traba's Git.png)](https://youtu.be/G0p9y6PmQ1g "Traba's Git Seminar")
+[![Traba's Git Seminar by P1-OM](../images/traba's_Git.png)](https://youtu.be/G0p9y6PmQ1g "Traba's Git Seminar")

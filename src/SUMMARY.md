@@ -20,4 +20,7 @@
 	- [Unit Testing](./Programming/Unit_Testing.md)
 - [API Documentation](./Programming/api/index.html)
 
+# Join Exam
+- [Exam Instructions](./Programming/ExamInstructions.md)
+- [List of names](./Programming/nameList.md)
 

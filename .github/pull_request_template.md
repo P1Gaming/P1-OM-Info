@@ -1,8 +1,8 @@
 # Examinee
 
-Add your discord name here: GR33NTE4#5811
-Add your name on the Trello board here: gr33nte4
-Add your GItHub account name here: GR33NTE4
+Add your discord name here:
+Add your name on the Trello board here:
+Add your GItHub account name here:
 
 # Reviewing the exam
 

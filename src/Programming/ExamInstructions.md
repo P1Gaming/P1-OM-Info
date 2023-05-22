@@ -12,7 +12,7 @@ Test your programming knowledge
 ## Instructions
 
 For each of the following steps there is page on this documentation explaining how to do it in detail.</br>
-Part of the exam is to read through these pages.
+Part of the exam is to <span style="color:red">read through these pages </span>.
 
 ### Step 1
 
@@ -21,13 +21,14 @@ Clone the repository of this pages [ΗΕRΕ](https://github.com/P1Gaming/P1-OM-I
 ### Step 2
 
 Create a new branch. </br>
-The name should be *discord-name Join Exam* or something similar.</br>
+The name should be *"discord-name Join Exam"* or something similar.</br>
 Proper naming of branches is important.
 
 ### Step 3
 
 Find the markdown(MD) file that has the name list. </br>
-Add your <span style="color:cyan">discord name </span> at the bottom of the list.
+Add your <span style="color:cyan">discord name </span> at the bottom of the list. </br>
+Finding where you saved the project and which one is the specific file is part of the exam :) (no asking for help).
 
 ### Step 4
 

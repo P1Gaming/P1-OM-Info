@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['viewchange_139',['ViewChange',['../classPlayer_1_1View_1_1ViewChange.html',1,'Player::View']]],
-  ['viewcontroller_140',['ViewController',['../classPlayer_1_1View_1_1ViewController.html',1,'Player::View']]]
+  ['temperature_145',['Temperature',['../classJellies_1_1Temperature.html',1,'Jellies']]],
+  ['thirdpersonview_146',['ThirdPersonView',['../classPlayer_1_1View_1_1ThirdPersonView.html',1,'Player::View']]]
 ];

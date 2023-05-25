@@ -1,0 +1,4 @@
+<map id="Player.Inventory" name="Player.Inventory">
+<area shape="rect" id="node1" title="Handling of the data relevant to items in the player&#39;s inventory" alt="" coords="5,80,133,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="7,5,131,32"/>
+</map>

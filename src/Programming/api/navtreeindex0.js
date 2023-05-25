@@ -60,10 +60,13 @@ var NAVTREEINDEX0 =
 "classPlayer_1_1Body.html#ae9edc1717439b5c458ace105559edb0c":[2,0,1,4,5],
 "classPlayer_1_1BodyController.html":[2,0,1,5],
 "classPlayer_1_1BodyController.html#a59d176299a059f7d317d3f2d2d3de6c2":[2,0,1,5,0],
+"classPlayer_1_1DroppedItem.html":[2,0,1,7],
 "classPlayer_1_1Equipment_1_1SampleTrainers.html":[2,0,1,1,0],
 "classPlayer_1_1InputHandler.html":[2,0,1,6],
 "classPlayer_1_1InputHandler.html#a0187e35bd214d51317403dcec7f381c9":[2,0,1,6,0],
 "classPlayer_1_1InputHandler.html#a58862fa6c908ec38602da2f4193ddee9":[2,0,1,6,1],
+"classPlayer_1_1Inventory.html":[2,0,1,8],
+"classPlayer_1_1InventorySlotButton.html":[2,0,1,9],
 "classPlayer_1_1Motion_1_1ForwardMovement.html":[2,0,1,2,0],
 "classPlayer_1_1Motion_1_1ForwardMovement.html#a51ba2d3e42aac7d9f892c9917e883328":[2,0,1,2,0,5],
 "classPlayer_1_1Motion_1_1ForwardMovement.html#a75a9c6913f537ec78bc2d02e068ba477":[2,0,1,2,0,1],
@@ -149,5 +152,6 @@ var NAVTREEINDEX0 =
 "namespacePlayer_1_1View.html":[1,0,1,3],
 "namespaces.html":[1,0],
 "pages.html":[],
+"structPlayer_1_1Inventory_1_1InventorySlot.html":[2,0,1,8,0],
 "todo.html":[0]
 };

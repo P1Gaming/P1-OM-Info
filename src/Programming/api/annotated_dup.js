@@ -32,7 +32,10 @@ var annotated_dup =
       ] ],
       [ "Body", "classPlayer_1_1Body.html", "classPlayer_1_1Body" ],
       [ "BodyController", "classPlayer_1_1BodyController.html", "classPlayer_1_1BodyController" ],
-      [ "InputHandler", "classPlayer_1_1InputHandler.html", "classPlayer_1_1InputHandler" ]
+      [ "InputHandler", "classPlayer_1_1InputHandler.html", "classPlayer_1_1InputHandler" ],
+      [ "DroppedItem", "classPlayer_1_1DroppedItem.html", null ],
+      [ "Inventory", "classPlayer_1_1Inventory.html", "classPlayer_1_1Inventory" ],
+      [ "InventorySlotButton", "classPlayer_1_1InventorySlotButton.html", null ]
     ] ],
     [ "Interactable", "classInteractable.html", null ],
     [ "InteractionFinder", "classInteractionFinder.html", null ],

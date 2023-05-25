@@ -1,0 +1,4 @@
+<map id="Player.InventorySlotButton" name="Player.InventorySlotButton">
+<area shape="rect" id="node1" title="Facilitates interface with the player&#39;s inventory vias Canvas Buttons" alt="" coords="5,80,201,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="41,5,165,32"/>
+</map>

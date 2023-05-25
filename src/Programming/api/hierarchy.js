@@ -3,6 +3,7 @@ var hierarchy =
     [ "System.EventArgs", null, [
       [ "Player.Motion.Movement.EventArgs", "classPlayer_1_1Motion_1_1Movement_1_1EventArgs.html", null ]
     ] ],
+    [ "Player.Inventory.InventorySlot", "structPlayer_1_1Inventory_1_1InventorySlot.html", null ],
     [ "MonoBehaviour", null, [
       [ "Interactable", "classInteractable.html", null ],
       [ "InteractionFinder", "classInteractionFinder.html", null ],
@@ -17,6 +18,7 @@ var hierarchy =
       [ "Jellies.Temperature", "classJellies_1_1Temperature.html", null ],
       [ "Player.Animation.AvatarController", "classPlayer_1_1Animation_1_1AvatarController.html", null ],
       [ "Player.Body", "classPlayer_1_1Body.html", null ],
+      [ "Player.DroppedItem", "classPlayer_1_1DroppedItem.html", null ],
       [ "Player.Equipment.SampleTrainers", "classPlayer_1_1Equipment_1_1SampleTrainers.html", null ],
       [ "Player.InputHandler", "classPlayer_1_1InputHandler.html", [
         [ "Player.BodyController", "classPlayer_1_1BodyController.html", [
@@ -32,6 +34,8 @@ var hierarchy =
           [ "Player.View.ThirdPersonView", "classPlayer_1_1View_1_1ThirdPersonView.html", null ]
         ] ]
       ] ],
+      [ "Player.Inventory", "classPlayer_1_1Inventory.html", null ],
+      [ "Player.InventorySlotButton", "classPlayer_1_1InventorySlotButton.html", null ],
       [ "PlayerInteraction", "classPlayerInteraction.html", null ]
     ] ]
 ];

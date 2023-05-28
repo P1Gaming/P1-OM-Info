@@ -1,7 +1,7 @@
 # GitHub
 
 GitHub is a distributed source control tool that uses the Git language.
-You can click <a href="https://P1Gaming.github.io/P1-OM-Info/Programming/Version%20Control%2C%20Git%20and%20GitHub.pptx">**here to download**</a> a presentation on Source controll and GitHub.
+You can click <a href="https://P1Gaming.github.io/P1-OM-Info/Programming/Version%20Control%2C%20Git%20and%20GitHub.pptx">**HERE**</a> to download a presentation on Source control and GitHub.
 
 ## Installing GitHub Desktop
 
@@ -17,14 +17,14 @@ You cloned the project and you're ready to start working on your task...
 
 <span style="color:red"> STOOOOOOOOOOOOOOOOOOP
 
-Did you create a new branch??????		
-Go to branch -> New branch   
-Once you do that you are ready to start working.	
+- Make sure you did not fork the project instead of clone
+- Did you create a new branch??????		
+- Go to branch -> New branch, Once you do that you are ready to start working.	
 
 ## Creating a Pull Request (PR)
 
-Once you complete your task push your changes, publich your branch and create a PR. Someone will review it and merge it or request changes.
-Don't forget to create a PR card on the trello board.
+Once you complete your task push your changes, publish your branch and create a PR. Someone will review it and merge it or request changes.
+- Don't forget to create a PR card on the Trello board. Use this Trello template card for PR's: *[Template](https://trello.com/c/r4UJnCIK/434-pull-request-card-template-dont-delete)*
 
 The video below has all the steps:
 

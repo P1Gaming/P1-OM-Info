@@ -2,6 +2,7 @@
 
 ## General info
 - Don't be afraid to type. Your variable name can be 100 characters long, as long as it explains what it does it's fine.
+- Don't worry about the length of a script and try to compact your code. Space out your lines for readibility.
 - Don't hardcode values. Even if it shouldn't appear in the inspector declare it in a variable.
 ```csharp
 // Do this
@@ -133,6 +134,11 @@ if()
 	//Do stuff
 	
 While() //Do stuff
+
+//Also Don't do this
+if(){
+	//Do Stuff
+} 
 ```
 
 ## Classes

@@ -1,6 +1,6 @@
 # Pull Requests (PR)
 
-A request to Merge changes from one branch to another, usually the master branch.
+A request to Merge changes from one branch to another, usually the master/main branch.
 
 ## How to do them
 

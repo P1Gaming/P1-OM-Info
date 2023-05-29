@@ -199,4 +199,5 @@ But you can call it without brackets though, like :
 
 The left of the “=>” operator is the input, and to the right is the expression. Lambdas are a bit advanced, which will be better understood through the video below.
 Action delegates are a unique way of writing function calls. With delegates, you can make a function like a variable that can be passed. Once again, it is advanced and better understood through the video below.
-https://www.youtube.com/watch?v=3ZfwqWl-YI0
+
+[![What are Delegates? (C# Basics, Lambda, Action, Func)](../images/Youtube_delegate.png)](https://www.youtube.com/watch?v=3ZfwqWl-YI0 "What are Delegates? (C# Basics, Lambda, Action, Func)")

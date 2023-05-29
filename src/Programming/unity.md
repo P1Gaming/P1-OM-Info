@@ -4,7 +4,7 @@ To create our game we use Unity (you already know that).
 Specifically:
 
 ### Compassion Prototype
-The Compassion Prototype is where we prototype features that may or may not be in the final product. After the exam, your first tasks will most likely be from the prototype unless you will be joining a Crew. The style guide is ot enforced here but is highly encouraged to follow it anyway. To learn more about the Compassion Prototype check out this section: *[HERE](./CPrototype.md)*. To learn more about Crews check this out: **link added soon**
+The Compassion Prototype is where we prototype features that may or may not be in the final product. After the Join Task, your first tasks will most likely be from the prototype unless you will be joining a Crew. The style guide is ot enforced here but is highly encouraged to follow it anyway. To learn more about the Compassion Prototype check out this section: *[HERE](./CPrototype.md)*. To learn more about Crews check this out: **link added soon**
 - The Unity version for the prototype is 2020.3.37f1 (You didn't know that).
 - If you don't have it you can download it *[HERE](https://unity.com/releases/editor/whats-new/2020.3.37)*. 
 Don't use other versions, yes I know 2020.3.34f1 is 99% the same, it cause problems.

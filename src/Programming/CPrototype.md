@@ -4,7 +4,7 @@ The Compassion Prototype, also referred to as the Prototype, is a build of the g
 
 It is mainly used for:
 - Testing experimental features.
-- Join exams.
+- Join tasks.
 - Showcasing aspects of our game-idea.
 
 The prototype was the Unity project that was created during the formation of this team it contains various problems:

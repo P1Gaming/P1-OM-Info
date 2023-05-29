@@ -4,7 +4,7 @@ The full game that we will release when it's finished. Unlike the Prototype, the
 
 ## Accessing the Repository
 
-To access the GitHub repo for the Full Game, you must first complete your Join Exam task. Once you have completed the Join Exam, you can take an apprenticeship. Those who are apprentices can work on the Full Game, listed as SkyJellies.
+To access the GitHub repo for the Full Game, you must first complete your Join Task. Once you have completed the Join Task, you can take an apprenticeship. Those who are apprentices can work on the Full Game, listed as SkyJellies.
 Once qualified to work on the Full Game, you can email Samuel Martin an invite to the repo on Discord. Do not forget to send them the email you use for GitHub.
 
 ## Pull Request and Merge Rules

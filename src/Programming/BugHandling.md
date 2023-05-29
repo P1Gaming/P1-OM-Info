@@ -14,7 +14,7 @@ While you are working on your task involving a bug, you may run into the situati
 The inability to find the bug means you cannot solve it (if it still exists).
 When this happens, apply the tag “1st attempt” to the task card on Trello, remove yourself from the task, and remove the deadline you had set. If a “1st attempt” already exists on said card, add the “2nd attempt” tag to that card. Lastly, a “3rd attempt – Archive” should be added.
 
--*Insert Image*-
+![Task Tags for Bugs](../images/bugtags.png)
 
 The card can be archived with all three attempt labels on the card.
  

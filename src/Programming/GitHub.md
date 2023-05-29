@@ -41,13 +41,14 @@ Forking the project is similar to cloning and you are able to do all the of the 
 
 This is a red flag if you find yourself on the branch shown in the image below. Do not make any direct changes to this branch.
 
--*Insert Image*-
+![Develop Branch No No](../images/developbranch.png)
 
 What you should do instead is create a new branch from that branch.
 
--*Insert Image*-
 
--*Insert Image*-
+![Creating New Branch](../images/newbranch.png)
+
+![Create the New Branch](../images/createbranch.png)
 
 With your new branch ready, you can publish it for everyone to view. Or you can decide not to publish it if you want to test several things. But for handling your tasks, you should publish the branch since it will need to be reviewed later.
 Note: You should follow a naming convention for your branch. Example: YourDiscordName-Task
@@ -55,7 +56,7 @@ Note: You should follow a naming convention for your branch. Example: YourDiscor
 ## Making Changes
 When you change the project, it will appear like the image below in GitHub Desktop.
 
--*Insert Image*-
+![Showing Changes Made in GitHub](../images/changesmade.png)
 
 These changes are not saved in the GitHub branch yet. To do that, you need to commit these changes, and it is required to have a commit summary title. Although you do not need a description, you should add one for others to know what changes you have made in this commit. Once you have hit the commit button, you must push those changes before they go live.
 
@@ -63,7 +64,7 @@ We have changed a Unity Scene, a C# script, and others in the image above. Now y
 
 To delete a change, click on one of the changes (that you do not need) in GitHub Desktop and select discard changes.
 
--*Insert Image*-
+![How to Discard Changes in GitHub](../images/discardingchanges.png)
 
 ## Making Pull Requests (PR)
 
@@ -80,7 +81,7 @@ Once you complete your task push your changes, publish your branch, and create a
 
 To create the PR, you can click on the create or preview Pull Request button in GitHub Desktop.
 
--*Insert Image*-
+![Create the Pull Request](../images/createpullrequest.png)
 
 It will let you know if the merge can safely happen before creating the Pull Request. Otherwise, you may have to clear out a conflict (more on that below).
  
@@ -121,7 +122,7 @@ Here are a few extra details that are not necessary to the project but could be 
  
 At any time, you can update the main project. Say you are working on a task and found some neat changes and wanted to see how that could apply to your task. You can do this by following the image below.
 
--*Insert Image*-
+![How to Update from the Main Branch in GitHub](../images/updatefrommain.png)
 
 <span style="color:yellow"> **Important**</span> , updating from the main branch can and will overwrite changes you made if any modifications were made to that file in the main branch.
  

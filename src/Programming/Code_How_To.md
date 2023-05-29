@@ -29,7 +29,13 @@ The SerializeField attribute allows the class member to be exposed in the Unity 
 
 - It is similar to having a public declaration, but having serializable code allows us to keep the private declarations and have Inspector exposure.
 
--*Insert Image*-
+```csharp
+
+[SerializeField] private float MoveSpeed = 2.5f;
+
+```
+
+![Serializable In Inspector](../images/serializableinspector.png)
 
 ### Tooltip
 

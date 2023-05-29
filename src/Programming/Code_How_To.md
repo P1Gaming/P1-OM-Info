@@ -11,7 +11,7 @@ This helps code readability as in large projects you will be working with other 
 While it may be hard to start using different rules to what you're used to in the long run it helps the project be more accesible to newer members. 
 See our Style Guide *[HERE](./Style_Guide.md)*
 
-## Document your Code
+## Document your code
 
 ### XML tags
 
@@ -19,7 +19,7 @@ See our Style Guide *[HERE](./Style_Guide.md)*
 
 - If the method/function has any parameters, use the `<param>` XML tag following the `<summary>` XML tag for the parameter explanation/s.
 
-- <span style="color:yellow"> **REMEMBER**</span> that documented code uses 3 backslashes "///" as opposed to a comment that uses 2, "//".
+- <span style="color:yellow"> **REMEMBER**</span> that documented code uses three backslashes "///" as opposed to a comment that uses two, "//".
 
 - We will mostly focus on `<summary>` and `<param>` XML tags but, *[HERE](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/documentation-comments)* is documentation for all the available XML tags and descriptions of how to use them.
 
@@ -38,25 +38,25 @@ using UnityEngine;
 /// <summary>
 /// Class explanation here
 /// </summary>
-public class AClassName
+public class AGoodClassName
 {
     // Do this 
     [SerializeField, Tooltip("Health value between 0 and 100.")]
-    private int _variable1;
+    private int _health;
 
-    [Tooltip("Health value between 0 and 100.")]
-    public float variable2;
+    [Tooltip("Stamina value between 0 and 100.")]
+    public float stamina;
 
     // Don't do this
-    [SerializeField, Tooltip("Health value between 0 and 100.")] private int _variable1;
-    [Tooltip("Health value between 0 and 100.")] public float variable2;
+    [SerializeField, Tooltip("Health value between 0 and 100.")] private int _health;
+    [Tooltip("Stamina value between 0 and 100.")] public float stamina;
 
     /// <summary>
     /// Method/function explanation here
     /// </summary>
     /// <param name="param1">Param 1 explanation.</param>
     /// <param name="param2">Param 2 explanation.</param>
-    public void AMethodName(int param1, float param2)
+    public void AGoodMethodName(int param1, float param2)
     {
         //Do Stuff
     }
@@ -71,6 +71,4 @@ The explanation should follow these rules:
 
 ## Bug
 
-We document and track all our bugs on our Action Trello. If that does not sound familiar please ask about being added to it in programming chat in the Discord. If you have access to the Action Trello, we have a card describing the steps to creating a bug on the Trello board. 
-
-Follow the instructions on this trello card: *[Trello Card](https://trello.com/c/fST1FYwE)*
+We document and track all our bugs on our Action Trello. If that does not sound familiar please ask about being added to it in programming chat in the Discord. Learn more about bugs and our procedures *[HERE](./BugHandling.md)*

@@ -25,7 +25,11 @@ See our Style Guide *[HERE](./Style_Guide.md)*
 
 ### SerializeField
 
-- The SerializeField attribute allows the class member to be visible in the Unity Inspector even if it is private.
+The SerializeField attribute allows the class member to be exposed in the Unity Inspector even if it is private. Having it exposed for the Unity Inspector allows us to manually change or assign that variable through the inspector instead of code. We can pass in references to game objects in the scene this way.
+
+- It is similar to having a public declaration, but having serializable code allows us to keep the private declarations and have Inspector exposure.
+
+-*Insert Image*-
 
 ### Tooltip
 

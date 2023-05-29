@@ -16,7 +16,9 @@ Part of the exam is to <span style="color:red">read through these pages </span>.
 
 ### Step 1
 
-Clone the repository of this pages [ΗΕRΕ](https://github.com/P1Gaming/P1-OM-Info)
+Clone the GitHub repository of the documentation *[ΗΕRΕ](https://github.com/P1Gaming/P1-OM-Info)*
+- This is not the repo for the Compassion Prototype or the Full Game.
+
 
 ### Step 2
 

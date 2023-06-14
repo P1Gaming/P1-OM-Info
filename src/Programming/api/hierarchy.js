@@ -5,6 +5,7 @@ var hierarchy =
     ] ],
     [ "Player.Inventory.InventorySlot", "structPlayer_1_1Inventory_1_1InventorySlot.html", null ],
     [ "MonoBehaviour", null, [
+      [ "Crafting.CraftingUIInteract", "classCrafting_1_1CraftingUIInteract.html", null ],
       [ "Interactable", "classInteractable.html", null ],
       [ "InteractionFinder", "classInteractionFinder.html", null ],
       [ "Jellies.Feeding", "classJellies_1_1Feeding.html", null ],

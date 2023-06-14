@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['movement_137',['Movement',['../classJellies_1_1Movement.html',1,'Jellies.Movement'],['../classPlayer_1_1Motion_1_1Movement.html',1,'Player.Motion.Movement']]]
+  ['jumping_139',['Jumping',['../classPlayer_1_1Motion_1_1Jumping.html',1,'Player::Motion']]]
 ];

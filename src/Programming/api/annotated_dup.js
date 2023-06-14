@@ -1,5 +1,8 @@
 var annotated_dup =
 [
+    [ "Crafting", "namespaceCrafting.html", [
+      [ "CraftingUIInteract", "classCrafting_1_1CraftingUIInteract.html", null ]
+    ] ],
     [ "Jellies", "namespaceJellies.html", [
       [ "Feeding", "classJellies_1_1Feeding.html", "classJellies_1_1Feeding" ],
       [ "Hopping", "classJellies_1_1Hopping.html", "classJellies_1_1Hopping" ],

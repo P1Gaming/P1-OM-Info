@@ -8,5 +8,7 @@ var searchData=
   ['cinemachinecameratarget_24',['cinemachineCameraTarget',['../classPlayer_1_1View_1_1ViewController.html#ab9529c77acd7295c3b7d9f7e81c82a8a',1,'Player::View::ViewController']]],
   ['cinemachinetargetpitch_25',['cinemachineTargetPitch',['../classPlayer_1_1View_1_1ViewController.html#adf0bfaf34b50f68d2ddf8bb5187f3a7d',1,'Player::View::ViewController']]],
   ['cinemachinetargetyaw_26',['cinemachineTargetYaw',['../classPlayer_1_1View_1_1ViewController.html#a4cc46160b31077c7619eead392629274',1,'Player::View::ViewController']]],
-  ['clampangle_27',['ClampAngle',['../classPlayer_1_1View_1_1ViewController.html#aa7eda203e600c9312381ae8dc15773d0',1,'Player::View::ViewController']]]
+  ['clampangle_27',['ClampAngle',['../classPlayer_1_1View_1_1ViewController.html#aa7eda203e600c9312381ae8dc15773d0',1,'Player::View::ViewController']]],
+  ['crafting_28',['Crafting',['../namespaceCrafting.html',1,'']]],
+  ['craftinguiinteract_29',['CraftingUIInteract',['../classCrafting_1_1CraftingUIInteract.html',1,'Crafting']]]
 ];

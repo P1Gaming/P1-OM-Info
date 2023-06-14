@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['temperature_145',['Temperature',['../classJellies_1_1Temperature.html',1,'Jellies']]],
-  ['thirdpersonview_146',['ThirdPersonView',['../classPlayer_1_1View_1_1ThirdPersonView.html',1,'Player::View']]]
+  ['sampletrainers_146',['SampleTrainers',['../classPlayer_1_1Equipment_1_1SampleTrainers.html',1,'Player::Equipment']]],
+  ['sleeping_147',['Sleeping',['../classJellies_1_1Sleeping.html',1,'Jellies']]]
 ];

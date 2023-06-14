@@ -1,0 +1,5 @@
+<map id="Page.Enter" name="Page.Enter">
+<area shape="rect" id="node1" title="Called on entry to this page" alt="" coords="5,5,96,32"/>
+<area shape="rect" id="node2" href="$classPage.html#ac258c8c15756b829bd217d9a2ddc03e5" title="Play the fade animation" alt="" coords="144,5,243,32"/>
+<area shape="rect" id="node3" href="$classAnimationHelper.html#a6cd546e673895e13a05a6651c25660e3" title="Fade animation handler." alt="" coords="291,5,468,32"/>
+</map>

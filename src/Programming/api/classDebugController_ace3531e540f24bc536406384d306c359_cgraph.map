@@ -1,0 +1,5 @@
+<map id="DebugController.DebugToggle" name="DebugController.DebugToggle">
+<area shape="rect" id="node1" title="Execute to switch between showing and hiding the console" alt="" coords="5,31,220,57"/>
+<area shape="rect" id="node2" href="$classDebugController.html#a082e9c5f66a4c74b18b597f211b0dfd9" title="Lock the mouse to the screen." alt="" coords="275,5,479,32"/>
+<area shape="rect" id="node3" href="$classDebugController.html#a5a3858d785e8165e0311a0938dc766bf" title="Unlock the mouse from the screen" alt="" coords="268,56,487,83"/>
+</map>

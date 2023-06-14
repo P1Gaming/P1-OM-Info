@@ -1,0 +1,5 @@
+<map id="Page.Exit" name="Page.Exit">
+<area shape="rect" id="node1" title="Called on exit to this page" alt="" coords="5,5,88,32"/>
+<area shape="rect" id="node2" href="$classPage.html#a548367580215b29589a37d7dbce660ef" title="Play the fade animation" alt="" coords="136,5,247,32"/>
+<area shape="rect" id="node3" href="$classAnimationHelper.html#a42eb9eaa38db9119dff4301b09dbc7d2" title="Fade animation handler." alt="" coords="295,5,483,32"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="AnimationHelper.FadeOut" name="AnimationHelper.FadeOut">
+<area shape="rect" id="node1" title="Fade animation handler." alt="" coords="781,56,969,83"/>
+<area shape="rect" id="node2" href="$classPage.html#a548367580215b29589a37d7dbce660ef" title="Play the fade animation" alt="" coords="623,56,733,83"/>
+<area shape="rect" id="node3" href="$classPage.html#afc5ff8f877ea90db54d2833b5410c6b9" title="Called on exit to this page" alt="" coords="492,56,575,83"/>
+<area shape="rect" id="node4" href="$classMenuController.html#a4642c5c98e647a9f8ed48ccbb16c6f60" title="Pops the page at the top of the stack." alt="" coords="261,31,441,57"/>
+<area shape="rect" id="node7" href="$classMenuController.html#ad7e85e67a2b81a98c68545bbcb74a195" title="Add page to top of stack." alt="" coords="257,81,444,108"/>
+<area shape="rect" id="node5" href="$classMenuController.html#a75659b9f30327eae54d92fa7d3388ab3" title="Pop current page." alt="" coords="14,5,201,32"/>
+<area shape="rect" id="node6" href="$classMenuController.html#a8734257df41384ee493e675ef78c468c" title="Clear the page stack." alt="" coords="5,56,209,83"/>
+</map>

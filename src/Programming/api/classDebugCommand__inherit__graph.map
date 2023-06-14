@@ -1,0 +1,4 @@
+<map id="DebugCommand&lt; T &gt;" name="DebugCommand&lt; T &gt;">
+<area shape="rect" id="node1" title="Use this when creating basic new commands for the DebugController class. EX: Respawn" alt="" coords="5,80,175,107"/>
+<area shape="rect" id="node2" href="$classDebugCommandBase.html" title="Use this when creating new commands for the DebugController class." alt="" coords="9,5,171,32"/>
+</map>

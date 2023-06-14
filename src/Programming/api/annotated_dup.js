@@ -40,7 +40,14 @@ var annotated_dup =
       [ "Inventory", "classPlayer_1_1Inventory.html", "classPlayer_1_1Inventory" ],
       [ "InventorySlotButton", "classPlayer_1_1InventorySlotButton.html", null ]
     ] ],
+    [ "AnimationHelper", "classAnimationHelper.html", "classAnimationHelper" ],
+    [ "DebugCommand", "classDebugCommand.html", null ],
+    [ "DebugCommandBase", "classDebugCommandBase.html", null ],
+    [ "DebugController", "classDebugController.html", "classDebugController" ],
     [ "Interactable", "classInteractable.html", null ],
     [ "InteractionFinder", "classInteractionFinder.html", null ],
+    [ "MenuController", "classMenuController.html", "classMenuController" ],
+    [ "Page", "classPage.html", "classPage" ],
+    [ "PlayerActions", "classPlayerActions.html", "classPlayerActions" ],
     [ "PlayerInteraction", "classPlayerInteraction.html", "classPlayerInteraction" ]
 ];

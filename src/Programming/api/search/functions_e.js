@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['setfoodsaturation_191',['SetFoodSaturation',['../classJellies_1_1Parameters.html#ac89432f163cc2524f4e1f6c4520e8403',1,'Jellies::Parameters']]],
-  ['stop_192',['Stop',['../classPlayer_1_1Motion_1_1Movement.html#aa207286d535b46950fdd25d7023b3052',1,'Player::Motion::Movement']]]
+  ['popallpages_240',['PopAllPages',['../classMenuController.html#a8734257df41384ee493e675ef78c468c',1,'MenuController']]],
+  ['poppage_241',['PopPage',['../classMenuController.html#a4642c5c98e647a9f8ed48ccbb16c6f60',1,'MenuController']]],
+  ['pushpage_242',['PushPage',['../classMenuController.html#ad7e85e67a2b81a98c68545bbcb74a195',1,'MenuController']]]
 ];

@@ -1,0 +1,10 @@
+<map id="MenuController.OnCancel" name="MenuController.OnCancel">
+<area shape="rect" id="node1" title="Pop current page." alt="" coords="5,31,192,57"/>
+<area shape="rect" id="node2" href="$classMenuController.html#a4642c5c98e647a9f8ed48ccbb16c6f60" title="Pops the page at the top of the stack." alt="" coords="240,31,420,57"/>
+<area shape="rect" id="node3" href="$classPage.html#abd1e4d098ab82d9d4a10404810f58309" title="Called on entry to this page" alt="" coords="468,5,559,32"/>
+<area shape="rect" id="node6" href="$classPage.html#afc5ff8f877ea90db54d2833b5410c6b9" title="Called on exit to this page" alt="" coords="472,56,555,83"/>
+<area shape="rect" id="node4" href="$classPage.html#ac258c8c15756b829bd217d9a2ddc03e5" title="Play the fade animation" alt="" coords="613,5,711,32"/>
+<area shape="rect" id="node5" href="$classAnimationHelper.html#a6cd546e673895e13a05a6651c25660e3" title="Fade animation handler." alt="" coords="771,5,948,32"/>
+<area shape="rect" id="node7" href="$classPage.html#a548367580215b29589a37d7dbce660ef" title="Play the fade animation" alt="" coords="607,56,717,83"/>
+<area shape="rect" id="node8" href="$classAnimationHelper.html#a42eb9eaa38db9119dff4301b09dbc7d2" title="Fade animation handler." alt="" coords="765,56,953,83"/>
+</map>

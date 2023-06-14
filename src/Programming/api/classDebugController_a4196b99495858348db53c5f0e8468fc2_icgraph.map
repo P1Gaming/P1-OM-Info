@@ -1,0 +1,4 @@
+<map id="DebugController.HandleInput" name="DebugController.HandleInput">
+<area shape="rect" id="node1" title="Execute any commands that may be in the input field" alt="" coords="228,5,439,32"/>
+<area shape="rect" id="node2" href="$classDebugController.html#a9b8c9373b46da809ca1e7b01fbaa84a7" title="To be called when return is pressed and if the console is open." alt="" coords="5,5,180,32"/>
+</map>

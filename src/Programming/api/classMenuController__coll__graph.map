@@ -1,0 +1,5 @@
+<map id="MenuController" name="MenuController">
+<area shape="rect" id="node1" title="Handles the menu stack. This is done so that the currently active page entry/exit can be easilly hand..." alt="" coords="11,171,134,197"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,129,32"/>
+<area shape="rect" id="node3" href="$classPage.html" title="Used to manipulate the canvas group to create an animation for entry/exit of that canvas group...." alt="" coords="89,81,142,108"/>
+</map>

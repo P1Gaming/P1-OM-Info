@@ -1,0 +1,9 @@
+<map id="MenuController.PushPage" name="MenuController.PushPage">
+<area shape="rect" id="node1" title="Add page to top of stack." alt="" coords="5,31,192,57"/>
+<area shape="rect" id="node2" href="$classPage.html#abd1e4d098ab82d9d4a10404810f58309" title="Called on entry to this page" alt="" coords="240,5,331,32"/>
+<area shape="rect" id="node5" href="$classPage.html#afc5ff8f877ea90db54d2833b5410c6b9" title="Called on exit to this page" alt="" coords="244,56,327,83"/>
+<area shape="rect" id="node3" href="$classPage.html#ac258c8c15756b829bd217d9a2ddc03e5" title="Play the fade animation" alt="" coords="385,5,483,32"/>
+<area shape="rect" id="node4" href="$classAnimationHelper.html#a6cd546e673895e13a05a6651c25660e3" title="Fade animation handler." alt="" coords="543,5,720,32"/>
+<area shape="rect" id="node6" href="$classPage.html#a548367580215b29589a37d7dbce660ef" title="Play the fade animation" alt="" coords="379,56,489,83"/>
+<area shape="rect" id="node7" href="$classAnimationHelper.html#a42eb9eaa38db9119dff4301b09dbc7d2" title="Fade animation handler." alt="" coords="537,56,725,83"/>
+</map>

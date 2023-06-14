@@ -1,0 +1,5 @@
+<map id="MenuController.PopPage" name="MenuController.PopPage">
+<area shape="rect" id="node1" title="Pops the page at the top of the stack." alt="" coords="257,31,437,57"/>
+<area shape="rect" id="node2" href="$classMenuController.html#a75659b9f30327eae54d92fa7d3388ab3" title="Pop current page." alt="" coords="14,5,201,32"/>
+<area shape="rect" id="node3" href="$classMenuController.html#a8734257df41384ee493e675ef78c468c" title="Clear the page stack." alt="" coords="5,56,209,83"/>
+</map>

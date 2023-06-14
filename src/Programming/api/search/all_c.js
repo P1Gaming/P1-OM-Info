@@ -1,11 +1,12 @@
 var searchData=
 [
-  ['magnitude_70',['Magnitude',['../classPlayer_1_1Motion_1_1Movement_1_1EventArgs.html#a2428263fd9b0e685332eb84814f6c348',1,'Player::Motion::Movement::EventArgs']]],
-  ['maincamera_71',['mainCamera',['../classPlayer_1_1Motion_1_1ForwardMovement.html#a7d5387f4e78d6f71334e489aefe0d6af',1,'Player::Motion::ForwardMovement']]],
-  ['maxfoodsaturation_72',['MaxFoodSaturation',['../classJellies_1_1Parameters.html#ade16f1eead9967a96ad88ab33b20267a',1,'Jellies::Parameters']]],
-  ['maybefall_73',['MaybeFall',['../classPlayer_1_1Body.html#a1460baa4f3bf833b293e70ddcd205c8e',1,'Player::Body']]],
-  ['move_74',['Move',['../classPlayer_1_1Body.html#a5e16584b4b374620602b5c5a70915378',1,'Player::Body']]],
-  ['movebody_75',['MoveBody',['../classPlayer_1_1Motion_1_1ForwardMovement.html#a75a9c6913f537ec78bc2d02e068ba477',1,'Player.Motion.ForwardMovement.MoveBody()'],['../classPlayer_1_1Motion_1_1Movement.html#af24149bf1d0bf2d67e6d02ff89d70cf6',1,'Player.Motion.Movement.MoveBody()']]],
-  ['moved_76',['Moved',['../classJellies_1_1Movement.html#a3418da88d95d27470f9324f3a6a69fe5',1,'Jellies.Movement.Moved()'],['../classPlayer_1_1Motion_1_1Movement.html#abdaa846129f275f6fdc83b8035d4a83d',1,'Player.Motion.Movement.Moved()']]],
-  ['movement_77',['Movement',['../classJellies_1_1Movement.html',1,'Jellies.Movement'],['../classPlayer_1_1Motion_1_1Movement.html',1,'Player.Motion.Movement']]]
+  ['magnitude_87',['Magnitude',['../classPlayer_1_1Motion_1_1Movement_1_1EventArgs.html#a2428263fd9b0e685332eb84814f6c348',1,'Player::Motion::Movement::EventArgs']]],
+  ['maincamera_88',['mainCamera',['../classPlayer_1_1Motion_1_1ForwardMovement.html#a7d5387f4e78d6f71334e489aefe0d6af',1,'Player::Motion::ForwardMovement']]],
+  ['maxfoodsaturation_89',['MaxFoodSaturation',['../classJellies_1_1Parameters.html#ade16f1eead9967a96ad88ab33b20267a',1,'Jellies::Parameters']]],
+  ['maybefall_90',['MaybeFall',['../classPlayer_1_1Body.html#a1460baa4f3bf833b293e70ddcd205c8e',1,'Player::Body']]],
+  ['menucontroller_91',['MenuController',['../classMenuController.html',1,'']]],
+  ['move_92',['Move',['../classPlayer_1_1Body.html#a5e16584b4b374620602b5c5a70915378',1,'Player::Body']]],
+  ['movebody_93',['MoveBody',['../classPlayer_1_1Motion_1_1ForwardMovement.html#a75a9c6913f537ec78bc2d02e068ba477',1,'Player.Motion.ForwardMovement.MoveBody()'],['../classPlayer_1_1Motion_1_1Movement.html#af24149bf1d0bf2d67e6d02ff89d70cf6',1,'Player.Motion.Movement.MoveBody()']]],
+  ['moved_94',['Moved',['../classJellies_1_1Movement.html#a3418da88d95d27470f9324f3a6a69fe5',1,'Jellies.Movement.Moved()'],['../classPlayer_1_1Motion_1_1Movement.html#abdaa846129f275f6fdc83b8035d4a83d',1,'Player.Motion.Movement.Moved()']]],
+  ['movement_95',['Movement',['../classJellies_1_1Movement.html',1,'Jellies.Movement'],['../classPlayer_1_1Motion_1_1Movement.html',1,'Player.Motion.Movement']]]
 ];

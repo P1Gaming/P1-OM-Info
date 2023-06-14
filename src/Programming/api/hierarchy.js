@@ -1,11 +1,27 @@
 var hierarchy =
 [
+    [ "DebugCommandBase", "classDebugCommandBase.html", [
+      [ "DebugCommand< string >", "classDebugCommand.html", null ],
+      [ "DebugCommand< T >", "classDebugCommand.html", null ],
+      [ "DebugCommand< T >", "classDebugCommand.html", null ]
+    ] ],
     [ "System.EventArgs", null, [
       [ "Player.Motion.Movement.EventArgs", "classPlayer_1_1Motion_1_1Movement_1_1EventArgs.html", null ]
     ] ],
+    [ "PlayerActions.GameplayActions", "structPlayerActions_1_1GameplayActions.html", null ],
+    [ "IDisposable", null, [
+      [ "PlayerActions", "classPlayerActions.html", null ]
+    ] ],
+    [ "PlayerActions.IGameplayActions", "interfacePlayerActions_1_1IGameplayActions.html", null ],
+    [ "IInputActionCollection2", null, [
+      [ "PlayerActions", "classPlayerActions.html", null ]
+    ] ],
     [ "Player.Inventory.InventorySlot", "structPlayer_1_1Inventory_1_1InventorySlot.html", null ],
+    [ "PlayerActions.IUIActions", "interfacePlayerActions_1_1IUIActions.html", null ],
     [ "MonoBehaviour", null, [
+      [ "AnimationHelper", "classAnimationHelper.html", null ],
       [ "Crafting.CraftingUIInteract", "classCrafting_1_1CraftingUIInteract.html", null ],
+      [ "DebugController", "classDebugController.html", null ],
       [ "Interactable", "classInteractable.html", null ],
       [ "InteractionFinder", "classInteractionFinder.html", null ],
       [ "Jellies.Feeding", "classJellies_1_1Feeding.html", null ],
@@ -17,6 +33,8 @@ var hierarchy =
       [ "Jellies.Pickup", "classJellies_1_1Pickup.html", null ],
       [ "Jellies.Sleeping", "classJellies_1_1Sleeping.html", null ],
       [ "Jellies.Temperature", "classJellies_1_1Temperature.html", null ],
+      [ "MenuController", "classMenuController.html", null ],
+      [ "Page", "classPage.html", null ],
       [ "Player.Animation.AvatarController", "classPlayer_1_1Animation_1_1AvatarController.html", null ],
       [ "Player.Body", "classPlayer_1_1Body.html", null ],
       [ "Player.DroppedItem", "classPlayer_1_1DroppedItem.html", null ],
@@ -38,5 +56,6 @@ var hierarchy =
       [ "Player.Inventory", "classPlayer_1_1Inventory.html", null ],
       [ "Player.InventorySlotButton", "classPlayer_1_1InventorySlotButton.html", null ],
       [ "PlayerInteraction", "classPlayerInteraction.html", null ]
-    ] ]
+    ] ],
+    [ "PlayerActions.UIActions", "structPlayerActions_1_1UIActions.html", null ]
 ];

@@ -1,0 +1,4 @@
+<map id="Page.FadeOut" name="Page.FadeOut">
+<area shape="rect" id="node1" title="Play the fade animation" alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node2" href="$classAnimationHelper.html#a42eb9eaa38db9119dff4301b09dbc7d2" title="Fade animation handler." alt="" coords="164,5,352,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="DebugController.Return" name="DebugController.Return">
+<area shape="rect" id="node1" title="To be called when return is pressed and if the console is open." alt="" coords="5,5,180,32"/>
+<area shape="rect" id="node2" href="$classDebugController.html#a4196b99495858348db53c5f0e8468fc2" title="Execute any commands that may be in the input field" alt="" coords="228,5,439,32"/>
+<area shape="rect" id="node3" href="$classDebugController.html#af4712cdc42a3dc3b98ab9086420240c0" title="Print new output to console" alt="" coords="487,5,691,32"/>
+</map>

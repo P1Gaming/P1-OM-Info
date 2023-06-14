@@ -1,0 +1,5 @@
+<map id="Jellies.Behaviors.Wandering.ChooseDestination" name="Jellies.Behaviors.Wandering.ChooseDestination">
+<area shape="rect" id="node1" title="Chooses a next destination randomly from a region centered in front of the jelly." alt="" coords="5,39,212,80"/>
+<area shape="rect" id="node2" href="$classJellies_1_1Behaviors_1_1Wandering.html#a46dad7529d87aaf5f0f0b9626e6fc73a" title="Determines whether the jelly is within some desired distance of its current destination." alt="" coords="260,5,467,47"/>
+<area shape="rect" id="node3" href="$classJellies_1_1Behaviors_1_1Wandering.html#a52a241aad1de3eae78fed10fdaa7e1e4" title="Attempts to compute a position on the agent&#39;s navmesh by projecting a randomly point from within a sp..." alt="" coords="260,71,467,112"/>
+</map>

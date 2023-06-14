@@ -1,0 +1,5 @@
+<map id="Jellies.Behaviors.Watching" name="Jellies.Behaviors.Watching">
+<area shape="rect" id="node1" title="Add this script to a jelly prefab to provide curiosity where the jelly stops and observers a stranger..." alt="" coords="5,155,200,181"/>
+<area shape="rect" id="node2" href="$classJellies_1_1Behaviors_1_1State.html" title="Together with MonBehaviour provides minimal operations for managing Jelly state." alt="" coords="75,80,131,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="41,5,165,32"/>
+</map>

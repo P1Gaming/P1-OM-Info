@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['jumped_296',['Jumped',['../classPlayer_1_1Motion_1_1Jumping.html#afb890b436e08704c961e9df12d81c329',1,'Player::Motion::Jumping']]]
+  ['entered_327',['Entered',['../classJellies_1_1Behaviors_1_1State.html#a1876eac6a944ac4b297c87985627d1e9',1,'Jellies::Behaviors::State']]],
+  ['exited_328',['Exited',['../classJellies_1_1Behaviors_1_1State.html#a49549b1289e7dff8399ce0fd72ca3af7',1,'Jellies::Behaviors::State']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['targetspeed_294',['TargetSpeed',['../classPlayer_1_1Motion_1_1Movement.html#a0c764fe5cfca608e3b0c7d91ee2cc6b2',1,'Player.Motion.Movement.TargetSpeed()'],['../classPlayer_1_1Motion_1_1Movement_1_1EventArgs.html#a19ed45d402efdda7fcc76e9eea819934',1,'Player.Motion.Movement.EventArgs.TargetSpeed()']]]
+  ['subject_324',['Subject',['../classJellies_1_1Behaviors_1_1Watching.html#a757e752d09b2bb338c8f60650f7b965d',1,'Jellies::Behaviors::Watching']]]
 ];

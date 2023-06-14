@@ -1,0 +1,5 @@
+<map id="Jellies.Brain" name="Jellies.Brain">
+<area shape="rect" id="node1" title="Add this script to the jelly prefab to provide for centralized control of jelly behavior." alt="" coords="23,171,122,197"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,129,32"/>
+<area shape="rect" id="node3" href="$classJellies_1_1Behaviors_1_1State.html" title="Together with MonBehaviour provides minimal operations for managing Jelly state." alt="" coords="89,81,257,108"/>
+</map>

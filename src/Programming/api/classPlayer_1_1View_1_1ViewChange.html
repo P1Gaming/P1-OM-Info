@@ -110,9 +110,17 @@ Collaboration diagram for Player.View.ViewChange:</div>
 <div class="dyncontent">
 <div class="center"><img src="classPlayer_1_1View_1_1ViewChange__coll__graph.png" border="0" usemap="#aPlayer_8View_8ViewChange_coll__map" alt="Collaboration graph"/></div>
 <map name="aPlayer_8View_8ViewChange_coll__map" id="aPlayer_8View_8ViewChange_coll__map">
-<area shape="rect" title="Provides a smooth transition between first&#45; and third&#45;person camera views." alt="" coords="5,155,188,181"/>
-<area shape="rect" href="classPlayer_1_1InputHandler.html" title="Inherit from this abstract base class to create controller components that respond to input system ev..." alt="" coords="43,80,150,107"/>
-<area shape="rect" title=" " alt="" coords="35,5,159,32"/>
+<area shape="rect" title="Provides a smooth transition between first&#45; and third&#45;person camera views." alt="" coords="1148,93,1331,120"/>
+<area shape="rect" href="classPlayer_1_1InputHandler.html" title="Inherit from this abstract base class to create controller components that respond to input system ev..." alt="" coords="179,63,285,89"/>
+<area shape="rect" href="classPlayer_1_1View_1_1ViewController.html" title="Inherit from this base class to implement different input&#45;driven view perspectives the player charact..." alt="" coords="539,57,657,84"/>
+<area shape="rect" href="classPlayer_1_1BodyController.html" title="Inherit from this abstract base class to make components that control the physical body of the player..." alt="" coords="371,125,489,152"/>
+<area shape="rect" title=" " alt="" coords="5,93,129,120"/>
+<area shape="rect" href="classPlayer_1_1Body.html" title="Provides for basic player character physics and grounded state." alt="" coords="183,117,281,144"/>
+<area shape="rect" href="classPlayer_1_1View_1_1ThirdPersonView.html" title="Basic character&#45;follow behavior for use with a third&#45;person camera." alt="" coords="720,43,931,69"/>
+<area shape="rect" href="classPlayer_1_1View_1_1FirstPersonView.html" title="Basic look&#45;around behavior for use with a first&#45;person camera." alt="" coords="723,93,928,120"/>
+<area shape="rect" href="classPlayer_1_1Motion_1_1ForwardMovement.html" title="Provides forward movement oriented relative to the camera view, best used with a third&#45;person perspec..." alt="" coords="707,144,944,171"/>
+<area shape="rect" href="classPlayer_1_1Motion_1_1Movement.html" title="Inherit from this base class to implement walk/run behaviors for the player character." alt="" coords="552,144,644,171"/>
+<area shape="rect" href="classPlayer_1_1Motion_1_1RectilinearMovement.html" title="Provides for straight&#45;line movements in the forward/backward and strafing left/right." alt="" coords="733,195,918,237"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -137,7 +145,7 @@ Private Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides a smooth transition between first- and third-person camera views. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Implement camera zoom to/from first-person The active action map of the <code>PlayerInput</code> component must have an input action named "Zoom" that encapsulates a <code>float</code> value. Note that this component will fail gracefully (and silently) if the required input actions are not found. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Explore other implementations that might be more flexible This implementation depends on a specific camera setup involving a CinemachineMixingCamera with three vcams: first-person, third-person near, and third-person far. Additionally, the active action map of the <code>PlayerInput</code> component must have an input action named "Zoom" that encapsulates a <code>float</code> value. Note that this component will fail gracefully (and silently) if the required input actions are not found. </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a564d2ba13351adc22fbe9c10dee9aa5d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a564d2ba13351adc22fbe9c10dee9aa5d">&#9670;&nbsp;</a></span>OnZoom()</h2>

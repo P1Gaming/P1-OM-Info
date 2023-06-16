@@ -1,0 +1,5 @@
+<map id="Sound.SoundManager.SetSFXVolume" name="Sound.SoundManager.SetSFXVolume">
+<area shape="rect" id="node1" title="Set sfx bus volume" alt="" coords="549,13,811,39"/>
+<area shape="rect" id="node2" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a7773b2ddedf5147aea3f1244a46df13f" title="SFX volume slider." alt="" coords="277,5,501,47"/>
+<area shape="rect" id="node3" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a0687b0b34261544d8b9cb1619c7a6867" title="Initialize UI Elements and bind functions." alt="" coords="5,5,229,47"/>
+</map>

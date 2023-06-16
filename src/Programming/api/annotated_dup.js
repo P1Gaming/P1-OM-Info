@@ -46,6 +46,14 @@ var annotated_dup =
       [ "Inventory", "classPlayer_1_1Inventory.html", "classPlayer_1_1Inventory" ],
       [ "InventorySlotButton", "classPlayer_1_1InventorySlotButton.html", null ]
     ] ],
+    [ "Sound", "namespaceSound.html", [
+      [ "SoundManager", "classSound_1_1SoundManager.html", "classSound_1_1SoundManager" ]
+    ] ],
+    [ "UI", "namespaceUI.html", [
+      [ "AudioSettings", "namespaceUI_1_1AudioSettings.html", [
+        [ "AudioSettingsUI", "classUI_1_1AudioSettings_1_1AudioSettingsUI.html", "classUI_1_1AudioSettings_1_1AudioSettingsUI" ]
+      ] ]
+    ] ],
     [ "AnimationHelper", "classAnimationHelper.html", "classAnimationHelper" ],
     [ "DebugCommand", "classDebugCommand.html", null ],
     [ "DebugCommandBase", "classDebugCommandBase.html", null ],

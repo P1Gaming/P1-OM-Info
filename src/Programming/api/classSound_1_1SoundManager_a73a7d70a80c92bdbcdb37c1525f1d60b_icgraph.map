@@ -1,0 +1,10 @@
+<map id="Sound.SoundManager.SetGlobalSoundParameter" name="Sound.SoundManager.SetGlobalSoundParameter">
+<area shape="rect" id="node1" title="Set global Wwise game parameter value." alt="" coords="859,71,1088,112"/>
+<area shape="rect" id="node2" href="$classSound_1_1SoundManager.html#a462a5f9507914943326e3f8f01c296f0" title="Set master bus volume" alt="" coords="564,5,796,47"/>
+<area shape="rect" id="node5" href="$classSound_1_1SoundManager.html#ade1f1afaaf3b040fe137fd96932813c7" title="Set music bus volume" alt="" coords="567,71,793,112"/>
+<area shape="rect" id="node7" href="$classSound_1_1SoundManager.html#a66d1b260c071355e0799fced456c8de6" title="Set sfx bus volume" alt="" coords="549,139,811,166"/>
+<area shape="rect" id="node3" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a556ef824d8f9cbf3f8d33226f31bbe46" title="Master volume slider." alt="" coords="277,5,501,47"/>
+<area shape="rect" id="node4" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a0687b0b34261544d8b9cb1619c7a6867" title="Initialize UI Elements and bind functions." alt="" coords="5,71,229,112"/>
+<area shape="rect" id="node6" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#ad1ce1da6ec045ff298ce96a26ed678eb" title="Music volume slider." alt="" coords="277,71,501,112"/>
+<area shape="rect" id="node8" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a7773b2ddedf5147aea3f1244a46df13f" title="SFX volume slider." alt="" coords="277,136,501,177"/>
+</map>

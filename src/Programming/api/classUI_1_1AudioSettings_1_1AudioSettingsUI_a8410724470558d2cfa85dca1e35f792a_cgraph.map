@@ -1,0 +1,5 @@
+<map id="UI.AudioSettings.AudioSettingsUI.OnAudioSettingsClose" name="UI.AudioSettings.AudioSettingsUI.OnAudioSettingsClose">
+<area shape="rect" id="node1" title="Close audio settings." alt="" coords="5,39,229,80"/>
+<area shape="rect" id="node2" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#aca5878dbfaf17f72f4d5130fd3881c68" title="Locks mouse to game window." alt="" coords="277,5,501,47"/>
+<area shape="rect" id="node3" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a8e27bf86869f38c0abbd348b5e525138" title="Toggle visibility of Sound settings." alt="" coords="277,71,501,112"/>
+</map>

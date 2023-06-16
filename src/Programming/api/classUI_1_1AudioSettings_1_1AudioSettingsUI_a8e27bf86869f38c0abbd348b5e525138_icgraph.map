@@ -1,0 +1,5 @@
+<map id="UI.AudioSettings.AudioSettingsUI.ToggleUIVisibility" name="UI.AudioSettings.AudioSettingsUI.ToggleUIVisibility">
+<area shape="rect" id="node1" title="Toggle visibility of Sound settings." alt="" coords="549,5,773,47"/>
+<area shape="rect" id="node2" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a8410724470558d2cfa85dca1e35f792a" title="Close audio settings." alt="" coords="277,5,501,47"/>
+<area shape="rect" id="node3" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a0687b0b34261544d8b9cb1619c7a6867" title="Initialize UI Elements and bind functions." alt="" coords="5,5,229,47"/>
+</map>

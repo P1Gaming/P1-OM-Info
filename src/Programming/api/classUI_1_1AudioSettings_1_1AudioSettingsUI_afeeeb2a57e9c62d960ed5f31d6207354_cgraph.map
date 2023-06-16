@@ -1,0 +1,4 @@
+<map id="UI.AudioSettings.AudioSettingsUI.OnMouseLeaveUI" name="UI.AudioSettings.AudioSettingsUI.OnMouseLeaveUI">
+<area shape="rect" id="node1" title="Mouse leaves UI. Locks mouse to game and hides it." alt="" coords="5,5,229,47"/>
+<area shape="rect" id="node2" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#aca5878dbfaf17f72f4d5130fd3881c68" title="Locks mouse to game window." alt="" coords="277,5,501,47"/>
+</map>

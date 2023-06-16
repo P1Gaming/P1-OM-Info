@@ -1,0 +1,4 @@
+<map id="UI.AudioSettings.AudioSettingsUI.OnMasterValueChange" name="UI.AudioSettings.AudioSettingsUI.OnMasterValueChange">
+<area shape="rect" id="node1" title="Master volume slider." alt="" coords="277,5,501,47"/>
+<area shape="rect" id="node2" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a0687b0b34261544d8b9cb1619c7a6867" title="Initialize UI Elements and bind functions." alt="" coords="5,5,229,47"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="UI.AudioSettings.AudioSettingsUI.InitUIElements" name="UI.AudioSettings.AudioSettingsUI.InitUIElements">
+<area shape="rect" id="node1" title="Initialize UI Elements and bind functions." alt="" coords="5,201,229,243"/>
+<area shape="rect" id="node2" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a8410724470558d2cfa85dca1e35f792a" title="Close audio settings." alt="" coords="277,71,501,112"/>
+<area shape="rect" id="node5" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a556ef824d8f9cbf3f8d33226f31bbe46" title="Master volume slider." alt="" coords="277,267,501,308"/>
+<area shape="rect" id="node10" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#af922b3260d8ea1499bb0513b632f0c1a" title="Mouse enters Sound UI. Prevents mouse from being stuck in middle of screen." alt="" coords="277,332,501,373"/>
+<area shape="rect" id="node11" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#afeeeb2a57e9c62d960ed5f31d6207354" title="Mouse leaves UI. Locks mouse to game and hides it." alt="" coords="277,5,501,47"/>
+<area shape="rect" id="node12" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#ad1ce1da6ec045ff298ce96a26ed678eb" title="Music volume slider." alt="" coords="277,201,501,243"/>
+<area shape="rect" id="node14" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a7773b2ddedf5147aea3f1244a46df13f" title="SFX volume slider." alt="" coords="277,136,501,177"/>
+<area shape="rect" id="node16" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a424cab596f7714856c924fc45ec691c9" title="Sets default sound values at 75." alt="" coords="277,397,501,439"/>
+<area shape="rect" id="node3" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#aca5878dbfaf17f72f4d5130fd3881c68" title="Locks mouse to game window." alt="" coords="568,5,792,47"/>
+<area shape="rect" id="node4" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a8e27bf86869f38c0abbd348b5e525138" title="Toggle visibility of Sound settings." alt="" coords="568,71,792,112"/>
+<area shape="rect" id="node6" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a254df0c769c810d752a1af3a2cccd7c8" title="Plays sample sounds when changing volume" alt="" coords="568,192,792,233"/>
+<area shape="rect" id="node8" href="$classSound_1_1SoundManager.html#a462a5f9507914943326e3f8f01c296f0" title="Set master bus volume" alt="" coords="564,323,796,364"/>
+<area shape="rect" id="node7" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#add29d69d9344b84b4f82e934bf26c897" title="Prevents playing mutliple sounds at same time while changing sounds This event will be called once au..." alt="" coords="861,192,1085,233"/>
+<area shape="rect" id="node9" href="$classSound_1_1SoundManager.html#a73a7d70a80c92bdbcdb37c1525f1d60b" title="Set global Wwise game parameter value." alt="" coords="859,257,1088,299"/>
+<area shape="rect" id="node13" href="$classSound_1_1SoundManager.html#ade1f1afaaf3b040fe137fd96932813c7" title="Set music bus volume" alt="" coords="567,257,793,299"/>
+<area shape="rect" id="node15" href="$classSound_1_1SoundManager.html#a66d1b260c071355e0799fced456c8de6" title="Set sfx bus volume" alt="" coords="549,141,811,167"/>
+</map>

@@ -1,8 +1,8 @@
 # Examinee
 
-Add your discord name here: Sir Spanxalot1#8052
-Add your name on the Trello board here: Sir Spanxalot1#8052
-Add your GItHub account name here: SirSpanxALOT1
+Add your discord name here:
+Add your name on the Trello board here:
+Add your GItHub account name here:
 
 # Reviewing the exam
 

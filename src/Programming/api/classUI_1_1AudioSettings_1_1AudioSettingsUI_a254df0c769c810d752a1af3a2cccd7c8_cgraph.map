@@ -1,0 +1,4 @@
+<map id="UI.AudioSettings.AudioSettingsUI.PlayExampleSound" name="UI.AudioSettings.AudioSettingsUI.PlayExampleSound">
+<area shape="rect" id="node1" title="Plays sample sounds when changing volume" alt="" coords="5,5,229,47"/>
+<area shape="rect" id="node2" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#add29d69d9344b84b4f82e934bf26c897" title="Prevents playing mutliple sounds at same time while changing sounds This event will be called once au..." alt="" coords="277,5,501,47"/>
+</map>

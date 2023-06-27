@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['crafting_192',['Crafting',['../namespaceCrafting.html',1,'']]]
+  ['crafting_237',['Crafting',['../namespaceCrafting.html',1,'']]]
 ];

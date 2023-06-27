@@ -1,0 +1,4 @@
+<map id="Jellies.Behaviors.Wandering.IsNearDestination" name="Jellies.Behaviors.Wandering.IsNearDestination">
+<area shape="rect" id="node1" title="Determines whether the jelly is within some desired distance of its current destination." alt="" coords="260,5,467,47"/>
+<area shape="rect" id="node2" href="$classJellies_1_1Behaviors_1_1Wandering.html#ae48f5749b5ff188b489582c77e7e2356" title="Chooses a next destination randomly from a region centered in front of the jelly." alt="" coords="5,5,212,47"/>
+</map>

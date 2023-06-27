@@ -1,0 +1,5 @@
+<map id="Sound.SoundManager.SetMusicVolume" name="Sound.SoundManager.SetMusicVolume">
+<area shape="rect" id="node1" title="Set music bus volume" alt="" coords="549,5,775,47"/>
+<area shape="rect" id="node2" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#ad1ce1da6ec045ff298ce96a26ed678eb" title="Music volume slider." alt="" coords="277,5,501,47"/>
+<area shape="rect" id="node3" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a0687b0b34261544d8b9cb1619c7a6867" title="Initialize UI Elements and bind functions." alt="" coords="5,5,229,47"/>
+</map>

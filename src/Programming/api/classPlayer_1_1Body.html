@@ -174,7 +174,7 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><p>Provides for basic player character physics and grounded state. </p>
 <p>This component is a minimal prerequisite for most other player-related components. The architecture we use in the <code><a class="el" href="namespacePlayer.html">Player</a></code> namespace leans heavily on the Entity-Component pattern. We encapsulate each essential feature of the player mechanics in a dedicated component with single-responsibility (e.g., planar movement, jumping, camera orientation, animations, and sound effects are each governed by a small, specialized component). his architecture is event-driven in order to help limit coupling among the various components.</p>
 <p>This component is built atop and encapsulates Unity's <code>CharacterController</code>. Object or components that need to know when the player falls or becomes grounded again (e.g., an animator controller) should subscribe to the <code>Fallen</code> and <code>Landed</code> events.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Determine whether to replace the Unity CharacterController with a custom implementation. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd>Determine whether to replace the Unity CharacterController with a custom implementation. </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa60cc96924bad9eba61ce09e77ad626c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa60cc96924bad9eba61ce09e77ad626c">&#9670;&nbsp;</a></span>ApplyGravity()</h2>

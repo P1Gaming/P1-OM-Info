@@ -1,0 +1,7 @@
+<map id="UI.AudioSettings.AudioSettingsUI.OnMusicValueChange" name="UI.AudioSettings.AudioSettingsUI.OnMusicValueChange">
+<area shape="rect" id="node1" title="Music volume slider." alt="" coords="5,39,229,80"/>
+<area shape="rect" id="node2" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a254df0c769c810d752a1af3a2cccd7c8" title="Plays sample sounds when changing volume" alt="" coords="278,5,502,47"/>
+<area shape="rect" id="node4" href="$classSound_1_1SoundManager.html#ade1f1afaaf3b040fe137fd96932813c7" title="Set music bus volume" alt="" coords="277,71,503,112"/>
+<area shape="rect" id="node3" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#add29d69d9344b84b4f82e934bf26c897" title="Prevents playing mutliple sounds at same time while changing sounds This event will be called once au..." alt="" coords="553,5,777,47"/>
+<area shape="rect" id="node5" href="$classSound_1_1SoundManager.html#a73a7d70a80c92bdbcdb37c1525f1d60b" title="Set global Wwise game parameter value." alt="" coords="551,71,780,112"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="UI.AudioSettings.AudioSettingsUI.OnFinishPlayingAudio" name="UI.AudioSettings.AudioSettingsUI.OnFinishPlayingAudio">
+<area shape="rect" id="node1" title="Prevents playing mutliple sounds at same time while changing sounds This event will be called once au..." alt="" coords="821,71,1045,112"/>
+<area shape="rect" id="node2" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a254df0c769c810d752a1af3a2cccd7c8" title="Plays sample sounds when changing volume" alt="" coords="549,71,773,112"/>
+<area shape="rect" id="node3" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a556ef824d8f9cbf3f8d33226f31bbe46" title="Master volume slider." alt="" coords="277,5,501,47"/>
+<area shape="rect" id="node5" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#ad1ce1da6ec045ff298ce96a26ed678eb" title="Music volume slider." alt="" coords="277,71,501,112"/>
+<area shape="rect" id="node6" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a7773b2ddedf5147aea3f1244a46df13f" title="SFX volume slider." alt="" coords="277,136,501,177"/>
+<area shape="rect" id="node4" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a0687b0b34261544d8b9cb1619c7a6867" title="Initialize UI Elements and bind functions." alt="" coords="5,71,229,112"/>
+</map>

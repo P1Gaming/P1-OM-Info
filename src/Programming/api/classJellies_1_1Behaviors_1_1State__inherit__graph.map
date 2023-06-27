@@ -1,0 +1,6 @@
+<map id="Jellies.Behaviors.State" name="Jellies.Behaviors.State">
+<area shape="rect" id="node1" title="Together with MonBehaviour provides minimal operations for managing Jelly state." alt="" coords="133,80,301,107"/>
+<area shape="rect" id="node3" href="$classJellies_1_1Behaviors_1_1Wandering.html" title="Add this script to a jelly prefab to provide simple random movement via Unity&#39;s navmesh agent behavio..." alt="" coords="5,155,208,181"/>
+<area shape="rect" id="node4" href="$classJellies_1_1Behaviors_1_1Watching.html" title="Add this script to a jelly prefab to provide curiosity where the jelly stops and observers a stranger..." alt="" coords="232,155,427,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="155,5,279,32"/>
+</map>

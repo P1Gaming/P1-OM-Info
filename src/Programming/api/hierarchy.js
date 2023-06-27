@@ -6,6 +6,7 @@ var hierarchy =
       [ "DebugCommand< T >", "classDebugCommand.html", null ]
     ] ],
     [ "System.EventArgs", null, [
+      [ "Jellies.Sensing.EventArgs", "classJellies_1_1Sensing_1_1EventArgs.html", null ],
       [ "Player.Motion.Movement.EventArgs", "classPlayer_1_1Motion_1_1Movement_1_1EventArgs.html", null ]
     ] ],
     [ "PlayerActions.GameplayActions", "structPlayerActions_1_1GameplayActions.html", null ],
@@ -24,13 +25,18 @@ var hierarchy =
       [ "DebugController", "classDebugController.html", null ],
       [ "Interactable", "classInteractable.html", null ],
       [ "InteractionFinder", "classInteractionFinder.html", null ],
+      [ "Jellies.Behaviors.State", "classJellies_1_1Behaviors_1_1State.html", [
+        [ "Jellies.Behaviors.Wandering", "classJellies_1_1Behaviors_1_1Wandering.html", null ],
+        [ "Jellies.Behaviors.Watching", "classJellies_1_1Behaviors_1_1Watching.html", null ]
+      ] ],
+      [ "Jellies.Brain", "classJellies_1_1Brain.html", null ],
       [ "Jellies.Feeding", "classJellies_1_1Feeding.html", null ],
       [ "Jellies.GrassJelly", "classJellies_1_1GrassJelly.html", null ],
       [ "Jellies.Hopping", "classJellies_1_1Hopping.html", null ],
-      [ "Jellies.Movement", "classJellies_1_1Movement.html", null ],
       [ "Jellies.Parameters", "classJellies_1_1Parameters.html", null ],
       [ "Jellies.Petting", "classJellies_1_1Petting.html", null ],
       [ "Jellies.Pickup", "classJellies_1_1Pickup.html", null ],
+      [ "Jellies.Sensing", "classJellies_1_1Sensing.html", null ],
       [ "Jellies.Sleeping", "classJellies_1_1Sleeping.html", null ],
       [ "Jellies.Temperature", "classJellies_1_1Temperature.html", null ],
       [ "MenuController", "classMenuController.html", null ],
@@ -55,7 +61,9 @@ var hierarchy =
       ] ],
       [ "Player.Inventory", "classPlayer_1_1Inventory.html", null ],
       [ "Player.InventorySlotButton", "classPlayer_1_1InventorySlotButton.html", null ],
-      [ "PlayerInteraction", "classPlayerInteraction.html", null ]
+      [ "PlayerInteraction", "classPlayerInteraction.html", null ],
+      [ "Sound.SoundManager", "classSound_1_1SoundManager.html", null ],
+      [ "UI.AudioSettings.AudioSettingsUI", "classUI_1_1AudioSettings_1_1AudioSettingsUI.html", null ]
     ] ],
     [ "PlayerActions.UIActions", "structPlayerActions_1_1UIActions.html", null ]
 ];

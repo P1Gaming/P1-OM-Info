@@ -1,0 +1,4 @@
+<map id="Sound.SoundManager.SetSFXVolume" name="Sound.SoundManager.SetSFXVolume">
+<area shape="rect" id="node1" title="Set sfx bus volume" alt="" coords="5,13,267,39"/>
+<area shape="rect" id="node2" href="$classSound_1_1SoundManager.html#a73a7d70a80c92bdbcdb37c1525f1d60b" title="Set global Wwise game parameter value." alt="" coords="315,5,544,47"/>
+</map>

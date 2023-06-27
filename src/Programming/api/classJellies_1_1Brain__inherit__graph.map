@@ -1,0 +1,4 @@
+<map id="Jellies.Brain" name="Jellies.Brain">
+<area shape="rect" id="node1" title="Add this script to the jelly prefab to provide for centralized control of jelly behavior." alt="" coords="18,80,117,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,129,32"/>
+</map>

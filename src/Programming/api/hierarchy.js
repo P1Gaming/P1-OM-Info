@@ -22,6 +22,7 @@ var hierarchy =
     [ "MonoBehaviour", null, [
       [ "AnimationHelper", "classAnimationHelper.html", null ],
       [ "Crafting.CraftingUIInteract", "classCrafting_1_1CraftingUIInteract.html", null ],
+      [ "CraftingUICode", "classCraftingUICode.html", null ],
       [ "DebugController", "classDebugController.html", null ],
       [ "Interactable", "classInteractable.html", null ],
       [ "InteractionFinder", "classInteractionFinder.html", null ],

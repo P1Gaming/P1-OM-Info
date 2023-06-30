@@ -12,5 +12,6 @@ var searchData=
   ['cinemachinetargetyaw_33',['cinemachineTargetYaw',['../classPlayer_1_1View_1_1ViewController.html#a4cc46160b31077c7619eead392629274',1,'Player::View::ViewController']]],
   ['clampangle_34',['ClampAngle',['../classPlayer_1_1View_1_1ViewController.html#aa7eda203e600c9312381ae8dc15773d0',1,'Player::View::ViewController']]],
   ['crafting_35',['Crafting',['../namespaceCrafting.html',1,'']]],
-  ['craftinguiinteract_36',['CraftingUIInteract',['../classCrafting_1_1CraftingUIInteract.html',1,'Crafting']]]
+  ['craftinguicode_36',['CraftingUICode',['../classCraftingUICode.html',1,'']]],
+  ['craftinguiinteract_37',['CraftingUIInteract',['../classCrafting_1_1CraftingUIInteract.html',1,'Crafting']]]
 ];

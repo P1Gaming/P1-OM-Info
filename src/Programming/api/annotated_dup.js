@@ -55,6 +55,7 @@ var annotated_dup =
       ] ]
     ] ],
     [ "AnimationHelper", "classAnimationHelper.html", "classAnimationHelper" ],
+    [ "CraftingUICode", "classCraftingUICode.html", null ],
     [ "DebugCommand", "classDebugCommand.html", null ],
     [ "DebugCommandBase", "classDebugCommandBase.html", null ],
     [ "DebugController", "classDebugController.html", "classDebugController" ],

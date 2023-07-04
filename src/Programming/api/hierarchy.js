@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "CraftingRecipeData.CraftableItem", "classCraftingRecipeData_1_1CraftableItem.html", null ],
     [ "DebugCommandBase", "classDebugCommandBase.html", [
       [ "DebugCommand< string >", "classDebugCommand.html", null ],
       [ "DebugCommand< T >", "classDebugCommand.html", null ],
@@ -19,9 +20,11 @@ var hierarchy =
     ] ],
     [ "Player.Inventory.InventorySlot", "structPlayer_1_1Inventory_1_1InventorySlot.html", null ],
     [ "PlayerActions.IUIActions", "interfacePlayerActions_1_1IUIActions.html", null ],
+    [ "CraftingRecipeData.MaterialRequirement", "classCraftingRecipeData_1_1MaterialRequirement.html", null ],
     [ "MonoBehaviour", null, [
       [ "AnimationHelper", "classAnimationHelper.html", null ],
       [ "Crafting.CraftingUIInteract", "classCrafting_1_1CraftingUIInteract.html", null ],
+      [ "CraftingRecipeData", "classCraftingRecipeData.html", null ],
       [ "CraftingUICode", "classCraftingUICode.html", null ],
       [ "DebugController", "classDebugController.html", null ],
       [ "Interactable", "classInteractable.html", null ],

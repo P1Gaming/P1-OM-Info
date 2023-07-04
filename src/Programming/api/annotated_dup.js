@@ -55,6 +55,7 @@ var annotated_dup =
       ] ]
     ] ],
     [ "AnimationHelper", "classAnimationHelper.html", "classAnimationHelper" ],
+    [ "CraftingRecipeData", "classCraftingRecipeData.html", "classCraftingRecipeData" ],
     [ "CraftingUICode", "classCraftingUICode.html", null ],
     [ "DebugCommand", "classDebugCommand.html", null ],
     [ "DebugCommandBase", "classDebugCommandBase.html", null ],

@@ -1,0 +1,4 @@
+<map id="CraftingRecipeData.SortTheList" name="CraftingRecipeData.SortTheList">
+<area shape="rect" id="node1" title="The sort list function performs a Bubble Sort to sort with a unique condition on the entire list...." alt="" coords="5,5,231,32"/>
+<area shape="rect" id="node2" href="$classCraftingRecipeData.html#aa54a8542cc5696551afa792d8dbecec1" title="The next set of functions act as getters to the above data" alt="" coords="279,5,523,32"/>
+</map>

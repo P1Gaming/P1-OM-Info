@@ -1,0 +1,4 @@
+<map id="CraftingRecipeData.CraftableItem" name="CraftingRecipeData.CraftableItem">
+<area shape="rect" id="node1" title="The Craftable Item class is an object to store information for a singular crafting recipe...." alt="" coords="5,109,247,136"/>
+<area shape="rect" id="node2" href="$classCraftingRecipeData_1_1MaterialRequirement.html" title="The purpose of this script is to house ALL of the data for the craftable item recipes This is for the..." alt="" coords="23,5,229,47"/>
+</map>

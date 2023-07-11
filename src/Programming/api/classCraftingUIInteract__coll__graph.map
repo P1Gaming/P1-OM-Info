@@ -1,0 +1,6 @@
+<map id="CraftingUIInteract" name="CraftingUIInteract">
+<area shape="rect" id="node1" title="Manages the player to be able to open Crafting UI from pressing c when looking and close to the workb..." alt="" coords="19,260,156,287"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,129,32"/>
+<area shape="rect" id="node3" href="$classMenuController.html" title="Handles the menu stack. This is done so that the currently active page entry/exit can be easilly hand..." alt="" coords="50,171,173,197"/>
+<area shape="rect" id="node4" href="$classPage.html" title="Used to manipulate the canvas group to create an animation for entry/exit of that canvas group...." alt="" coords="105,81,158,108"/>
+</map>

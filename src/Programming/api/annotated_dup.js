@@ -1,8 +1,5 @@
 var annotated_dup =
 [
-    [ "Crafting", "namespaceCrafting.html", [
-      [ "CraftingUIInteract", "classCrafting_1_1CraftingUIInteract.html", null ]
-    ] ],
     [ "Jellies", "namespaceJellies.html", [
       [ "Behaviors", "namespaceJellies_1_1Behaviors.html", [
         [ "State", "classJellies_1_1Behaviors_1_1State.html", "classJellies_1_1Behaviors_1_1State" ],
@@ -57,6 +54,7 @@ var annotated_dup =
     [ "AnimationHelper", "classAnimationHelper.html", "classAnimationHelper" ],
     [ "CraftingRecipeData", "classCraftingRecipeData.html", "classCraftingRecipeData" ],
     [ "CraftingUICode", "classCraftingUICode.html", null ],
+    [ "CraftingUIInteract", "classCraftingUIInteract.html", "classCraftingUIInteract" ],
     [ "DebugCommand", "classDebugCommand.html", null ],
     [ "DebugCommandBase", "classDebugCommandBase.html", null ],
     [ "DebugController", "classDebugController.html", "classDebugController" ],

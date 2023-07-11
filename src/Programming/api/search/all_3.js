@@ -12,8 +12,7 @@ var searchData=
   ['cinemachinetargetyaw_34',['cinemachineTargetYaw',['../classPlayer_1_1View_1_1ViewController.html#a4cc46160b31077c7619eead392629274',1,'Player::View::ViewController']]],
   ['clampangle_35',['ClampAngle',['../classPlayer_1_1View_1_1ViewController.html#aa7eda203e600c9312381ae8dc15773d0',1,'Player::View::ViewController']]],
   ['craftableitem_36',['CraftableItem',['../classCraftingRecipeData_1_1CraftableItem.html',1,'CraftingRecipeData']]],
-  ['crafting_37',['Crafting',['../namespaceCrafting.html',1,'']]],
-  ['craftingrecipedata_38',['CraftingRecipeData',['../classCraftingRecipeData.html',1,'']]],
-  ['craftinguicode_39',['CraftingUICode',['../classCraftingUICode.html',1,'']]],
-  ['craftinguiinteract_40',['CraftingUIInteract',['../classCrafting_1_1CraftingUIInteract.html',1,'Crafting']]]
+  ['craftingrecipedata_37',['CraftingRecipeData',['../classCraftingRecipeData.html',1,'']]],
+  ['craftinguicode_38',['CraftingUICode',['../classCraftingUICode.html',1,'']]],
+  ['craftinguiinteract_39',['CraftingUIInteract',['../classCraftingUIInteract.html',1,'']]]
 ];

@@ -23,9 +23,9 @@ var hierarchy =
     [ "CraftingRecipeData.MaterialRequirement", "classCraftingRecipeData_1_1MaterialRequirement.html", null ],
     [ "MonoBehaviour", null, [
       [ "AnimationHelper", "classAnimationHelper.html", null ],
-      [ "Crafting.CraftingUIInteract", "classCrafting_1_1CraftingUIInteract.html", null ],
       [ "CraftingRecipeData", "classCraftingRecipeData.html", null ],
       [ "CraftingUICode", "classCraftingUICode.html", null ],
+      [ "CraftingUIInteract", "classCraftingUIInteract.html", null ],
       [ "DebugController", "classDebugController.html", null ],
       [ "Interactable", "classInteractable.html", null ],
       [ "InteractionFinder", "classInteractionFinder.html", null ],

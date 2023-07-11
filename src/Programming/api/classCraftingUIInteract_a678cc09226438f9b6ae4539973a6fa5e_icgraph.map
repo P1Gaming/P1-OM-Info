@@ -1,0 +1,4 @@
+<map id="CraftingUIInteract.DetectWorkBench" name="CraftingUIInteract.DetectWorkBench">
+<area shape="rect" id="node1" title="Casts a ray from the player&#39;s position forward and checks if it gggoes through workbench If you detec..." alt="" coords="228,5,412,47"/>
+<area shape="rect" id="node2" href="$classCraftingUIInteract.html#a64789aecffa38a844c6b203194a6f3c9" title="Fixed interval and calls the DetectWorkBench() function to check if the player is near the workbench" alt="" coords="5,5,180,47"/>
+</map>

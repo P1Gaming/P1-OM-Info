@@ -22,7 +22,7 @@ var annotated_dup =
         [ "AvatarController", "classPlayer_1_1Animation_1_1AvatarController.html", "classPlayer_1_1Animation_1_1AvatarController" ]
       ] ],
       [ "Equipment", "namespacePlayer_1_1Equipment.html", [
-        [ "SampleTrainers", "classPlayer_1_1Equipment_1_1SampleTrainers.html", null ]
+        [ "Trainers", "classPlayer_1_1Equipment_1_1Trainers.html", null ]
       ] ],
       [ "Motion", "namespacePlayer_1_1Motion.html", [
         [ "ForwardMovement", "classPlayer_1_1Motion_1_1ForwardMovement.html", "classPlayer_1_1Motion_1_1ForwardMovement" ],

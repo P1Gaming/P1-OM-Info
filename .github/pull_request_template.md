@@ -1,8 +1,8 @@
 # Examinee
 
-Add your discord name here: kumaguro3
-Add your name on the Trello board here: Sergent Julie
-Add your GItHub account name here: kumaguro3
+Add your discord name here: 
+Add your name on the Trello board here: 
+Add your GItHub account name here: 
 
 # Reviewing the exam
 

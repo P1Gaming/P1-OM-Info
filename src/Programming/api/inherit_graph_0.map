@@ -23,7 +23,7 @@
 <area shape="rect" id="node24" href="$classPlayer_1_1Animation_1_1AvatarController.html" title="Controls transitions between animation states in response to player character events." alt="" coords="177,1019,420,1045"/>
 <area shape="rect" id="node25" href="$classPlayer_1_1Body.html" title="Provides for basic player character physics and grounded state." alt="" coords="249,1069,348,1096"/>
 <area shape="rect" id="node26" href="$classPlayer_1_1DroppedItem.html" title="A component to be added to dropped items; facilitates adding them to the play&#39;ers inventory." alt="" coords="223,1120,374,1147"/>
-<area shape="rect" id="node27" href="$classPlayer_1_1Equipment_1_1SampleTrainers.html" title="Demonstrates a single&#45;use &quot;Trainers&quot; item that, when obtained, bestows the Jumping mechanic." alt="" coords="179,1171,419,1197"/>
+<area shape="rect" id="node27" href="$classPlayer_1_1Equipment_1_1Trainers.html" title="Demonstrates a single&#45;use &quot;Trainers&quot; item that, when obtained, bestows the Jumping mechanic." alt="" coords="203,1171,394,1197"/>
 <area shape="rect" id="node28" href="$classPlayer_1_1InputHandler.html" title="Inherit from this abstract base class to create controller components that respond to input system ev..." alt="" coords="223,1221,374,1248"/>
 <area shape="rect" id="node38" href="$classPlayer_1_1Inventory.html" title="Handling of the data relevant to items in the player&#39;s inventory" alt="" coords="235,1272,363,1299"/>
 <area shape="rect" id="node39" href="$classPlayer_1_1InventorySlotButton.html" title="Facilitates interface with the player&#39;s inventory vias Canvas Buttons" alt="" coords="201,1323,397,1349"/>

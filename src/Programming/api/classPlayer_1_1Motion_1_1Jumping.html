@@ -84,11 +84,12 @@ $(document).ready(function(){initNavTree('classPlayer_1_1Motion_1_1Jumping.html'
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pac-attribs">Package Attributes</a> &#124;
 <a href="#events">Events</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classPlayer_1_1Motion_1_1Jumping-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Player.Motion.Jumping Class Reference</div>  </div>
@@ -121,11 +122,11 @@ Collaboration diagram for Player.Motion.Jumping:</div>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a93d6c1bd0e3e1ba1b745a29724b21464"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayer_1_1Motion_1_1Jumping.html#a93d6c1bd0e3e1ba1b745a29724b21464">Jump</a> ()</td></tr>
-<tr class="memdesc:a93d6c1bd0e3e1ba1b745a29724b21464"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a simple, vertical jump.  <a href="classPlayer_1_1Motion_1_1Jumping.html#a93d6c1bd0e3e1ba1b745a29724b21464">More...</a><br /></td></tr>
-<tr class="separator:a93d6c1bd0e3e1ba1b745a29724b21464"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ae6045a8e9235e8aaa172ba909120f71f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayer_1_1Motion_1_1Jumping.html#ae6045a8e9235e8aaa172ba909120f71f">hasTrainers</a> = false</td></tr>
+<tr class="memdesc:ae6045a8e9235e8aaa172ba909120f71f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the player has obtained the trainers. Is only accessed by Trainers.cs  <a href="classPlayer_1_1Motion_1_1Jumping.html#ae6045a8e9235e8aaa172ba909120f71f">More...</a><br /></td></tr>
+<tr class="separator:ae6045a8e9235e8aaa172ba909120f71f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -139,7 +140,7 @@ Package Attributes</h2></td></tr>
 <tr class="memitem:a5c9e9425199b728feb81f818563cb68f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayer_1_1Motion_1_1Jumping.html#a5c9e9425199b728feb81f818563cb68f">_jumpHeight</a> = 1.5f</td></tr>
 <tr class="memdesc:a5c9e9425199b728feb81f818563cb68f"><td class="mdescLeft">&#160;</td><td class="mdescRight">How high the player can jump (in meters).  <a href="classPlayer_1_1Motion_1_1Jumping.html#a5c9e9425199b728feb81f818563cb68f">More...</a><br /></td></tr>
 <tr class="separator:a5c9e9425199b728feb81f818563cb68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6575642b95ab48d5e722ae363f19a82a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayer_1_1Motion_1_1Jumping.html#a6575642b95ab48d5e722ae363f19a82a">_jumpTimeout</a> = 0.50f</td></tr>
+<tr class="memitem:a6575642b95ab48d5e722ae363f19a82a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayer_1_1Motion_1_1Jumping.html#a6575642b95ab48d5e722ae363f19a82a">_jumpTimeout</a> = 0.5f</td></tr>
 <tr class="memdesc:a6575642b95ab48d5e722ae363f19a82a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Elapsed time that must pass before the character can jump again.  <a href="classPlayer_1_1Motion_1_1Jumping.html#a6575642b95ab48d5e722ae363f19a82a">More...</a><br /></td></tr>
 <tr class="separator:a6575642b95ab48d5e722ae363f19a82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -151,9 +152,21 @@ Events</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a93d6c1bd0e3e1ba1b745a29724b21464"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayer_1_1Motion_1_1Jumping.html#a93d6c1bd0e3e1ba1b745a29724b21464">Jump</a> ()</td></tr>
+<tr class="memdesc:a93d6c1bd0e3e1ba1b745a29724b21464"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a simple, vertical jump.  <a href="classPlayer_1_1Motion_1_1Jumping.html#a93d6c1bd0e3e1ba1b745a29724b21464">More...</a><br /></td></tr>
+<tr class="separator:a93d6c1bd0e3e1ba1b745a29724b21464"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60afe2942baafe06b1b4e428b2f29251"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayer_1_1Motion_1_1Jumping.html#a60afe2942baafe06b1b4e428b2f29251">OnJump</a> (InputAction.CallbackContext context)</td></tr>
 <tr class="memdesc:a60afe2942baafe06b1b4e428b2f29251"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles "Jump" input actions triggered by the input system.  <a href="classPlayer_1_1Motion_1_1Jumping.html#a60afe2942baafe06b1b4e428b2f29251">More...</a><br /></td></tr>
 <tr class="separator:a60afe2942baafe06b1b4e428b2f29251"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ab34391725f49ecef1af91dc859b06912"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayer_1_1Motion_1_1Jumping.html#ab34391725f49ecef1af91dc859b06912">_jumpStartTime</a> = 0.0</td></tr>
+<tr class="memdesc:ab34391725f49ecef1af91dc859b06912"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initially is 0 and updated to be the jump action contexts start time for every initial jump  <a href="classPlayer_1_1Motion_1_1Jumping.html#ab34391725f49ecef1af91dc859b06912">More...</a><br /></td></tr>
+<tr class="separator:ab34391725f49ecef1af91dc859b06912"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23abff8bceb3325abbf2cad166065801"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayer_1_1Motion_1_1Jumping.html#a23abff8bceb3325abbf2cad166065801">_maxJumpCount</a> = 2</td></tr>
+<tr class="memdesc:a23abff8bceb3325abbf2cad166065801"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set as a double jump but can be changed later to include more jumps if needed.  <a href="classPlayer_1_1Motion_1_1Jumping.html#a23abff8bceb3325abbf2cad166065801">More...</a><br /></td></tr>
+<tr class="separator:a23abff8bceb3325abbf2cad166065801"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -177,6 +190,9 @@ Active action map of the <code>PlayerInput</code> component must have an input a
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Player.Motion.Jumping.Jump </td>
@@ -185,6 +201,11 @@ Active action map of the <code>PlayerInput</code> component must have an input a
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Performs a simple, vertical jump. </p>
@@ -361,6 +382,30 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="ab34391725f49ecef1af91dc859b06912"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab34391725f49ecef1af91dc859b06912">&#9670;&nbsp;</a></span>_jumpStartTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Player.Motion.Jumping._jumpStartTime = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initially is 0 and updated to be the jump action contexts start time for every initial jump </p>
+
+</div>
+</div>
 <a id="a6575642b95ab48d5e722ae363f19a82a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6575642b95ab48d5e722ae363f19a82a">&#9670;&nbsp;</a></span>_jumpTimeout</h2>
 
@@ -371,7 +416,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float Player.Motion.Jumping._jumpTimeout = 0.50f</td>
+          <td class="memname">float Player.Motion.Jumping._jumpTimeout = 0.5f</td>
         </tr>
       </table>
   </td>
@@ -382,6 +427,46 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Elapsed time that must pass before the character can jump again. </p>
+
+</div>
+</div>
+<a id="a23abff8bceb3325abbf2cad166065801"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23abff8bceb3325abbf2cad166065801">&#9670;&nbsp;</a></span>_maxJumpCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Player.Motion.Jumping._maxJumpCount = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set as a double jump but can be changed later to include more jumps if needed. </p>
+
+</div>
+</div>
+<a id="ae6045a8e9235e8aaa172ba909120f71f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6045a8e9235e8aaa172ba909120f71f">&#9670;&nbsp;</a></span>hasTrainers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Player.Motion.Jumping.hasTrainers = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if the player has obtained the trainers. Is only accessed by Trainers.cs </p>
 
 </div>
 </div>

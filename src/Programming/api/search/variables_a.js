@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['walkspeed_390',['walkSpeed',['../classPlayer_1_1Motion_1_1Movement.html#a771336350f517f8a5df8ef375b5135c0',1,'Player::Motion::Movement']]]
+  ['topclamp_395',['topClamp',['../classPlayer_1_1View_1_1ViewController.html#a894c463d59fbcc3312076af9f105a854',1,'Player::View::ViewController']]]
 ];

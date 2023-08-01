@@ -1,0 +1,7 @@
+<map id="CraftingUIInteract.ToggleWorkBenchUI" name="CraftingUIInteract.ToggleWorkBenchUI">
+<area shape="rect" id="node1" title="Toggles the active state of the workbench UI and updates the _isUIOpen flag Also enables/disables pla..." alt="" coords="5,100,188,141"/>
+<area shape="rect" id="node2" href="$classCraftingUIInteract.html#a9af08191f29902892c9ccc3050600c3d" title="Disables the &quot;Move&quot; and &quot;Look&quot; actions of the player input" alt="" coords="247,5,438,47"/>
+<area shape="rect" id="node3" href="$classCraftingUIInteract.html#a7bd0af6046360690a1ce2c76d28c07b6" title="Enables the &quot;Move&quot; and &quot;Look&quot; actions of the player input" alt="" coords="250,71,435,112"/>
+<area shape="rect" id="node4" href="$classCraftingUIInteract.html#a655c3fbac6274563616c30fa71e4c4cb" title="Locks the cursor and hides it" alt="" coords="236,137,449,163"/>
+<area shape="rect" id="node5" href="$classCraftingUIInteract.html#a37e6e5b07576d2b479966834866363e8" title="Unlocks the cursor and makes it appear" alt="" coords="249,188,436,229"/>
+</map>

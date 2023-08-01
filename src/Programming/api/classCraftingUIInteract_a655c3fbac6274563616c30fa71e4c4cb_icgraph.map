@@ -1,0 +1,6 @@
+<map id="CraftingUIInteract.LockCursor" name="CraftingUIInteract.LockCursor">
+<area shape="rect" id="node1" title="Locks the cursor and hides it" alt="" coords="464,56,677,83"/>
+<area shape="rect" id="node2" href="$classCraftingUIInteract.html#aef97a53326a8421dc0ce78a217a9dc3a" title="Handles the player&#39;s interaction with the workbench Player is near the workbench, it toggles the visi..." alt="" coords="225,5,416,32"/>
+<area shape="rect" id="node3" href="$classCraftingUIInteract.html#ae20da48011b41578d063a8c38f9305c5" title="Initializes references to the MenuController and Page components, As well as the PlayerInput componen..." alt="" coords="5,31,177,57"/>
+<area shape="rect" id="node4" href="$classCraftingUIInteract.html#a63f296284791a4a3b666a025fc64d0b0" title="Toggles the active state of the workbench UI and updates the _isUIOpen flag Also enables/disables pla..." alt="" coords="229,107,412,149"/>
+</map>

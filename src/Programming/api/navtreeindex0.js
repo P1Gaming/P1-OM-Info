@@ -203,6 +203,7 @@ var NAVTREEINDEX0 =
 "classPlayer_1_1View_1_1ViewController.html#adf0bfaf34b50f68d2ddf8bb5187f3a7d":[2,0,1,3,3,9],
 "classPlayer_1_1View_1_1ViewController.html#ae4d35d94c877b086d78dccb1d7cfd1e0":[2,0,1,3,3,4],
 "classPlayer_1_1View_1_1ViewController.html#affa9ec7640a147e77b0f796a3e6232e5":[2,0,1,3,3,3],
+"classRotateInPlace.html":[2,0,17],
 "classSound_1_1SoundManager.html":[2,0,2,0],
 "classSound_1_1SoundManager.html#a462a5f9507914943326e3f8f01c296f0":[2,0,2,0,1],
 "classSound_1_1SoundManager.html#a66d1b260c071355e0799fced456c8de6":[2,0,2,0,3],

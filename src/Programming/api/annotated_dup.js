@@ -63,5 +63,6 @@ var annotated_dup =
     [ "MenuController", "classMenuController.html", "classMenuController" ],
     [ "Page", "classPage.html", "classPage" ],
     [ "PlayerActions", "classPlayerActions.html", "classPlayerActions" ],
-    [ "PlayerInteraction", "classPlayerInteraction.html", "classPlayerInteraction" ]
+    [ "PlayerInteraction", "classPlayerInteraction.html", "classPlayerInteraction" ],
+    [ "RotateInPlace", "classRotateInPlace.html", null ]
 ];

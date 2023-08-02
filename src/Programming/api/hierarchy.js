@@ -66,6 +66,7 @@ var hierarchy =
       [ "Player.Inventory", "classPlayer_1_1Inventory.html", null ],
       [ "Player.InventorySlotButton", "classPlayer_1_1InventorySlotButton.html", null ],
       [ "PlayerInteraction", "classPlayerInteraction.html", null ],
+      [ "RotateInPlace", "classRotateInPlace.html", null ],
       [ "Sound.SoundManager", "classSound_1_1SoundManager.html", null ],
       [ "UI.AudioSettings.AudioSettingsUI", "classUI_1_1AudioSettings_1_1AudioSettingsUI.html", null ]
     ] ],

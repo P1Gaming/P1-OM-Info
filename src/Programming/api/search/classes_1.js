@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['body_211',['Body',['../classPlayer_1_1Body.html',1,'Player']]],
-  ['bodycontroller_212',['BodyController',['../classPlayer_1_1BodyController.html',1,'Player']]],
-  ['brain_213',['Brain',['../classJellies_1_1Brain.html',1,'Jellies']]]
+  ['body_212',['Body',['../classPlayer_1_1Body.html',1,'Player']]],
+  ['bodycontroller_213',['BodyController',['../classPlayer_1_1BodyController.html',1,'Player']]],
+  ['brain_214',['Brain',['../classJellies_1_1Brain.html',1,'Jellies']]]
 ];

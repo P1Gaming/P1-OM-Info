@@ -36,6 +36,7 @@ var annotated_dup =
         [ "ViewChange", "classPlayer_1_1View_1_1ViewChange.html", "classPlayer_1_1View_1_1ViewChange" ],
         [ "ViewController", "classPlayer_1_1View_1_1ViewController.html", "classPlayer_1_1View_1_1ViewController" ]
       ] ],
+      [ "OutOfBoundsZone", "classPlayer_1_1OutOfBoundsZone.html", null ],
       [ "Body", "classPlayer_1_1Body.html", "classPlayer_1_1Body" ],
       [ "BodyController", "classPlayer_1_1BodyController.html", "classPlayer_1_1BodyController" ],
       [ "InputHandler", "classPlayer_1_1InputHandler.html", "classPlayer_1_1InputHandler" ],

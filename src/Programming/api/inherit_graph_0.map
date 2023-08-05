@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,765,129,792"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,791,129,817"/>
 <area shape="rect" id="node2" href="$classAnimationHelper.html" title="Helps with Page entryh/exit animations. Meant to be called by the Page class or any class that may ha..." alt="" coords="233,5,365,32"/>
 <area shape="rect" id="node3" href="$classCraftingRecipeData.html" title=" " alt="" coords="225,56,373,83"/>
 <area shape="rect" id="node4" href="$classCraftingUICode.html" title=" " alt="" coords="239,107,359,133"/>
@@ -27,10 +27,11 @@
 <area shape="rect" id="node28" href="$classPlayer_1_1InputHandler.html" title="Inherit from this abstract base class to create controller components that respond to input system ev..." alt="" coords="223,1221,374,1248"/>
 <area shape="rect" id="node38" href="$classPlayer_1_1Inventory.html" title="Handling of the data relevant to items in the player&#39;s inventory" alt="" coords="235,1272,363,1299"/>
 <area shape="rect" id="node39" href="$classPlayer_1_1InventorySlotButton.html" title="Facilitates interface with the player&#39;s inventory vias Canvas Buttons" alt="" coords="201,1323,397,1349"/>
-<area shape="rect" id="node40" href="$classPlayerInteraction.html" title="Class managing detection of interactble objects by the player" alt="" coords="232,1373,365,1400"/>
-<area shape="rect" id="node41" href="$classRotateInPlace.html" title=" " alt="" coords="243,1424,355,1451"/>
-<area shape="rect" id="node42" href="$classSound_1_1SoundManager.html" title=" " alt="" coords="217,1475,380,1501"/>
-<area shape="rect" id="node43" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html" title=" " alt="" coords="179,1525,418,1552"/>
+<area shape="rect" id="node40" href="$classPlayer_1_1OutOfBoundsZone.html" title="Teleports the player back to solid ground if they fall out of the world." alt="" coords="206,1373,391,1400"/>
+<area shape="rect" id="node41" href="$classPlayerInteraction.html" title="Class managing detection of interactble objects by the player" alt="" coords="232,1424,365,1451"/>
+<area shape="rect" id="node42" href="$classRotateInPlace.html" title=" " alt="" coords="243,1475,355,1501"/>
+<area shape="rect" id="node43" href="$classSound_1_1SoundManager.html" title=" " alt="" coords="217,1525,380,1552"/>
+<area shape="rect" id="node44" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html" title=" " alt="" coords="179,1576,418,1603"/>
 <area shape="rect" id="node10" href="$classJellies_1_1Behaviors_1_1Wandering.html" title="Add this script to a jelly prefab to provide simple random movement via Unity&#39;s navmesh agent behavio..." alt="" coords="468,335,671,361"/>
 <area shape="rect" id="node11" href="$classJellies_1_1Behaviors_1_1Watching.html" title="Add this script to a jelly prefab to provide curiosity where the jelly stops and observers a stranger..." alt="" coords="472,385,667,412"/>
 <area shape="rect" id="node29" href="$classPlayer_1_1BodyController.html" title="Inherit from this abstract base class to make components that control the physical body of the player..." alt="" coords="488,1171,651,1197"/>

@@ -11,8 +11,9 @@ var searchData=
   ['cinemachinetargetpitch_35',['cinemachineTargetPitch',['../classPlayer_1_1View_1_1ViewController.html#adf0bfaf34b50f68d2ddf8bb5187f3a7d',1,'Player::View::ViewController']]],
   ['cinemachinetargetyaw_36',['cinemachineTargetYaw',['../classPlayer_1_1View_1_1ViewController.html#a4cc46160b31077c7619eead392629274',1,'Player::View::ViewController']]],
   ['clampangle_37',['ClampAngle',['../classPlayer_1_1View_1_1ViewController.html#aa7eda203e600c9312381ae8dc15773d0',1,'Player::View::ViewController']]],
-  ['craftableitem_38',['CraftableItem',['../classCraftingRecipeData_1_1CraftableItem.html',1,'CraftingRecipeData']]],
-  ['craftingrecipedata_39',['CraftingRecipeData',['../classCraftingRecipeData.html',1,'']]],
-  ['craftinguicode_40',['CraftingUICode',['../classCraftingUICode.html',1,'']]],
-  ['craftinguiinteract_41',['CraftingUIInteract',['../classCraftingUIInteract.html',1,'']]]
+  ['clampvolumetorange_38',['ClampVolumeToRange',['../classUI_1_1AudioSettings_1_1AudioSettingsUI.html#ac02c72d66eaa93304d86bc07568ab878',1,'UI::AudioSettings::AudioSettingsUI']]],
+  ['craftableitem_39',['CraftableItem',['../classCraftingRecipeData_1_1CraftableItem.html',1,'CraftingRecipeData']]],
+  ['craftingrecipedata_40',['CraftingRecipeData',['../classCraftingRecipeData.html',1,'']]],
+  ['craftinguicode_41',['CraftingUICode',['../classCraftingUICode.html',1,'']]],
+  ['craftinguiinteract_42',['CraftingUIInteract',['../classCraftingUIInteract.html',1,'']]]
 ];

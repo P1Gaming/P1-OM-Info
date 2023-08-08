@@ -36,6 +36,7 @@ var annotated_dup =
         [ "ViewChange", "classPlayer_1_1View_1_1ViewChange.html", "classPlayer_1_1View_1_1ViewChange" ],
         [ "ViewController", "classPlayer_1_1View_1_1ViewController.html", "classPlayer_1_1View_1_1ViewController" ]
       ] ],
+      [ "OutOfBoundsZone", "classPlayer_1_1OutOfBoundsZone.html", null ],
       [ "Body", "classPlayer_1_1Body.html", "classPlayer_1_1Body" ],
       [ "BodyController", "classPlayer_1_1BodyController.html", "classPlayer_1_1BodyController" ],
       [ "InputHandler", "classPlayer_1_1InputHandler.html", "classPlayer_1_1InputHandler" ],
@@ -63,5 +64,6 @@ var annotated_dup =
     [ "MenuController", "classMenuController.html", "classMenuController" ],
     [ "Page", "classPage.html", "classPage" ],
     [ "PlayerActions", "classPlayerActions.html", "classPlayerActions" ],
-    [ "PlayerInteraction", "classPlayerInteraction.html", "classPlayerInteraction" ]
+    [ "PlayerInteraction", "classPlayerInteraction.html", "classPlayerInteraction" ],
+    [ "RotateInPlace", "classRotateInPlace.html", null ]
 ];

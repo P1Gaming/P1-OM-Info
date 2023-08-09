@@ -1,7 +1,0 @@
-<map id="Sound.SoundManager.SetMasterVolume" name="Sound.SoundManager.SetMasterVolume">
-<area shape="rect" id="node1" title="Set master bus volume" alt="" coords="821,39,1053,80"/>
-<area shape="rect" id="node2" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a9ea45ae9f6fa091bd23423cdfb052406" title="Sets the sound volume and plays an example sound" alt="" coords="549,39,773,80"/>
-<area shape="rect" id="node3" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a7f0ebdf735af2bc8ffaa279908dd490b" title="Sound volume slider." alt="" coords="277,5,501,47"/>
-<area shape="rect" id="node5" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#aa4524a4acc8395e974ee0d8808bc9658" title="Sound volume field." alt="" coords="277,71,501,112"/>
-<area shape="rect" id="node4" href="$classUI_1_1AudioSettings_1_1AudioSettingsUI.html#a0687b0b34261544d8b9cb1619c7a6867" title="Initialize UI Elements and bind functions." alt="" coords="5,39,229,80"/>
-</map>

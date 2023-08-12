@@ -1,4 +1,0 @@
-<map id="CraftingUIInteract" name="CraftingUIInteract">
-<area shape="rect" id="node1" title="Manages the player to be able to open Crafting UI from pressing c when looking and close to the workb..." alt="" coords="5,80,143,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="12,5,136,32"/>
-</map>

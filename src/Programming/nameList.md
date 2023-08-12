@@ -30,8 +30,12 @@ You need to add your name in this list for your Join Task to be considered compl
 - Nelson
 - flapjack#2496
 - actionjdjackson
+- llermy#3418
+- SiyahaS
 - draganica#3866
 - PR55
 - BarrusRho
 - NiKo
+- denise
+- silverbird317
 - Kratosflare

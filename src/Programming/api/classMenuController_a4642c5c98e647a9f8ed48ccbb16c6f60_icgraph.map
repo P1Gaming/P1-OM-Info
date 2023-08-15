@@ -1,7 +1,0 @@
-<map id="MenuController.PopPage" name="MenuController.PopPage">
-<area shape="rect" id="node1" title="Pops the page at the top of the stack." alt="" coords="477,56,657,83"/>
-<area shape="rect" id="node2" href="$classCraftingUIInteract.html#aef97a53326a8421dc0ce78a217a9dc3a" title="Handles the player&#39;s interaction with the workbench Player is near the workbench, it toggles the visi..." alt="" coords="232,5,423,32"/>
-<area shape="rect" id="node4" href="$classMenuController.html#a75659b9f30327eae54d92fa7d3388ab3" title="Pop current page." alt="" coords="234,56,421,83"/>
-<area shape="rect" id="node5" href="$classMenuController.html#a8734257df41384ee493e675ef78c468c" title="Clear the page stack." alt="" coords="225,107,429,133"/>
-<area shape="rect" id="node3" href="$classCraftingUIInteract.html#ae20da48011b41578d063a8c38f9305c5" title="Initializes references to the MenuController and Page components, As well as the PlayerInput componen..." alt="" coords="5,5,177,32"/>
-</map>

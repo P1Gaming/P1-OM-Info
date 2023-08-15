@@ -1,4 +1,0 @@
-<map id="CraftingUIInteract.FixedUpdate" name="CraftingUIInteract.FixedUpdate">
-<area shape="rect" id="node1" title="Fixed interval and calls the DetectWorkBench() function to check if the player is near the workbench" alt="" coords="5,5,180,47"/>
-<area shape="rect" id="node2" href="$classCraftingUIInteract.html#a678cc09226438f9b6ae4539973a6fa5e" title="Casts a ray from the player&#39;s position forward and checks if it gggoes through workbench If you detec..." alt="" coords="228,5,412,47"/>
-</map>

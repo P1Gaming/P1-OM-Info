@@ -1,4 +1,0 @@
-<map id="CraftingUIInteract.Interact" name="CraftingUIInteract.Interact">
-<area shape="rect" id="node1" title="Handles the player&#39;s interaction with the workbench Player is near the workbench, it toggles the visi..." alt="" coords="225,5,416,32"/>
-<area shape="rect" id="node2" href="$classCraftingUIInteract.html#ae20da48011b41578d063a8c38f9305c5" title="Initializes references to the MenuController and Page components, As well as the PlayerInput componen..." alt="" coords="5,5,177,32"/>
-</map>

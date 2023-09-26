@@ -36,11 +36,16 @@ You need to add your name in this list for your Join Task to be considered compl
 - PR55
 - BarrusRho
 - NiKo
+- _ashwey
 - denise
 - silverbird317
+- Senator Armstrong
+- degree210
 - Kratosflare
 - RC45 (Mike Quinn)
 - Steve_Byju
 - silverbird317
+- daisy_17
+- AstralPro
+- _Code
 - JuanItalian
-

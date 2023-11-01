@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>GitHub</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../introduction.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Documentation</li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> Programming</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Programming/Code_How_To.html"><strong aria-hidden="true">1.1.</strong> Code How To</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Programming/unity.html"><strong aria-hidden="true">1.1.1.</strong> Setting up Unity</a></li><li class="chapter-item expanded "><a href="../Programming/GitHub.html" class="active"><strong aria-hidden="true">1.1.2.</strong> GitHub</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Programming/PR_Review.html"><strong aria-hidden="true">1.1.2.1.</strong> PR Review</a></li></ol></li><li class="chapter-item expanded "><a href="../Programming/Style_Guide.html"><strong aria-hidden="true">1.1.3.</strong> Style Guide</a></li><li class="chapter-item expanded "><a href="../Programming/BugHandling.html"><strong aria-hidden="true">1.1.4.</strong> Bug Handling</a></li></ol></li><li class="chapter-item expanded "><a href="../Programming/CPrototype.html"><strong aria-hidden="true">1.2.</strong> Compassion Prototype</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Programming/Interaction_System.html"><strong aria-hidden="true">1.2.1.</strong> The Interaction System</a></li><li class="chapter-item expanded "><a href="../Programming/item_structure.html"><strong aria-hidden="true">1.2.2.</strong> Items</a></li><li class="chapter-item expanded "><a href="../Programming/Island_hearts.html"><strong aria-hidden="true">1.2.3.</strong> Island Hearts</a></li><li class="chapter-item expanded "><a href="../Programming/Dependencies.html"><strong aria-hidden="true">1.2.4.</strong> Dependencies</a></li></ol></li></ol></li><li class="chapter-item expanded "><li class="part-title">Full Game</li><li class="chapter-item expanded "><a href="../Programming/FullGame.html"><strong aria-hidden="true">2.</strong> Full Game info</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Programming/Unit_Testing.html"><strong aria-hidden="true">2.1.</strong> Unit Testing</a></li></ol></li><li class="chapter-item expanded "><a href="../Programming/api/index.html"><strong aria-hidden="true">3.</strong> API Documentation</a></li><li class="chapter-item expanded affix "><li class="part-title">Join Task</li><li class="chapter-item expanded "><a href="../Programming/ExamInstructions.html"><strong aria-hidden="true">4.</strong> Task Instructions</a></li><li class="chapter-item expanded "><a href="../Programming/nameList.html"><strong aria-hidden="true">5.</strong> List of names</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="github---overview-and-installation"><a class="header" href="#github---overview-and-installation">GitHub - Overview and Installation</a></h1>
+<p>GitHub is a distributed source control tool that uses the Git language.
+For a presentation on source control and GitHub, click the banner to watch Traba's presentation or click <a href="https://P1Gaming.github.io/P1-OM-Info/Programming/Version%20Control%2C%20Git%20and%20GitHub.pptx"><strong>HERE</strong></a> to download the presentation for leisurely viewing.</p>
+<h3 id="trabas-git-seminar-by-p1-om"><a class="header" href="#trabas-git-seminar-by-p1-om">Traba's Git Seminar by P1-OM</a></h3>
+<p><a href="https://youtu.be/G0p9y6PmQ1g" title="Traba's Git Seminar"><img src="../images/Traba_Git.png" alt="Traba's Git Seminar by P1-OM" /></a></p>
+<h2 id="why-we-use-github"><a class="header" href="#why-we-use-github">Why we use GitHub</a></h2>
+<p>As mentioned in the introduction, we use GitHub repositories for handling source control. Source control is a means for a mass collective to contribute to a project without ruining the main version of the project. We contribute to the main development without editing the main development.
+P1 already has a GitHub setup, so that is why we use GitHub over something like Perforce.</p>
+<h2 id="how-we-use-github"><a class="header" href="#how-we-use-github">How we use GitHub</a></h2>
+<p>There are a few various methods of interacting with GitHub repositories. The command line is the least attractive way of doing it but it is the foundation of all the other ways. In IDE's such as Visual Studio, if you open a Github project there are tools built-in to help you. Also, Github has created their own application called GitHub Desktop.</p>
+<p>For ease of use and quick startup for everyone we recommend using GitHub Desktop. This guide will be referencing Github Desktop in detail.
+The video below shows how easy it is to get started with GitHub and GitHub Desktop for Unity projects. (It includes the whole process from  setting up your own repository, creating a gitignore, and commiting.)</p>
+<p>As a <strong>new member</strong> your main concern will be <strong>installing GitHub Desktop</strong> (or using your preferred method) and <strong>cloning our project</strong></p>
+<p><a href="https://www.youtube.com/watch?v=qpXxcvS-g3g&amp;ab_channel=Brackeys" title="How to use GitHub with Unity"><img src="../images/brackeysGithub.jpg" alt="How to use GitHub with Unity" /></a></p>
+<p>If you are interested in using  command line or just learning as well, Click <em><a href="#using-command-line">HERE</a></em></p>
+<p>If you need to gain access, your point of contact will be Samuel Martin. You can send them a direct message in Discord asking them to gain access to either of the repositories you need access to (Most likely the prototype at first unless joining a Crew). Ensure to include the email you use for GitHub, as they need that to add you.</p>
+<h2 id="creating-a-new-branch"><a class="header" href="#creating-a-new-branch">Creating a new branch</a></h2>
+<p>You cloned the project and you're ready to start working on your task...</p>
+<p><span style="color:red"> STOOOOOOOOOOOOOOOOOOP</p>
+<p><span style="color:yellow"> <strong>Important</strong></span> , Make sure you did not fork the project instead of cloning</p>
+<p>Forking the project is similar to cloning and you are able to do all the of the next steps without knowing. When you fork the project you create a copy of the project that was forked. That in itself isn't bad, but you will not receive any of the changes other programmers merge into the original project. If you commit any changes to your forked project the original project will never see them.</p>
+<p><span style="color:yellow"> <strong>Important</strong></span> , Make sure you are working on a different branch and not the main branch.</p>
+<p>This is a red flag if you find yourself on the branch shown in the image below. Do not make any direct changes to this branch.</p>
+<p><img src="../images/developbranch.png" alt="Develop Branch No No" /></p>
+<p>What you should do instead is create a new branch from that branch.</p>
+<p><img src="../images/newbranch.png" alt="Creating New Branch" /></p>
+<p><img src="../images/createbranch.png" alt="Create the New Branch" /></p>
+<p>With your new branch ready, you can publish it for everyone to view. Or you can decide not to publish it if you want to test several things. But for handling your tasks, you should publish the branch since it will need to be reviewed later.
+Note: You should follow a naming convention for your branch. Example: YourDiscordName-Task</p>
+<h2 id="making-changes"><a class="header" href="#making-changes">Making Changes</a></h2>
+<p>When you change the project, it will appear like the image below in GitHub Desktop.</p>
+<p><img src="../images/changesmade.png" alt="Showing Changes Made in GitHub" /></p>
+<p>These changes are not saved in the GitHub branch yet. To do that, you need to commit these changes, and it is required to have a commit summary title. Although you do not need a description, you should add one for others to know what changes you have made in this commit. Once you have hit the commit button, you must push those changes before they go live.</p>
+<p>We have changed a Unity Scene, a C# script, and others in the image above. Now you can “commit” these changes, but that can lead to problems such as conflicts. Let us say, for example, your task has you making a change or functionality to the C# script that is listed. Every other change does not impact that script change. You can safely delete those changes, which is HIGHLY recommended. This way, you only commit changes that are part of your task.</p>
+<p>To delete a change, click on one of the changes (that you do not need) in GitHub Desktop and select discard changes.</p>
+<p><img src="../images/discardingchanges.png" alt="How to Discard Changes in GitHub" /></p>
+<h2 id="making-pull-requests-pr"><a class="header" href="#making-pull-requests-pr">Making Pull Requests (PR)</a></h2>
+<p>A Pull Request, or PR, is a request to pull the changes you made on your branch with the main develop branch. Putting it simply, it is a merge request.</p>
+<p>When you’ve completed a task, you might think, “Now what?” For programmers in P1-OM, we handle task reviewing a bit differently. Ultimately, we require a Pull Request, shortened to PR, to be made for review.</p>
+<h2 id="creating-a-pull-request-pr"><a class="header" href="#creating-a-pull-request-pr">Creating a Pull Request (PR)</a></h2>
+<p>Once you complete your task push your changes, publish your branch, and create a PR. Someone will review and merge it or request changes.</p>
+<p>To create the PR, you can click on the create or preview Pull Request button in GitHub Desktop.</p>
+<p><img src="../images/createpullrequest.png" alt="Create the Pull Request" /></p>
+<p>It will let you know if the merge can safely happen before creating the Pull Request. Otherwise, you may have to clear out a conflict (more on that below).</p>
+<p>After clicking on the option to create a PR in GitHub Desktop, it will take you to the GitHub website for you to officially create the PR. You will need to fill out the description and a name for the PR. The form will ask for a link to the Pull Request Card.</p>
+<p>The video below has all the steps:</p>
+<p><a href="https://www.youtube.com/watch?v=8x6V5IOuXog&amp;ab_channel=DevLeonardo" title="Your First Pull Request with GitHub Desktop"><img src="../images/GithubDesktop.jpg" alt="Your First Pull Request with GitHub Desktop" /></a></p>
+<h2 id="creating-the-pull-request-card"><a class="header" href="#creating-the-pull-request-card">Creating the Pull Request Card</a></h2>
+<p>Once you have reached the Pull Request step, you are ready to make the card for it. P1-OM uses Trello to handle all task management. Before making the PR, you should have had some time to look through the Action Trello Board and get acquainted with it. Regardless, when creating a PR, you create a new task for the programming team to handle. A task that requires someone else to review than yourself.</p>
+<p>To create the PR Card, follow this link to the PR Card template: <em><a href="https://trello.com/c/r4UJnCIK">template</a></em></p>
+<p>You can follow the steps on that card, but the general steps are as follows.</p>
+<ol>
+<li>Copy from the template (rename the card to &quot;PR: your task name&quot;)</li>
+<li>Move the card to the &quot;To Do&quot; column under the &quot;PROGRAMMING (Pull Requests)&quot; section.</li>
+<li>Fill out the information: it needs the link to the task you worked on and the Pull Request.</li>
+<li>Use the share button to copy the card link to the form in GitHub, so it has a link to the card for you to officially create the PR.</li>
+<li>Copy and paste the PR URL from GitHub to the PR card.</li>
+<li>Do NOT join this card. The card is a created task that requires someone else to handle.</li>
+</ol>
+<p>You officially made a Pull Request and a PR card on Trello for your task. Good work and Congratulations!</p>
+<h2 id="handling-conflicts"><a class="header" href="#handling-conflicts">Handling Conflicts</a></h2>
+<p>You might end up in a situation where the changes you made conflict with a different set of changes. Ideally, this will not occur if we push changes only for our tasks. But you may run into this issue.</p>
+<p>After creating the Pull Request, you can check to see if there are conflicts. And if there are, you will need to go and resolve the conflicts. Visual Studio Code is an excellent way to resolve conflicts.</p>
+<p><a href="https://www.youtube.com/watch?v=mOJazBNrG-c" title="Resolve GitHub Merge Conflicts"><img src="../images/Youtube_Merge_Conflict.jpg" alt="Resolve GitHub Merge Conflicts" /></a></p>
+<h2 id="github-extras"><a class="header" href="#github-extras">GitHub Extras</a></h2>
+<p>Here are a few extra details that are not necessary to the project but could be good to know.</p>
+<p>At any time, you can update the main project. Say you are working on a task and found some neat changes and wanted to see how that could apply to your task. You can do this by following the image below.</p>
+<p><img src="../images/updatefrommain.png" alt="How to Update from the Main Branch in GitHub" /></p>
+<p><span style="color:yellow"> <strong>Important</strong></span> , updating from the main branch can and will overwrite changes you made if any modifications were made to that file in the main branch.</p>
+<p>You can also view the history of commits to the repository in the history section. This can be useful for testing previous versions. You can create a new branch from any of the changes found in history.</p>
+<h3 id="using-command-line"><a class="header" href="#using-command-line">Using Command Line</a></h3>
+<p>download git: <em><a href="https://git-scm.com/downloads">HERE</a></em></p>
+<p>git documentation: <em><a href="https://git-scm.com/docs">HERE</a></em></p>
+<p>-<em>Documentation soon</em>-</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../Programming/unity.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../Programming/PR_Review.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../Programming/unity.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../Programming/PR_Review.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

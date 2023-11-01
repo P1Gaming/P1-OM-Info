@@ -1,0 +1,1192 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title></title>
+        <meta name="robots" content="noindex" />
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Documentation</li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> Programming</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="Programming/Code_How_To.html"><strong aria-hidden="true">1.1.</strong> Code How To</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Programming/unity.html"><strong aria-hidden="true">1.1.1.</strong> Setting up Unity</a></li><li class="chapter-item expanded "><a href="Programming/GitHub.html"><strong aria-hidden="true">1.1.2.</strong> GitHub</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Programming/PR_Review.html"><strong aria-hidden="true">1.1.2.1.</strong> PR Review</a></li></ol></li><li class="chapter-item expanded "><a href="Programming/Style_Guide.html"><strong aria-hidden="true">1.1.3.</strong> Style Guide</a></li><li class="chapter-item expanded "><a href="Programming/BugHandling.html"><strong aria-hidden="true">1.1.4.</strong> Bug Handling</a></li></ol></li><li class="chapter-item expanded "><a href="Programming/CPrototype.html"><strong aria-hidden="true">1.2.</strong> Compassion Prototype</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Programming/Interaction_System.html"><strong aria-hidden="true">1.2.1.</strong> The Interaction System</a></li><li class="chapter-item expanded "><a href="Programming/item_structure.html"><strong aria-hidden="true">1.2.2.</strong> Items</a></li><li class="chapter-item expanded "><a href="Programming/Island_hearts.html"><strong aria-hidden="true">1.2.3.</strong> Island Hearts</a></li><li class="chapter-item expanded "><a href="Programming/Dependencies.html"><strong aria-hidden="true">1.2.4.</strong> Dependencies</a></li></ol></li></ol></li><li class="chapter-item expanded "><li class="part-title">Full Game</li><li class="chapter-item expanded "><a href="Programming/FullGame.html"><strong aria-hidden="true">2.</strong> Full Game info</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Programming/Unit_Testing.html"><strong aria-hidden="true">2.1.</strong> Unit Testing</a></li></ol></li><li class="chapter-item expanded "><a href="Programming/api/index.html"><strong aria-hidden="true">3.</strong> API Documentation</a></li><li class="chapter-item expanded affix "><li class="part-title">Join Task</li><li class="chapter-item expanded "><a href="Programming/ExamInstructions.html"><strong aria-hidden="true">4.</strong> Task Instructions</a></li><li class="chapter-item expanded "><a href="Programming/nameList.html"><strong aria-hidden="true">5.</strong> List of names</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="programming-team-guide"><a class="header" href="#programming-team-guide">Programming Team Guide</a></h1>
+<p><img src="images/Logo_Billy_Cropped.png" alt="Sky Jellies" title="Sky Jellies" /></p>
+<h2 id="welcome-to-the-programming-team"><a class="header" href="#welcome-to-the-programming-team">Welcome to the programming team</a></h2>
+<p>This document contains instructions and information to assist you in an easy transition as a programmer within P1-OM. We are focused on your growth as a programmer and member of P1-OM and are not concerned of your skill level. If you have the interest and the determination to be a programmer or you just want to be a hobbyist, both are acceptable. We ask only, if you say you are going to do a task, follow through with your task. </p>
+<p>Excluding the Join Task, if you have any questions about anything regarding this documentation, P1-OM, or programming questions for our projects or any personal projects do not hesitate to ask. There are no stupid questions and if someone doesn't have an answer, they will at least point you in the right direction to find your answer.</p>
+<h2 id="what-is-the-game"><a class="header" href="#what-is-the-game">What is the game</a></h2>
+<p>Sky Jellies is a game that aims to bridge a sandbox craft game, like Minecraft, and combine it with a wholesome pet-type game. The player befriends different kinds of Jelly creatures that help them progress in building resources to explore and build in the game world.</p>
+<h2 id="why-two-projects-and-their-differences"><a class="header" href="#why-two-projects-and-their-differences">Why two projects and their differences</a></h2>
+<p>For us developers in P1, there are two types of “builds” we currently develop. These are the Compassion Prototype and the Full Game. Understanding the differences at first might be tricky, but here is the essential breakdown.</p>
+<ul>
+<li>
+<h3 id="compassion-prototype"><a class="header" href="#compassion-prototype">Compassion Prototype</a></h3>
+<ul>
+<li>This is a build that we can use to showcase to everyone the type of game we are developing. It allows most of us to “prototype” a concept and see the reactions from others before implementing it into the main game. Most of the development is not clean and advanced, which is fine for the prototype.</li>
+</ul>
+</li>
+<li>
+<h3 id="full-game"><a class="header" href="#full-game">Full Game</a></h3>
+<ul>
+<li>This will be the eventual game for Sky Jellies. Perhaps it does not look like much, but it will eventually be deployed with advanced and final variations from the Prototype.</li>
+</ul>
+</li>
+</ul>
+<p>For those familiar with GitHub, these builds have their own respective repository. The Prototype is listed as Connect-ed-foraging, and the Full Game is listed as SkyJellies on GitHub.</p>
+<p>It is important to note that the Prototype and the Full Game have their own rules when developing for them. Please follow those guides, which are listed in the respective sections.</p>
+<ul>
+<li>Prototype: <em><a href="./Programming/CPrototype.html">HERE</a></em></li>
+<li>Full Game: <em><a href="./Programming/FullGame.html">HERE</a></em></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="how-to"><a class="header" href="#how-to">HOW TO</a></h1>
+<h2 id="understand-our-systems"><a class="header" href="#understand-our-systems">Understand our systems</a></h2>
+<p>Follow our guides, we have instructions on how each of the game's core system works from a technical perspective. <em><a href="Programming/./unity.html">HERE</a></em> this one shows you how to set up Unity, which versions are used for the Prototype and the Full Game, and <em><a href="Programming/./GitHub.html">HERE</a></em> for learning about GitHub, our choice for source control. If anything is not clear in the documentation or guides don't be afraid to ask questions or suggest changes.</p>
+<h2 id="structure-your-code"><a class="header" href="#structure-your-code">Structure your code</a></h2>
+<p>Style guides are used so programming teams can have common standards and naming conventions for their code.
+This helps code readability as in large projects you will be working with other peoples' code.
+While it may be hard to start using different rules to what you're used to in the long run it helps the project be more accesible to newer members. 
+See our Style Guide <em><a href="Programming/./Style_Guide.html">HERE</a></em></p>
+<h2 id="document-your-code"><a class="header" href="#document-your-code">Document your code</a></h2>
+<h3 id="xml-tags"><a class="header" href="#xml-tags">XML tags</a></h3>
+<ul>
+<li>
+<p>For classes and methods/functions inside that class, include a <code>&lt;summary&gt;</code> XML tag for their explanation.</p>
+</li>
+<li>
+<p>If the method/function has any parameters, use the <code>&lt;param&gt;</code> XML tag following the <code>&lt;summary&gt;</code> XML tag for the parameter explanation/s.</p>
+</li>
+<li>
+<p><span style="color:yellow"> <strong>REMEMBER</strong></span> that documented code uses three backslashes &quot;///&quot; as opposed to a comment that uses two, &quot;//&quot;.</p>
+</li>
+<li>
+<p>We will mostly focus on <code>&lt;summary&gt;</code> and <code>&lt;param&gt;</code> XML tags but, <em><a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/documentation-comments">HERE</a></em> is documentation for all the available XML tags and descriptions of how to use them.</p>
+</li>
+</ul>
+<h3 id="serializefield"><a class="header" href="#serializefield">SerializeField</a></h3>
+<p>The SerializeField attribute allows the class member to be exposed in the Unity Inspector even if it is private. Having it exposed for the Unity Inspector allows us to manually change or assign that variable through the inspector instead of code. We can pass in references to game objects in the scene this way.</p>
+<ul>
+<li>It is similar to having a public declaration, but having serializable code allows us to keep the private declarations and have Inspector exposure.</li>
+</ul>
+<pre><code class="language-csharp">
+[SerializeField] private float MoveSpeed = 2.5f;
+
+</code></pre>
+<p><img src="Programming/../images/serializableinspector.png" alt="Serializable In Inspector" /></p>
+<h3 id="tooltip"><a class="header" href="#tooltip">Tooltip</a></h3>
+<ul>
+<li>Unity has an attribute called &quot;Tooltip&quot; that provides context for class members in the Unity inspector and in IDE's such as Visual Studio. </li>
+<li>Including tooltips with every class member increases productivity by not having to switch back and forth between Unity and your IDE to know what a class member is being used for. If the class member has a SerializeField attribute, just hover the mouse cursor on the class member in the inspector and the tooltip will be displayed. The same goes for the class member, any where the member is being called the tooltip will be displayed if the mouse cursor is hovering over it.</li>
+</ul>
+<pre><code class="language-csharp">using UnityEngine;
+
+/// &lt;summary&gt;
+/// Class explanation here
+/// &lt;/summary&gt;
+public class AGoodClassName
+{
+    // Do this 
+    [SerializeField, Tooltip(&quot;Health value between 0 and 100.&quot;)]
+    private int _health;
+
+    [Tooltip(&quot;Stamina value between 0 and 100.&quot;)]
+    public float stamina;
+
+    // Don't do this
+    [SerializeField, Tooltip(&quot;Health value between 0 and 100.&quot;)] private int _health;
+    [Tooltip(&quot;Stamina value between 0 and 100.&quot;)] public float stamina;
+
+    /// &lt;summary&gt;
+    /// Method/function explanation here
+    /// &lt;/summary&gt;
+    /// &lt;param name=&quot;param1&quot;&gt;Param 1 explanation.&lt;/param&gt;
+    /// &lt;param name=&quot;param2&quot;&gt;Param 2 explanation.&lt;/param&gt;
+    public void AGoodMethodName(int param1, float param2)
+    {
+        //Do Stuff
+    }
+}
+</code></pre>
+<p>The explanation should follow these rules:</p>
+<ul>
+<li>Use it to explain WHAT the code does, what purpose the code fulfills.</li>
+<li>Make the explanation short, no more than 5 lines.</li>
+<li>Saying that the Jelly_sleep.cs &quot;Handles the Jelly's sleep&quot; is not an explanation.</li>
+<li>A good explanation should contain where this script should be attached or when it's functions are called.</li>
+</ul>
+<h2 id="bug"><a class="header" href="#bug">Bug</a></h2>
+<p>We document and track all our bugs on our Action Trello. If that does not sound familiar please ask about being added to it in programming chat in the Discord. Learn more about bugs and our procedures <em><a href="Programming/./BugHandling.html">HERE</a></em></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="unity"><a class="header" href="#unity">Unity</a></h1>
+<p>To create our game we use Unity (you already know that).
+Specifically:</p>
+<h3 id="compassion-prototype-1"><a class="header" href="#compassion-prototype-1">Compassion Prototype</a></h3>
+<p>The Compassion Prototype is where we prototype features that may or may not be in the final product. After the Join Task, your first tasks will most likely be from the prototype unless you will be joining a Crew. The style guide is ot enforced here but is highly encouraged to follow it anyway. To learn more about the Compassion Prototype check out this section: <em><a href="Programming/./CPrototype.html">HERE</a></em>. To learn more about Crews check this out: <strong>link added soon</strong></p>
+<ul>
+<li>The Unity version for the prototype is 2020.3.37f1 (You didn't know that).</li>
+<li>If you don't have it you can download it <em><a href="https://unity.com/releases/editor/whats-new/2020.3.37">HERE</a></em>. 
+Don't use other versions, yes I know 2020.3.34f1 is 99% the same, it cause problems.</li>
+</ul>
+<h3 id="full-gameproduction"><a class="header" href="#full-gameproduction">Full Game/Production</a></h3>
+<p>The full production game is where all the teams best work will end up and be finalized. The style guide is strictly enforced for optimal readibility and cohesiveness. With the addition of Crews, they will be focusing on smaller manageable parts for the full game.</p>
+<ul>
+<li>The Unity version for the full game is 2021.3.20f1 (You also didn't know that).</li>
+<li>If you don't have it you can download it <em><a href="https://unity.com/releases/editor/whats-new/2021.3.20">HERE</a></em>.</li>
+</ul>
+<p>The video below has detailed instructions if you need them.</p>
+<p><a href="https://www.youtube.com/watch?v=ewiw2tcfen8&amp;ab_channel=DaniKrossing" title="HOW TO INSTALL &amp; SETUP UNITY"><img src="Programming/../images/Youtube_Video.png" alt="HOW TO INSTALL &amp; SETUP UNITY" /></a></p>
+<h1 id="prefabs-and-the-develop-scene"><a class="header" href="#prefabs-and-the-develop-scene">Prefabs and the develop scene <img src="Programming/../images/prefab_icon.png" width="35" height="35"></a></h1>
+<p>The develop scene is the main scene we use and is compromised of multiple prefabricated objects (prefabs for short).
+They have a blue color in the hierarchy.</p>
+<p><img src="Programming/../images/hierarchy.png" alt="Hierarchy" /></p>
+<p>When making changes to a prefab you need to find the object in the project files or open it from the inspector and do the changes there, <span style="color:yellow"> <strong>not in the develop scene directly</strong> </span>.
+If the prefab contains other prefabs inside it, keep opening them.</p>
+<p><img src="Programming/../images/prefab2.png" alt="Prefab" /></p>
+<p>Prefab Documentation: <a href="https://docs.unity3d.com/Manual/Prefabs.html">Unity's Documentation</a></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="github---overview-and-installation"><a class="header" href="#github---overview-and-installation">GitHub - Overview and Installation</a></h1>
+<p>GitHub is a distributed source control tool that uses the Git language.
+For a presentation on source control and GitHub, click the banner to watch Traba's presentation or click <a href="https://P1Gaming.github.io/P1-OM-Info/Programming/Version%20Control%2C%20Git%20and%20GitHub.pptx"><strong>HERE</strong></a> to download the presentation for leisurely viewing.</p>
+<h3 id="trabas-git-seminar-by-p1-om"><a class="header" href="#trabas-git-seminar-by-p1-om">Traba's Git Seminar by P1-OM</a></h3>
+<p><a href="https://youtu.be/G0p9y6PmQ1g" title="Traba's Git Seminar"><img src="Programming/../images/Traba_Git.png" alt="Traba's Git Seminar by P1-OM" /></a></p>
+<h2 id="why-we-use-github"><a class="header" href="#why-we-use-github">Why we use GitHub</a></h2>
+<p>As mentioned in the introduction, we use GitHub repositories for handling source control. Source control is a means for a mass collective to contribute to a project without ruining the main version of the project. We contribute to the main development without editing the main development.
+P1 already has a GitHub setup, so that is why we use GitHub over something like Perforce.</p>
+<h2 id="how-we-use-github"><a class="header" href="#how-we-use-github">How we use GitHub</a></h2>
+<p>There are a few various methods of interacting with GitHub repositories. The command line is the least attractive way of doing it but it is the foundation of all the other ways. In IDE's such as Visual Studio, if you open a Github project there are tools built-in to help you. Also, Github has created their own application called GitHub Desktop.</p>
+<p>For ease of use and quick startup for everyone we recommend using GitHub Desktop. This guide will be referencing Github Desktop in detail.
+The video below shows how easy it is to get started with GitHub and GitHub Desktop for Unity projects. (It includes the whole process from  setting up your own repository, creating a gitignore, and commiting.)</p>
+<p>As a <strong>new member</strong> your main concern will be <strong>installing GitHub Desktop</strong> (or using your preferred method) and <strong>cloning our project</strong></p>
+<p><a href="https://www.youtube.com/watch?v=qpXxcvS-g3g&amp;ab_channel=Brackeys" title="How to use GitHub with Unity"><img src="Programming/../images/brackeysGithub.jpg" alt="How to use GitHub with Unity" /></a></p>
+<p>If you are interested in using  command line or just learning as well, Click <em><a href="Programming/GitHub.html#using-command-line">HERE</a></em></p>
+<p>If you need to gain access, your point of contact will be Samuel Martin. You can send them a direct message in Discord asking them to gain access to either of the repositories you need access to (Most likely the prototype at first unless joining a Crew). Ensure to include the email you use for GitHub, as they need that to add you.</p>
+<h2 id="creating-a-new-branch"><a class="header" href="#creating-a-new-branch">Creating a new branch</a></h2>
+<p>You cloned the project and you're ready to start working on your task...</p>
+<p><span style="color:red"> STOOOOOOOOOOOOOOOOOOP</p>
+<p><span style="color:yellow"> <strong>Important</strong></span> , Make sure you did not fork the project instead of cloning</p>
+<p>Forking the project is similar to cloning and you are able to do all the of the next steps without knowing. When you fork the project you create a copy of the project that was forked. That in itself isn't bad, but you will not receive any of the changes other programmers merge into the original project. If you commit any changes to your forked project the original project will never see them.</p>
+<p><span style="color:yellow"> <strong>Important</strong></span> , Make sure you are working on a different branch and not the main branch.</p>
+<p>This is a red flag if you find yourself on the branch shown in the image below. Do not make any direct changes to this branch.</p>
+<p><img src="Programming/../images/developbranch.png" alt="Develop Branch No No" /></p>
+<p>What you should do instead is create a new branch from that branch.</p>
+<p><img src="Programming/../images/newbranch.png" alt="Creating New Branch" /></p>
+<p><img src="Programming/../images/createbranch.png" alt="Create the New Branch" /></p>
+<p>With your new branch ready, you can publish it for everyone to view. Or you can decide not to publish it if you want to test several things. But for handling your tasks, you should publish the branch since it will need to be reviewed later.
+Note: You should follow a naming convention for your branch. Example: YourDiscordName-Task</p>
+<h2 id="making-changes"><a class="header" href="#making-changes">Making Changes</a></h2>
+<p>When you change the project, it will appear like the image below in GitHub Desktop.</p>
+<p><img src="Programming/../images/changesmade.png" alt="Showing Changes Made in GitHub" /></p>
+<p>These changes are not saved in the GitHub branch yet. To do that, you need to commit these changes, and it is required to have a commit summary title. Although you do not need a description, you should add one for others to know what changes you have made in this commit. Once you have hit the commit button, you must push those changes before they go live.</p>
+<p>We have changed a Unity Scene, a C# script, and others in the image above. Now you can “commit” these changes, but that can lead to problems such as conflicts. Let us say, for example, your task has you making a change or functionality to the C# script that is listed. Every other change does not impact that script change. You can safely delete those changes, which is HIGHLY recommended. This way, you only commit changes that are part of your task.</p>
+<p>To delete a change, click on one of the changes (that you do not need) in GitHub Desktop and select discard changes.</p>
+<p><img src="Programming/../images/discardingchanges.png" alt="How to Discard Changes in GitHub" /></p>
+<h2 id="making-pull-requests-pr"><a class="header" href="#making-pull-requests-pr">Making Pull Requests (PR)</a></h2>
+<p>A Pull Request, or PR, is a request to pull the changes you made on your branch with the main develop branch. Putting it simply, it is a merge request.</p>
+<p>When you’ve completed a task, you might think, “Now what?” For programmers in P1-OM, we handle task reviewing a bit differently. Ultimately, we require a Pull Request, shortened to PR, to be made for review.</p>
+<h2 id="creating-a-pull-request-pr"><a class="header" href="#creating-a-pull-request-pr">Creating a Pull Request (PR)</a></h2>
+<p>Once you complete your task push your changes, publish your branch, and create a PR. Someone will review and merge it or request changes.</p>
+<p>To create the PR, you can click on the create or preview Pull Request button in GitHub Desktop.</p>
+<p><img src="Programming/../images/createpullrequest.png" alt="Create the Pull Request" /></p>
+<p>It will let you know if the merge can safely happen before creating the Pull Request. Otherwise, you may have to clear out a conflict (more on that below).</p>
+<p>After clicking on the option to create a PR in GitHub Desktop, it will take you to the GitHub website for you to officially create the PR. You will need to fill out the description and a name for the PR. The form will ask for a link to the Pull Request Card.</p>
+<p>The video below has all the steps:</p>
+<p><a href="https://www.youtube.com/watch?v=8x6V5IOuXog&amp;ab_channel=DevLeonardo" title="Your First Pull Request with GitHub Desktop"><img src="Programming/../images/GithubDesktop.jpg" alt="Your First Pull Request with GitHub Desktop" /></a></p>
+<h2 id="creating-the-pull-request-card"><a class="header" href="#creating-the-pull-request-card">Creating the Pull Request Card</a></h2>
+<p>Once you have reached the Pull Request step, you are ready to make the card for it. P1-OM uses Trello to handle all task management. Before making the PR, you should have had some time to look through the Action Trello Board and get acquainted with it. Regardless, when creating a PR, you create a new task for the programming team to handle. A task that requires someone else to review than yourself.</p>
+<p>To create the PR Card, follow this link to the PR Card template: <em><a href="https://trello.com/c/r4UJnCIK">template</a></em></p>
+<p>You can follow the steps on that card, but the general steps are as follows.</p>
+<ol>
+<li>Copy from the template (rename the card to &quot;PR: your task name&quot;)</li>
+<li>Move the card to the &quot;To Do&quot; column under the &quot;PROGRAMMING (Pull Requests)&quot; section.</li>
+<li>Fill out the information: it needs the link to the task you worked on and the Pull Request.</li>
+<li>Use the share button to copy the card link to the form in GitHub, so it has a link to the card for you to officially create the PR.</li>
+<li>Copy and paste the PR URL from GitHub to the PR card.</li>
+<li>Do NOT join this card. The card is a created task that requires someone else to handle.</li>
+</ol>
+<p>You officially made a Pull Request and a PR card on Trello for your task. Good work and Congratulations!</p>
+<h2 id="handling-conflicts"><a class="header" href="#handling-conflicts">Handling Conflicts</a></h2>
+<p>You might end up in a situation where the changes you made conflict with a different set of changes. Ideally, this will not occur if we push changes only for our tasks. But you may run into this issue.</p>
+<p>After creating the Pull Request, you can check to see if there are conflicts. And if there are, you will need to go and resolve the conflicts. Visual Studio Code is an excellent way to resolve conflicts.</p>
+<p><a href="https://www.youtube.com/watch?v=mOJazBNrG-c" title="Resolve GitHub Merge Conflicts"><img src="Programming/../images/Youtube_Merge_Conflict.jpg" alt="Resolve GitHub Merge Conflicts" /></a></p>
+<h2 id="github-extras"><a class="header" href="#github-extras">GitHub Extras</a></h2>
+<p>Here are a few extra details that are not necessary to the project but could be good to know.</p>
+<p>At any time, you can update the main project. Say you are working on a task and found some neat changes and wanted to see how that could apply to your task. You can do this by following the image below.</p>
+<p><img src="Programming/../images/updatefrommain.png" alt="How to Update from the Main Branch in GitHub" /></p>
+<p><span style="color:yellow"> <strong>Important</strong></span> , updating from the main branch can and will overwrite changes you made if any modifications were made to that file in the main branch.</p>
+<p>You can also view the history of commits to the repository in the history section. This can be useful for testing previous versions. You can create a new branch from any of the changes found in history.</p>
+<h3 id="using-command-line"><a class="header" href="#using-command-line">Using Command Line</a></h3>
+<p>download git: <em><a href="https://git-scm.com/downloads">HERE</a></em></p>
+<p>git documentation: <em><a href="https://git-scm.com/docs">HERE</a></em></p>
+<p>-<em>Documentation soon</em>-</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="pull-requests-pr"><a class="header" href="#pull-requests-pr">Pull Requests (PR)</a></h1>
+<p>A request to Merge changes from one branch to another, usually the master/main branch.</p>
+<h2 id="how-to-do-them"><a class="header" href="#how-to-do-them">How to do them</a></h2>
+<ul>
+<li><a href="Programming/PR_Review.html#open-the-pr-on-github">Step 1: Open the PR on GitHub</a></li>
+<li><a href="Programming/PR_Review.html#check-the-files-changes">Step 2: Check the files changes</a></li>
+<li><a href="Programming/PR_Review.html#open-the-branch-in-github-desktop">Step 3: Open the branch in GitHub Desktop</a></li>
+<li><a href="Programming/PR_Review.html#playtest-the-changes-in-unity">Step 4: Playtest the changes in Unity</a></li>
+<li><a href="Programming/PR_Review.html#approve-and-merge">Step 5: Approve and merge</a></li>
+</ul>
+<h2 id="open-the-pr-on-github"><a class="header" href="#open-the-pr-on-github">Open the PR on GitHub</a></h2>
+<p>Go to our repo on GitHub and click the PR tab.
+Find the PR that you want to review.
+Read comments, see who made it, remember to see what is the name of the branch (image 1a).
+If you want to be profesional add yourself as a reviewer (image 1b).
+<img src="Programming/../images/PR1a.png" alt="Image 1a" />
+<img src="Programming/../images/PR1b.png" alt="Image 1b" /></p>
+<h2 id="check-the-files-changes"><a class="header" href="#check-the-files-changes">Check the files changes</a></h2>
+<p>If you want to do this right, you need to go and check what files have been changed.
+If for small changes the number of files altered is large, that's a red flag.
+If for big changes the number is small, that is also a red flag.
+If you are a programmer you have a detailed list of all the code lines that changed.</p>
+<h2 id="open-the-branch-in-github-desktop"><a class="header" href="#open-the-branch-in-github-desktop">Open the branch in GitHub Desktop</a></h2>
+<p>Hope you checked the branch name because now we need it.
+Open GitHub Desktopand open the branch list (image 3a).
+Fine the branch and open it, wait for it to load.
+<img src="Programming/../images/PR3a.png" alt="Image 3a" /></p>
+<h2 id="playtest-the-changes-in-unity"><a class="header" href="#playtest-the-changes-in-unity">Playtest the changes in Unity</a></h2>
+<p>Now open or refresh the Unity project.
+Press play and test out whatever you need.
+If some thing doesn't work leave a comment on GitHub about it.
+If everything works move to the next step.</p>
+<h2 id="approve-and-merge"><a class="header" href="#approve-and-merge">Approve and merge</a></h2>
+<p>If you are a designer just leave a comment that all is good.
+If you are a programmer follow the instructions of the respective project review.</p>
+<ul>
+<li><a href="Programming/./CPrototype.html">Compassion Prototype</a></li>
+<li><a href="Programming/./FullGame.html">Full game</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="style-guide"><a class="header" href="#style-guide">Style Guide</a></h1>
+<p>Given that P1 is a large group, we will have a wide range of programmers on the team. Everyone will have different skill levels and different conventions for their programming. Hence, the style guide is one of the most important aspects to understand. This way, everyone can be on the same page when we work on tasks.</p>
+<p>The style guide aims to inform you on general programming practices, naming conventions, comments, the order of members in classes, private declaration, some details for serialization in Unity, and information for using lambda delegates in C#.</p>
+<h2 id="general-programming-practice"><a class="header" href="#general-programming-practice">General programming practice</a></h2>
+<ul>
+<li>Make it good, not perfect. Perfect code does not exist.</li>
+<li>Focus on readibility, what is understood by you might not be to others especially months or years down the line.
+<ul>
+<li>Don't worry about the length of a script and try to compact your code. </li>
+<li>Space out your lines if it provides better readibility.</li>
+</ul>
+</li>
+<li>Try and keep each line less than 100 characters long.</li>
+<li>Keep every script relevant to itself. 
+<ul>
+<li>Don't add stuff about petting jellies in the Jelly_Bath script. Scripts that carry more than one functionality are confusing and prone to breaking.</li>
+</ul>
+</li>
+<li>Don't hardcode values. Even if it shouldn't appear in the inspector declare it in a variable.</li>
+</ul>
+<pre><code class="language-csharp">// Do this
+private const _thisVariablesDoesThis = 5; //Unmodifiable
+
+private void Function()
+{
+	// Here we know what both variables are.
+	thisVariableDoesSomething += thisVariablesDoesThis; 
+}
+// Don't do this
+private void Function()
+{
+	thisVariableDoesSomething += 5; // Why are we increasing it by 5?
+}
+</code></pre>
+<ul>
+<li>When you write “if” statements, instead of shortening the code without brackets “{},” it is better to include them, likewise for the other type of code where the brackets can be left out.</li>
+</ul>
+<pre><code class="language-csharp">// Do this
+if()
+{
+	//Do stuff
+}
+
+while()
+{
+	//Do stuff
+}
+
+//Don't do this
+if()
+	//Do stuff
+	
+While() //Do stuff
+
+//Also Don't do this
+if(){
+	//Do Stuff
+} 
+</code></pre>
+<h2 id="naming-convensions"><a class="header" href="#naming-convensions">Naming Convensions</a></h2>
+<p>The importance of a naming convention makes the code easier to read.</p>
+<h3 id="variables"><a class="header" href="#variables">Variables</a></h3>
+<ul>
+<li>Use camelCase to name variables.</li>
+<li>Private variables should start with an underscore(_).</li>
+<li>If your variable is a boolean the name should be asking a question.</li>
+<li>Avoid special characters, it can affect how the editor reads the names.</li>
+<li>Your variable names can be 100 characters long and should describe what it does.</li>
+</ul>
+<pre><code class="language-csharp">// Do this
+private int _healthPoints;
+private bool _hasItem;
+
+//Don't do this:
+private int PlayerChar;
+private bool A;
+private string PSText;
+</code></pre>
+<h3 id="functions"><a class="header" href="#functions">Functions</a></h3>
+<ul>
+<li>
+<p>Function names will use <strong>PascalCase</strong>.</p>
+</li>
+<li>
+<p>If a function triggers an event it's name should start with an OnEventName.
+Example:</p>
+</li>
+</ul>
+<pre><code class="language-csharp">private void OnDoorOpened()
+{
+	//Do stuff
+}
+</code></pre>
+<ul>
+<li>If it returns a boolean the name should be asking a question. Example:</li>
+</ul>
+<pre><code class="language-csharp">private bool IsPlayerDead()
+{
+	return _isPlayerDead;
+}
+</code></pre>
+<h2 id="privacyaccess-modifiers"><a class="header" href="#privacyaccess-modifiers">Privacy/Access Modifiers</a></h2>
+<p>Access modifiers are the public, protected, and private keywords used before a class and any members of that class like variables, methods, enums, etc. Leaving off the access modifier it is automatically considered private. We will be requiring to explicitly say that a class and its members are private.</p>
+<p>Try to keep your variables as private as possible. That way we have better control of when and how scripts alter them.
+There is no harm in accessing a variable from another class. Be more concerned about changing the value from another class.</p>
+<ul>
+<li>Make sure if you need a class or class member protected, or public to write that access modifier. You will not find it due to it being private automatically.</li>
+<li><em><a href="https://methodpoet.com/why-you-need-private-variables/">Here</a></em> is a webpage explaining the importance of privacy and access modifiers in further detail</li>
+</ul>
+<pre><code class="language-csharp">// Do this
+private int _variable; // safest approach
+
+[Serialized Field, Tooltip(&quot;Can be altered in the inspector&quot;)] 
+private int _variable;
+
+//working with properties (getters and setters)
+private int _variable;
+public int Variable 
+{
+	get {return _variable;} // can be read from anywhere
+	private set {_variable=value;} // set from this class only
+}
+
+[field:SerializeField, Tooltip(&quot;same as above, but Unity creates a backupfield so you can set it in the inspector&quot;)] 
+public float MyFloat3 { get; private set; }
+</code></pre>
+<h2 id="comments"><a class="header" href="#comments">Comments</a></h2>
+<p>Don't use comments to explain what your code and variables do. Clean code explains itself.
+Most of the time comments should explain <strong>WHY</strong> the code does someting <strong>NOT HOW</strong>.</p>
+<p>If it is necessary to write a piece of code that is not ordinary and it was the only way. </p>
+<ul>
+<li>Make a comment why you have done it this way.</li>
+</ul>
+<p>If the task you are working on still has something left to do that goes farther than your task card intended. </p>
+<ul>
+<li>Add a TODO comment. Example: <code>//TODO: *what needs to be done*</code></li>
+<li>Make a task card for the TODO comment and refer to it. Programming Task Card: <em><a href="https://trello.com/c/SKyJmHHW/1037-template-for-creating-programming-tasks">HERE</a></em> 
+<ul>
+<li>Make sure to specify the task you were working on and that task will need to be merged first.</li>
+</ul>
+</li>
+</ul>
+<h2 id="ordering-of-classes"><a class="header" href="#ordering-of-classes">Ordering of classes</a></h2>
+<p>The functions within classes should be arranged in a specific order.
+When we write classes , there is a specific order to keep in mind. Keeping a consistent order promotes readibility. The typical order is Declarations -&gt; Events -&gt; Private Functions -&gt; Public Functions. Or better illustrated with the image below.</p>
+<pre><code class="language-csharp">public class ClassName : MonoBehaviour
+{
+	//Variable Declarations
+	private int _intVariable;
+	private float _floatVariable;
+
+	public string stringObject;
+	public bool isABool;
+
+	Enum Declarations
+	
+	Unity Events
+	- OnValidate()
+	- OnEnable()
+	- Awake()
+	- Start()
+	- Update()
+	
+	Private Functions
+	
+	Public Functions
+	- Custom functions
+	- Get/Set Methods
+	
+}
+</code></pre>
+<h2 id="lambda-expressions-and-delegates"><a class="header" href="#lambda-expressions-and-delegates">Lambda Expressions and Delegates</a></h2>
+<p>Lambda expressions in C# are used like anonymous functions, with the difference that in Lambda expressions you don’t need to specify the type of the value that you input thus making it more flexible to use. </p>
+<p>When you see “=&gt;” in C#, you see a lambda expression. It is a way to shorthand a function call to return a value to a variable in the middle of your code.</p>
+<p>For example:</p>
+<pre><code class="language-csharp">public Float CurrentHealth =&gt; (energy * baseHealth)-damage;
+</code></pre>
+<p>Acts like a function with body:</p>
+<pre><code class="language-csharp">{
+  return (energy * baseHealth)-damage;
+}
+</code></pre>
+<p>But you can call it without brackets though, like :</p>
+<pre><code class="language-csharp"> if(CurrentHealth &gt; 0)
+</code></pre>
+<p>The left of the “=&gt;” operator is the input, and to the right is the expression. Lambdas are a bit advanced, which will be better understood through the video below.
+Action delegates are a unique way of writing function calls. With delegates, you can make a function like a variable that can be passed. Once again, it is advanced and better understood through the video below.</p>
+<p><a href="https://www.youtube.com/watch?v=3ZfwqWl-YI0" title="What are Delegates? (C# Basics, Lambda, Action, Func)"><img src="Programming/../images/Youtube_delegate.png" alt="What are Delegates? (C# Basics, Lambda, Action, Func)" /></a></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="bug-handling"><a class="header" href="#bug-handling">Bug Handling</a></h1>
+<p>We will encounter “bugs” in the game while developing the project. Bugs are generally things that should not be in the game. Such as game crashes, unwanted noises, unable to pet the jellies, and the list goes on for what could count as a bug. </p>
+<p>If it is not an intended feature for the game, it is most likely a bug that requires fixing.</p>
+<p>The rest of this page is dedicated to information for handling a task that deals with a bug you cannot find and what happens when you find a bug that isn’t listed.</p>
+<p>The general bug-handling procedure is described in this Trello card: <em><a href="https://trello.com/c/fST1FYwE">HERE</a></em></p>
+<h2 id="unable-to-find-the-bug"><a class="header" href="#unable-to-find-the-bug">Unable to find the Bug</a></h2>
+<p>While you are working on your task involving a bug, you may run into the situation where no matter how many times you attempt to recreate the bug listed in the steps, you cannot find the bug. </p>
+<p>The inability to find the bug means you cannot solve it (if it still exists).
+When this happens, apply the tag “1st attempt” to the task card on Trello, remove yourself from the task, and remove the deadline you had set. If a “1st attempt” already exists on said card, add the “2nd attempt” tag to that card. Lastly, a “3rd attempt – Archive” should be added.</p>
+<p><img src="Programming/../images/bugtags.png" alt="Task Tags for Bugs" /></p>
+<p>The card can be archived with all three attempt labels on the card.</p>
+<h2 id="finding-a-bug"><a class="header" href="#finding-a-bug">Finding a Bug</a></h2>
+<p>When you find a bug that is not discussed, check to see if a task for it exists in the Trello board. </p>
+<p>There is a dedicated column for Bugs that are known or have only occurred once. Check in the programming section for the respective bug you have found.</p>
+<p>If empty, check the To-Do, Task in Progress, and Ready for Review sections. Someone may be already handling said task. Lastly, you should check to make sure you have the most up-to-date version of the main develop branch and have that merged into whichever branch you are working on.</p>
+<p>With all said and done, and you have found the bug without a task, you can create a card for it. Follow this card <em><a href="https://trello.com/c/Xfgd1270">template</a></em> for instructions on making it.</p>
+<p>You will need to list the following:</p>
+<ul>
+<li>What the bug is</li>
+<li>Steps to finding that bug</li>
+<li>Any extras that might help (such as an image of the bug or a video)</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="compassion-prototype---not-the-final-game"><a class="header" href="#compassion-prototype---not-the-final-game">Compassion Prototype - Not the Final Game</a></h1>
+<p>The Compassion Prototype, also referred to as the Prototype, is a build of the game used for marketing and show and tell. This build is made to showcase what we are building and test concepts.</p>
+<p>It is mainly used for:</p>
+<ul>
+<li>Testing experimental features.</li>
+<li>Join tasks.</li>
+<li>Showcasing aspects of our game-idea.</li>
+</ul>
+<p>The prototype was the Unity project that was created during the formation of this team it contains various problems:</p>
+<ul>
+<li>Contains a lot of old code from features that were scraped.</li>
+<li>Almost no documentation because originally people didn't give any importance to it.</li>
+<li>Lots of low quality code either due:
+<ul>
+<li>Prefering quick tests of features.</li>
+<li>No code reviews ever.</li>
+</ul>
+</li>
+</ul>
+<p>This is not uncommon, many teams create &quot;Quick and dirty&quot; prototypes to test their ideas before creating the final product.</p>
+<h2 id="accessing-the-repository"><a class="header" href="#accessing-the-repository">Accessing the Repository</a></h2>
+<p>The GitHub repository is listed as “Connect-ed-Foraging.” All programmers, new and old members alike, should be able to access the prototype. Follow the steps in the GitHub section of this document for who you reach out to gain access. Once cloned, the actual Prototype to be opened in Unity is in a folder called “Connect-ed.”</p>
+<h2 id="rules-for-pull-requests"><a class="header" href="#rules-for-pull-requests">Rules for Pull Requests</a></h2>
+<p>Generally, the rules for a Pull Request in the Prototype are not very strict. But it is to allow new members to learn the rules to follow the correct procedure.</p>
+<ul>
+<li>If it works and does not cause any significant problems, merge.</li>
+</ul>
+<p>If you are unsure about something, always feel free to ask questions.</p>
+<h2 id="systems-to-review"><a class="header" href="#systems-to-review">Systems to Review</a></h2>
+<p>The following sections under the Compassion Prototype go over the developed systems. They will inform you how to work with the systems, such as the interaction system. When you take a task that involves one of these systems, it may not be a bad idea to review them here first before getting started on said task.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="the-interaction-system"><a class="header" href="#the-interaction-system">The interaction System</a></h1>
+<p>For the player to be able to interact with any object (slimes, benches, bushes) they need to have an Interactable component attached.</p>
+<h3 id="how-it-works"><a class="header" href="#how-it-works">How it works</a></h3>
+<p>The PlayerInteractionFinder script uses a Raycast from the player Transfrom to detect any Gameobjects with Interactable components.
+When it finds one it triggers the StartLookingAt() UnityEvent on the Interactable Script which activates the InteractionsViaInputActions script, this script handles the UI prompt, the interaction triggering and the button prompts.</p>
+<h3 id="the-interaction"><a class="header" href="#the-interaction">The Interaction</a></h3>
+<p>The Interactable.cs, PlayerInteractionFinder.cs and InteractionsViaInputActions.cs all use the Interaction Class.
+Let's break down what that Class contains.</p>
+<p><img src="Programming/../images/Interaction_example.png" alt="Interaction" /></p>
+<blockquote>
+<ul>
+<li>The name of the interaction. This also appears in the in-game UI.</li>
+<li>What item the player will receive upon completing the interaction (Use only in specific cases).</li>
+<li>The item that the player needs to hold and give for the interaction to happen (Item is consumed upon interaction).</li>
+</ul>
+<blockquote>
+<ul>
+<li>There can be multiple payment options.</li>
+<li>Leave empty to have the interaction appear always.</li>
+</ul>
+</blockquote>
+<ul>
+<li>Two events that can invoke functions set in the inspector or by code.</li>
+</ul>
+<blockquote>
+<ul>
+<li>The first event can transfer the item that was used to trigger the interaction if the function accepts ItemStack arguments.</li>
+<li>Both events can be left null without any errors showing.</li>
+</ul>
+</blockquote>
+<ul>
+<li>The isBlocked checkbox will disable the specific interaction.</li>
+</ul>
+<blockquote>
+<ul>
+<li>The Interactable component can hold multiple interactions so this can be usefull.</li>
+</ul>
+</blockquote>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-structure"><a class="header" href="#item-structure">Item structure</a></h1>
+<p>We use the base class ItemBase to create items as scriptable objects.
+From there we have various classes that inherit the ItemBase to create more specialized item categories like placeable or the jelly dew.</p>
+<p><img src="Programming/../images/Item_structure.png" alt="Item" title="Item structure" /></p>
+<p>Items are added to the player inventory either directly (from the interaction system or crafting) or from picking pickable prefabs objects.</p>
+<p>Items must contain:
+- a reference to an icon asset that will be displayed at the player's inventory.
+- a reference to a placeable prefab object if the item can be placed down
+- a reference to a dropable prefab object which the player can pick up</p>
+<h1 id="crafting-recipes"><a class="header" href="#crafting-recipes">Crafting Recipes</a></h1>
+<p>Crafting recipes contain a reference to the ItemBase scriptable object they create, the materials and the amount needed.</p>
+<blockquote>
+<p>Folder structure:
+Assets -&gt; ScriptableObjects -&gt; Crafting Recipes -&gt; Folder named after the workbench that will contain the recipe</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="making-changes-to-island-hearts-ih"><a class="header" href="#making-changes-to-island-hearts-ih">Making changes to Island hearts (IH)</a></h1>
+<p><img src="Programming/../images/Island_hearts.png" alt="XML tag" title="IH" /></p>
+<p>In order to make changes to the island hearts prefab enter the &quot;New island hearts&quot; folder.</p>
+<ul>
+<li>To make a change to a specific IH find it's specific folder (Blue square).</li>
+<li>To make a change to all IH use the Base_template folder (Red square).</li>
+<li>To create a new IH COPY the duplicate folder (Green square) and rename the new folder following the naming conventions: IH type.</li>
+</ul>
+<h3 id="warning"><a class="header" href="#warning"><span style="color:yellow"> Warning </span></a></h3>
+<p>Never make changes to IH outside these folders. They are gonna get lost and you will just confuse people.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="dependencies-list"><a class="header" href="#dependencies-list">Dependencies List</a></h1>
+<p>A list of dependencies for each script in the project (WIP)
+Dependency is when script A calls other scripts.
+Reference is when other scripts call script A.</p>
+<h2 id="table-of-scripts"><a class="header" href="#table-of-scripts">Table of scripts</a></h2>
+<table><thead><tr><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody>
+<tr><td><a href="Programming/Dependencies.html#crafting">Crafting</a></td><td><a href="Programming/Dependencies.html#craftingrecipe">CraftingRecipe</a></td><td><a href="Programming/Dependencies.html#upgraderecipe">UpgradeRecipe</a></td><td><a href="Programming/Dependencies.html#craftingui">CraftingUI</a></td><td><a href="Programming/Dependencies.html#requiredmaterialui">RequiredMaterialUI</a></td></tr>
+<tr><td><a href="Programming/Dependencies.html#cloudsuisettings">CloudsUISettings</a></td><td><a href="Programming/Dependencies.html#cloudgeneration">CloudGeneration</a></td><td><a href="Programming/Dependencies.html#grabslime">GrabSlime</a></td><td><a href="Programming/Dependencies.html#playermovementcontrol">PlayerMovementControl</a></td><td><a href="Programming/Dependencies.html#playergrabslime">PlayerGrabSlime</a></td></tr>
+<tr><td><a href="Programming/Dependencies.html#playerplockinteraction">playerblockinteraction</a></td><td><a href="Programming/Dependencies.html#sleepingslime">SleepingSlime</a></td><td><a href="Programming/Dependencies.html#timemanager">TimeManager</a></td><td><a href="Programming/Dependencies.html#slimestatus">SlimeStatus</a></td><td><a href="Programming/Dependencies.html#slime">Slime</a></td></tr>
+<tr><td><a href="Programming/Dependencies.html#sleepingslime">SleepingSlime</a></td><td><a href="Programming/Dependencies.html#playermovementcontroller">PlayerMovementController</a></td><td><a href="Programming/Dependencies.html#slimelevelupinfo">SlimeLevelUpInfo</a></td><td><a href="Programming/Dependencies.html#islandheart">IslandHeart</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td></tr>
+<tr><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td></tr>
+<tr><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td></tr>
+<tr><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td></tr>
+<tr><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td></tr>
+<tr><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td><td><a href="Programming/Dependencies.html#script_name">script name</a></td></tr>
+</tbody></table>
+<h2 id="craftingrecipe"><a class="header" href="#craftingrecipe">CraftingRecipe</a></h2>
+<details>
+  <summary> Click here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>ItemBase</td><td>UpgradeRecipe</td></tr>
+<tr><td>RequiredMaterial</td><td>CraftingUI</td></tr>
+<tr><td>PlayerInventory</td><td>CraftingRecipeUI</td></tr>
+<tr><td>ItemStack</td><td>UIManager</td></tr>
+<tr><td>-------------</td><td>Crafting</td></tr>
+</tbody></table>
+</details>
+<h2 id="upgraderecipe"><a class="header" href="#upgraderecipe">UpgradeRecipe</a></h2>
+<details>
+  <summary> Click here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>CraftingRecipe</td><td>Crafting</td></tr>
+<tr><td>Crafting</td><td>CraftingUI</td></tr>
+<tr><td>PlayerInventory</td><td>CraftingRecipe</td></tr>
+<tr><td>ItemStack</td><td>-----</td></tr>
+<tr><td>UIManager</td><td>-----</td></tr>
+</tbody></table>
+</details>
+<h2 id="craftingui"><a class="header" href="#craftingui">CraftingUI</a></h2>
+<details>
+  <summary> Click here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>CraftingRecipe</td><td>UIManager</td></tr>
+<tr><td>PlayerInventory</td><td>CraftingUI</td></tr>
+<tr><td>CraftingRecipeUI</td><td>-----</td></tr>
+<tr><td>RequiredMaterial</td><td>-----</td></tr>
+<tr><td>RequiredMaterialUI</td><td>-----</td></tr>
+<tr><td>UIManager</td><td>-----</td></tr>
+</tbody></table>
+</details>
+<h2 id="requiredmaterialui"><a class="header" href="#requiredmaterialui">RequiredMaterialUI</a></h2>
+<details>
+  <summary> Click here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>RequiredMaterial</td><td>CraftingUI</td></tr>
+</tbody></table>
+</details>
+<h2 id="cloudsuisettings"><a class="header" href="#cloudsuisettings">CloudsUISettings</a></h2>
+<details>
+  <summary> Click here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>CloudGeneration</td><td>----------</td></tr>
+</tbody></table>
+</details>
+<h2 id="cloudgeneration"><a class="header" href="#cloudgeneration">CloudGeneration</a></h2>
+<details>
+  <summary> Click here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>---</td><td>CloudsUISettings</td></tr>
+</tbody></table>
+</details>
+<h2 id="grabslime"><a class="header" href="#grabslime">GrabSlime</a></h2>
+<details>
+  <summary> Click Here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>Slime</td><td>Interactable</td></tr>
+<tr><td>Interactable</td><td>-----</td></tr>
+<tr><td>Interaction</td><td>-----</td></tr>
+<tr><td>AkSoundEngine</td><td>-----</td></tr>
+<tr><td>PlayerMovementController</td><td>-----</td></tr>
+</tbody></table>
+</details>
+<h2 id="playermovementcontrol"><a class="header" href="#playermovementcontrol">PlayerMovementControl</a></h2>
+<details>
+  <summary> Click Here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>UIManager</td><td>FootstepsAnimationSound</td></tr>
+<tr><td>TimeManager</td><td>DroppedItem</td></tr>
+<tr><td>StarterAssetsInputs</td><td>InteractionsViaUI</td></tr>
+<tr><td>PlayerGrabSlime</td><td>PlayerDataManager</td></tr>
+<tr><td>TrainersManager</td><td>PlayerCamController</td></tr>
+<tr><td>AkSoundEngine</td><td>FeedSlime</td></tr>
+<tr><td>PlayerInputActions</td><td>GrabSlime</td></tr>
+<tr><td>GameEvents</td><td>PetSlime</td></tr>
+<tr><td>InputManager</td><td>DroneActionSequence</td></tr>
+<tr><td>StarterAssetsInputs</td><td>DestroyObject</td></tr>
+<tr><td>SerializationManager</td><td>PhotoModeUIController</td></tr>
+<tr><td>RespawnPlayerCurrentIsland</td><td>PlayerTooltipPickup</td></tr>
+<tr><td>PlayerDataManager</td><td>PlayerEnergyController</td></tr>
+</tbody></table>
+</details>
+<h2 id="slime"><a class="header" href="#slime">Slime</a></h2>
+<details>
+  <summary> Click Here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>IFeedable</td><td>SlimeManager</td></tr>
+<tr><td>SlimeSaveData</td><td>UIManager</td></tr>
+<tr><td>SlimeName</td><td>SlimeAgent</td></tr>
+<tr><td>SlimeManager</td><td>PlayerGrabSlime</td></tr>
+<tr><td>DialogManager</td><td>PlayerNameSlime</td></tr>
+<tr><td>PetSlime</td><td>CraftingSlime</td></tr>
+<tr><td>SlimeAgent</td><td>ColdWarmSystemSlime</td></tr>
+<tr><td>AkSoundEngine</td><td>FeedSlime</td></tr>
+<tr><td>DialogData</td><td>GrabSlime</td></tr>
+<tr><td>SlimeLevelUpInfo</td><td>PetSlime</td></tr>
+<tr><td>Player</td><td>SleepingSlime</td></tr>
+<tr><td>PlayerBlockInteraction</td><td>SlimeUIInteract</td></tr>
+<tr><td>Outline</td><td>RenameSlimeUI</td></tr>
+<tr><td>-----</td><td>UIController</td></tr>
+<tr><td>-----</td><td>SlimeTransportHandler</td></tr>
+<tr><td>-----</td><td>SlimeStatus</td></tr>
+</tbody></table>
+</details>
+<h2 id="playergrabslime"><a class="header" href="#playergrabslime">PlayerGrabSlime</a></h2>
+<details>
+  <summary> Click Here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>PlayerBlockInteraction</td><td>PlayerMovementController</td></tr>
+<tr><td>Slime</td><td>-----</td></tr>
+<tr><td>AkSoundEngine</td><td>-----</td></tr>
+</tbody></table>
+</details>
+<h2 id="playerblockinteraction"><a class="header" href="#playerblockinteraction">PlayerBlockinteraction</a></h2>
+<details>
+  <summary> Click Here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>ItemStack</td><td>PlayerTooltipPickup</td></tr>
+<tr><td>Island1BuildBlocker</td><td>Bridge</td></tr>
+<tr><td>BuildAreaManager</td><td>Table</td></tr>
+<tr><td>AkSoundEngine</td><td>CreativeItem</td></tr>
+<tr><td>Island1BuildBlocker</td><td>PlaceableItem</td></tr>
+<tr><td>PlayerToolAnimation</td><td>ToolItem</td></tr>
+<tr><td>PlayerInventory</td><td>PlayerGrabSlime</td></tr>
+<tr><td>ToolController</td><td>ToolController</td></tr>
+<tr><td>-----</td><td>CraftingRecipe</td></tr>
+<tr><td>-----</td><td>UpgradeRecipe</td></tr>
+<tr><td>-----</td><td>Slime</td></tr>
+<tr><td>-----</td><td>DestroyObject</td></tr>
+<tr><td>-----</td><td>GetBlock</td></tr>
+</tbody></table>
+</details>
+<h2 id="slimeagent"><a class="header" href="#slimeagent">SlimeAgent</a></h2>
+<details>
+  <summary> Click Here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>ColdWarmSystemSlime</td><td>Slime</td></tr>
+<tr><td>FeedSlime</td><td>SlimeUIInteract</td></tr>
+<tr><td>Slime</td><td>-----</td></tr>
+<tr><td>SleepingSlime</td><td>-----</td></tr>
+<tr><td>ItemBase</td><td>-----</td></tr>
+<tr><td>PlayerInventory</td><td>-----</td></tr>
+<tr><td>Bed</td><td>-----</td></tr>
+</tbody></table>
+</details>
+<h2 id="sleepingslime"><a class="header" href="#sleepingslime">SleepingSlime</a></h2>
+<details>
+  <summary> Click Here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>Interaction</td><td>SlimeAgent</td></tr>
+<tr><td>Bed</td><td>Bed</td></tr>
+<tr><td>DialogData</td><td>-----</td></tr>
+<tr><td>SlimeManager</td><td>-----</td></tr>
+<tr><td>Slime</td><td>-----</td></tr>
+<tr><td>Interactable</td><td>-----</td></tr>
+</tbody></table>
+</details>
+<h2 id="timemanager"><a class="header" href="#timemanager">TimeManager</a></h2>
+<details>
+  <summary> Click Here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>GameEvents</td><td>StarFade</td></tr>
+<tr><td>Time</td><td>SerializationManager</td></tr>
+<tr><td>PlayerDataManager</td><td>WwiseManager</td></tr>
+<tr><td>-----</td><td>PlayerMovementController</td></tr>
+<tr><td>-----</td><td>LightingManager</td></tr>
+<tr><td>-----</td><td>LowerPlaneManager</td></tr>
+<tr><td>-----</td><td>MoonOrbit</td></tr>
+<tr><td>-----</td><td>SkyboxManager</td></tr>
+<tr><td>-----</td><td>PostMod</td></tr>
+<tr><td>-----</td><td>PhotoModeUIController</td></tr>
+<tr><td>-----</td><td>TimechangeInScene</td></tr>
+<tr><td>-----</td><td>TimeEvents</td></tr>
+</tbody></table>
+</details>
+<h2 id="slimestatus"><a class="header" href="#slimestatus">SlimeStatus</a></h2>
+<details>
+  <summary> Click here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>Slime</td><td>-</td></tr>
+<tr><td>SleepingSlime</td><td>-</td></tr>
+<tr><td>ColdWarmSlimeSystem</td><td>-</td></tr>
+</tbody></table>
+</details>
+<h2 id="sleepingslime-1"><a class="header" href="#sleepingslime-1">SleepingSlime</a></h2>
+<details>
+  <summary> Click Here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>Interaction</td><td>SlimeAgent</td></tr>
+<tr><td>Bed</td><td>Bed</td></tr>
+<tr><td>DialogData</td><td>SlimeStatus</td></tr>
+<tr><td>SlimeManager</td><td>-----</td></tr>
+<tr><td>Slime</td><td>-----</td></tr>
+<tr><td>Interactable</td><td>-----</td></tr>
+</tbody></table>
+</details>
+<h2 id="playermovementcontroller"><a class="header" href="#playermovementcontroller">PlayerMovementController</a></h2>
+<details>
+  <summary> Click Here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>CharacterController</td><td>FootstepsAnimationSound</td></tr>
+<tr><td>PlayerInput</td><td>DroppedItem</td></tr>
+<tr><td>Animator</td><td>InteractionsViaUI</td></tr>
+<tr><td>StarterAssetsInputs</td><td>PlayerDataManager</td></tr>
+<tr><td>PlayerGrabSlime</td><td>PlayerCamController</td></tr>
+<tr><td>TrainersManager</td><td>FeedSlime</td></tr>
+<tr><td>PlayerInputActions</td><td>GrabSlime</td></tr>
+<tr><td>AkSoundEngine</td><td>PetSlime</td></tr>
+<tr><td>GameEvents</td><td>DroneActionSequence</td></tr>
+<tr><td>InputManager</td><td>DestroyObject</td></tr>
+<tr><td>SerializationManager</td><td>null</td></tr>
+<tr><td>RespawnPlayerCurrentIsland</td><td>null</td></tr>
+<tr><td>PlayerDataManager</td><td>null</td></tr>
+<tr><td>TimeManager</td><td>null</td></tr>
+<tr><td>UIManager</td><td>null</td></tr>
+</tbody></table>
+</details>
+<h2 id="slimelevelupinfo"><a class="header" href="#slimelevelupinfo">SlimeLevelUpInfo</a></h2>
+<details>
+  <summary> Click Here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>null</td><td>FeedSlime</td></tr>
+<tr><td>null</td><td>Slime</td></tr>
+</tbody></table>
+</details>
+<h2 id="islandheart"><a class="header" href="#islandheart">IslandHeart</a></h2>
+<details>
+  <summary> Click Here </summary>
+<table><thead><tr><th>Dependencies</th><th>References</th></tr></thead><tbody>
+<tr><td>IslandHeartInfo</td><td>IslandHeartRangeFX</td></tr>
+<tr><td>IslandHeartBuildReach</td><td>null</td></tr>
+<tr><td>AK.Wwise.Event</td><td>null</td></tr>
+<tr><td>ItemStack</td><td>null</td></tr>
+<tr><td>PlayerGrabSlime</td><td>null</td></tr>
+<tr><td>Slime</td><td>null</td></tr>
+<tr><td>WaitForSeconds</td><td>null</td></tr>
+</tbody></table>
+</details><div style="break-before: page; page-break-before: always;"></div><h1 id="skyjellies---main-production-project"><a class="header" href="#skyjellies---main-production-project">SkyJellies - Main production project</a></h1>
+<p>The full game that we will release when it's finished. Unlike the Prototype, the work is held to the highest standard.</p>
+<h2 id="accessing-the-repository-1"><a class="header" href="#accessing-the-repository-1">Accessing the Repository</a></h2>
+<p>To access the GitHub repo for the Full Game, you must first complete your Join Task. Once you have completed the Join Task, you can take an apprenticeship. Those who are apprentices can work on the Full Game, listed as SkyJellies.
+Once qualified to work on the Full Game, you can email Samuel Martin an invite to the repo on Discord. Do not forget to send them the email you use for GitHub.</p>
+<h2 id="pull-request-and-merge-rules"><a class="header" href="#pull-request-and-merge-rules">Pull Request and Merge Rules</a></h2>
+<p>Unlike the Prototype, we have more restrictions in this section. Given there are more restrictions, we have dedicated, elected reviewers to review PRs for the Full Game.</p>
+<ul>
+<li>Use this card for more information as a 2nd Reviewer: <em><a href="https://trello.com/c/qcSfypys/686-2nd-reviewer-responsibilities">ΗΕRΕ</a></em></li>
+<li>Make sure that the code is optimized and includes the correct XML tags.</li>
+<li>All the code must follow the <a href="Programming/./Style_Guide.html">Style Guide</a>* listed in this documentation. There are NO EXCEPTIONS</li>
+<li>If you are unsure about something please ask others for opinions and/or advise.</li>
+</ul>
+<p>After a pull request is created send a message to either the Servant Leader or the 2nd Reviewer <span style="color:yellow"><strong>NOT BOTH</strong></span> for the week you created the pull request.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="unit-testing"><a class="header" href="#unit-testing">Unit Testing</a></h1>
+<p>A unit test is a way of testing a unit - <em>the smallest piece of code</em> that can be logically isolated in a system. 
+In most programming languages, that is a function, a subroutine, a method or property.
+The isolated part of the definition is important. </br></p>
+<p>It is a way to automatically test if the output of your code is the expected one.</p>
+<h2 id="why-and-what-unit-testing"><a class="header" href="#why-and-what-unit-testing">Why and What Unit Testing</a></h2>
+<p>Now you think: <span style="color:cyan"> <em>Why should I set up a Unit Test. It's extra effort and besides I can just press play and test it</em> </br></p>
+<p>There are many advantages to Unit testing.</p>
+<ul>
+<li>Allows you to test parts of the code that might not be playable for some reason.</li>
+<li>Allows you to test the functions in a void, meaning that: 
+<ul>
+<li>in a chain of functions you can find easilly where the problem lies.</li>
+<li>you do not depend on other functions.</li>
+</ul>
+</li>
+<li>Once set up you can quickly test with different inputs.</li>
+</ul>
+<p>This <span style="color:yellow"> <strong>does not mean</strong> </span>that you stop testing your work in-game.</p>
+<p>Now you think: <span style="color:cyan"> <em>What should I test, everything?</em> </p>
+<p><span style="color:yellow"> <strong>This is a difficult question.</strong> </span></br>
+There are thing that you should test, that you shouldn't test and things you cannot test.
+The best thing you can do is think critically and experiment yourself.</p>
+<h2 id="unit-testing-in-unity"><a class="header" href="#unit-testing-in-unity">Unit Testing in Unity</a></h2>
+<p>Unity has it's own libraries and tools to help set up all the tests you need.
+For more info <a href="https://docs.unity3d.com/Manual/testing-editortestsrunner.html"><em>Click Here</em></a></p>
+<p>Also here's a video: </br>
+<a href="https://www.youtube.com/watch?v=PDYB32qAsLU&amp;ab_channel=InfallibleCode" title="How to use Unit Testing with Unity"><img src="Programming/../images/UnitTest.jpg" alt="How to use Unit Testing with Unity" /></a></p>
+<div style="break-before: page; page-break-before: always;"></div><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Sky Jellies: Main Page</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Sky Jellies
+   &#160;<span id="projectnumber">0.1</span>
+   </div>
+   <div id="projectbrief">Partnering with cute creatures to build a sky island paradise.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('index.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+<div class="header">
+  <div class="headertitle">
+<div class="title">Sky Jellies Documentation</div>  </div>
+</div><!--header-->
+<div class="contents">
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="Programming/api/doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="the-join-task"><a class="header" href="#the-join-task">The Join Task</a></h1>
+<p>The goal of the join task is: </br>
+To learn and understand GitHub
+To clone, branch and Pull Request
+To make small changes to specific files
+To succesfully follow a procedure.</p>
+<p>The goal in <strong>NOT</strong> to: </br>
+Test your programming knowledge</p>
+<h2 id="instructions"><a class="header" href="#instructions">Instructions</a></h2>
+<p>For each of the following steps there is page on this documentation explaining how to do it in detail.</br>
+Part of the task is to <span style="color:red">read through these pages </span>.</p>
+<h3 id="step-1"><a class="header" href="#step-1">Step 1</a></h3>
+<p>Clone the GitHub repository of the documentation <em><a href="https://github.com/P1Gaming/P1-OM-Info">ΗΕRΕ</a></em></p>
+<ul>
+<li>This is not the repo for the Compassion Prototype or the Full Game.</li>
+</ul>
+<h3 id="step-2"><a class="header" href="#step-2">Step 2</a></h3>
+<p>Create a new branch. </br>
+The name should be <em>&quot;discord-name Join Task&quot;</em> or something similar.</br>
+Proper naming of branches is important.</p>
+<h3 id="step-3"><a class="header" href="#step-3">Step 3</a></h3>
+<p>Find the markdown(MD) file that has the name list. </br>
+Add your <span style="color:cyan">discord name </span> at the bottom of the list. </br>
+Finding where you saved the project and which one is the specific file is part of the task :) (no asking for help).</p>
+<h3 id="step-4"><a class="header" href="#step-4">Step 4</a></h3>
+<p>Create a <span style="color:cyan">Pull Request(PR) </span>that will serve as proof that you added your name. </br>
+After creating the PR inform the programming team so someone can check and approve.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="list-of-names"><a class="header" href="#list-of-names">List of names</a></h1>
+<p style="font-size:20px"><b> This here is the list of names of people who have completed the Join Task. </br>
+You need to add your name in this list for your Join Task to be considered complete. </b></p>
+<h1 id="the-list"><a class="header" href="#the-list">The List:</a></h1>
+<ul>
+<li>Traba49 (example)</li>
+<li>GR33NTE4</li>
+<li>Soaring_Spirit</li>
+<li>lejo</li>
+<li>officialyenum</li>
+<li>fntd.rmx</li>
+<li>mdiamond</li>
+<li>FAAR</li>
+<li>Caltaylor</li>
+<li>plipplup</li>
+<li>Sir Spanxalot1</li>
+<li>Gregory Vickers</li>
+<li>TheBigChunkus</li>
+<li>cathode26</li>
+<li>alicedemonia</li>
+<li>Zero</li>
+<li>Andrewstown</li>
+<li>strajinto</li>
+<li>DAndry#0902</li>
+<li>Vyrdian</li>
+<li>skysyren</li>
+<li>Undershot</li>
+<li>Nelson</li>
+<li>flapjack#2496</li>
+<li>actionjdjackson</li>
+<li>llermy#3418</li>
+<li>SiyahaS</li>
+<li>draganica#3866</li>
+<li>PR55</li>
+<li>BarrusRho</li>
+<li>NiKo</li>
+<li>_ashwey</li>
+<li>denise</li>
+<li>silverbird317</li>
+<li>Senator Armstrong</li>
+<li>degree210</li>
+<li>Kratosflare</li>
+<li>RC45 (Mike Quinn)</li>
+<li>Steve_Byju</li>
+<li>silverbird317</li>
+<li>daisy_17</li>
+<li>AstralPro</li>
+<li>_Code</li>
+<li>_srgntpepper</li>
+<li>JuanItalian</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+    </body>
+</html>
